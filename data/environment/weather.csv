@@ -1,0 +1,10 @@
+﻿date,city,temp,feels_like,temp_min,temp_max,humidity,pressure,weather_main,weather_desc,wind_speed,wind_deg,clouds_pct,visibility_m,rain_1h_mm,snow_1h_mm
+2026-05-07,Seoul,12.76,12.7,12.76,12.76,100,1011,Clouds,scattered clouds,2.57,280,40,8000,0,0
+2026-05-07,Busan,18.91,18.5,18.91,18.91,63,1010,Clear,clear sky,2.57,200,0,10000,0,0
+2026-05-07,Incheon,12.95,12.91,12.88,12.95,100,1011,Clouds,scattered clouds,2.57,280,40,8000,0,0
+2026-05-07,Daegu,19.91,19.42,19.91,19.91,56,1010,Clear,clear sky,2.57,320,0,10000,0,0
+2026-05-07,Daejeon,13.1,12.95,13.1,13.1,95,1012,Clouds,overcast clouds,2.82,262,100,10000,0,0
+2026-05-07,Gwangju,13.85,13.69,13.85,13.85,92,1013,Clouds,overcast clouds,2.42,296,99,10000,0,0
+2026-05-07,Ulsan,15.29,14.94,15.29,15.29,79,1009,Clouds,overcast clouds,1.1,295,100,10000,0,0
+2026-05-07,Suwon,11.75,11.43,11.75,15.69,94,1011,Mist,mist,2.57,270,100,9656,0,0
+2026-05-07,Jeju,15.73,15.81,15.73,15.73,94,1014,Clouds,overcast clouds,4.63,320,100,10000,0,0
