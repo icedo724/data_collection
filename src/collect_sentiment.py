@@ -1,8 +1,9 @@
 """
-Sentiment 수집: Reddit / 뉴스 헤드라인 / Google Trends / 네이버 데이터랩
-- secrets: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET
-           NEWS_API_KEY
+Sentiment 수집: 뉴스 헤드라인 / Hacker News / 네이버 뉴스 / Google Trends / 네이버 데이터랩
+- secrets: NEWS_API_KEY
            NAVER_CLIENT_ID, NAVER_CLIENT_SECRET
+- Hacker News: API key 불필요 (Algolia 무료 공개 API)
+- 네이버 뉴스: 기존 NAVER_* 키 재사용
 """
 
 import os
@@ -11,6 +12,7 @@ import time
 import pandas as pd
 import requests
 from datetime import date, timedelta
+
 
 TODAY = date.today().isoformat()
 YESTERDAY = (date.today() - timedelta(days=1)).isoformat()
@@ -28,49 +30,122 @@ def save(df: pd.DataFrame, filepath: str) -> None:
     print(f"  saved {len(df)} rows -> {filepath}")
 
 
-# ── Reddit ────────────────────────────────────────────────────────────────
+# ── Hacker News (Algolia API) — key 불필요 ───────────────────────────────
 
-def collect_reddit():
-    import praw
+def collect_hackernews():
+    """
+    Hacker News 상위 게시물 수집 (Algolia 무료 API, key 불필요)
+    테크·스타트업·경제 글로벌 커뮤니티 반응 → Reddit investing/technology 대체
+    """
+    from datetime import timezone
+    import time as _time
 
-    client_id     = os.environ.get("REDDIT_CLIENT_ID")
-    client_secret = os.environ.get("REDDIT_CLIENT_SECRET")
-    if not (client_id and client_secret):
-        print("  [SKIP] Reddit: credentials missing")
-        return
+    # 카테고리별 검색어
+    keyword_groups = {
+        "tech":       ["AI", "semiconductor", "startup", "LLM", "robotics"],
+        "finance":    ["stock market", "inflation", "interest rate", "recession"],
+        "energy":     ["oil price", "renewable energy", "EV"],
+        "korea":      ["Korea", "Samsung", "Hyundai", "Kakao"],
+        "consumer":   ["e-commerce", "retail", "consumer"],
+    }
 
-    reddit = praw.Reddit(
-        client_id=client_id,
-        client_secret=client_secret,
-        user_agent="DataCollector/1.0",
-    )
+    # 최근 24시간 타임스탬프
+    since_ts = int((date.today() - timedelta(days=1)).replace(
+        tzinfo=timezone.utc).timestamp())
 
-    subreddits = [
-        "investing", "stocks", "wallstreetbets",  # 금융
-        "economy", "economics",                    # 거시경제
-        "korea", "hanguk",                         # 한국
-        "technology", "artificial",                # 테크/AI 트렌드
-    ]
     rows = []
-
-    for sub in subreddits:
-        try:
-            for post in reddit.subreddit(sub).hot(limit=25):
-                rows.append({
-                    "date":         TODAY,
-                    "subreddit":    sub,
-                    "title":        post.title[:200],
-                    "score":        post.score,
-                    "num_comments": post.num_comments,
-                    "upvote_ratio": post.upvote_ratio,
-                    "created_utc":  pd.Timestamp(post.created_utc, unit="s").isoformat(),
-                })
-            time.sleep(1)
-        except Exception as e:
-            print(f"  [WARN] reddit r/{sub}: {e}")
+    for category, keywords in keyword_groups.items():
+        for kw in keywords:
+            try:
+                resp = requests.get(
+                    "https://hn.algolia.com/api/v1/search_by_date",
+                    params={
+                        "query":         kw,
+                        "tags":          "story",        # 게시물만 (댓글 제외)
+                        "numericFilters": f"created_at_i>{since_ts}",
+                        "hitsPerPage":   20,
+                    },
+                    timeout=10,
+                )
+                for hit in resp.json().get("hits", []):
+                    rows.append({
+                        "date":        TODAY,
+                        "category":    category,
+                        "keyword":     kw,
+                        "title":       (hit.get("title") or "")[:200],
+                        "points":      hit.get("points", 0),
+                        "num_comments":hit.get("num_comments", 0),
+                        "author":      hit.get("author", ""),
+                        "created_at":  hit.get("created_at", ""),
+                        "url":         (hit.get("url") or "")[:200],
+                    })
+                _time.sleep(0.5)
+            except Exception as e:
+                print(f"  [WARN] HN '{kw}': {e}")
 
     if rows:
-        save(pd.DataFrame(rows), "data/sentiment/reddit.csv")
+        save(pd.DataFrame(rows), "data/sentiment/hackernews.csv")
+
+
+# ── 네이버 뉴스 검색 — 기존 NAVER_* 키 재사용 ────────────────────────────
+
+def collect_naver_news():
+    """
+    네이버 뉴스 검색 API (기존 NAVER_CLIENT_ID/SECRET 그대로 사용)
+    한국 뉴스 반응 수집 → Reddit korea 대체
+    """
+    client_id     = os.environ.get("NAVER_CLIENT_ID")
+    client_secret = os.environ.get("NAVER_CLIENT_SECRET")
+    if not (client_id and client_secret):
+        print("  [SKIP] Naver News: credentials missing")
+        return
+
+    keyword_groups = {
+        "economy":    ["금리", "물가", "경기침체", "수출", "환율"],
+        "industry":   ["반도체", "이차전지", "AI 산업", "바이오"],
+        "consumer":   ["소비트렌드", "온라인쇼핑", "배달시장"],
+        "employment": ["취업시장", "고용", "실업률"],
+        "realestate": ["부동산", "아파트 가격", "전세"],
+    }
+
+    rows = []
+    headers = {
+        "X-Naver-Client-Id":     client_id,
+        "X-Naver-Client-Secret": client_secret,
+    }
+
+    for category, keywords in keyword_groups.items():
+        for kw in keywords:
+            try:
+                resp = requests.get(
+                    "https://openapi.naver.com/v1/search/news.json",
+                    headers=headers,
+                    params={
+                        "query":   kw,
+                        "display": 20,
+                        "sort":    "date",   # 최신순
+                    },
+                    timeout=10,
+                )
+                for item in resp.json().get("items", []):
+                    # HTML 태그 간단 제거
+                    title = item.get("title", "").replace("<b>", "").replace("</b>", "")
+                    rows.append({
+                        "date":      TODAY,
+                        "category":  category,
+                        "keyword":   kw,
+                        "title":     title[:200],
+                        "source":    item.get("originallink", "")[:100],
+                        "pub_date":  item.get("pubDate", ""),
+                        "description": item.get("description", "")
+                            .replace("<b>", "").replace("</b>", "")[:300],
+                    })
+                time.sleep(0.3)
+            except Exception as e:
+                print(f"  [WARN] Naver news '{kw}': {e}")
+
+    if rows:
+        save(pd.DataFrame(rows), "data/sentiment/naver_news.csv")
 
 
 # ── 뉴스 헤드라인 (NewsAPI) ───────────────────────────────────────────────
@@ -248,8 +323,9 @@ def collect_naver_datalab():
 
 if __name__ == "__main__":
     print(f"=== Sentiment Collection: {TODAY} ===")
-    collect_reddit()
-    collect_news()
+    collect_hackernews()     # key 불필요
+    collect_naver_news()     # NAVER_* 재사용
+    collect_news()           # NEWS_API_KEY
     collect_google_trends()
     collect_naver_datalab()
     print("Done.")
