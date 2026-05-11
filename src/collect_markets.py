@@ -1,14 +1,8 @@
 """
-Markets 수집: 주식 / 환율 / 원자재 / 암호화폐
-- yfinance  : 주식·환율·원자재  (API key 불필요)
-- CoinGecko : 암호화폐          (API key 불필요, 무료 tier)
-- secrets 불필요
-
-[개선]
-- period="1d" → "5d": 주말·공휴일에도 가장 최근 거래일 데이터를 확보
-- TODAY 저장 → 실제 거래일(hist.index[-1].date()) 저장: 토요일 실행 시
-  금요일 데이터가 TODAY(토)로 중복 저장되던 문제 해결
-- save() 중복 체크: 오늘 날짜 고정 비교 → 실제 저장될 날짜 기준 비교
+Markets 수집: 주식 / 환율 / 원자재 / 암호화폐 / 공포탐욕지수
+- yfinance       : 주식·환율·원자재  (API key 불필요)
+- CoinGecko      : 암호화폐          (API key 불필요)
+- alternative.me : Fear & Greed Index (API key 불필요)
 """
 
 import os
@@ -23,21 +17,17 @@ TODAY = date.today().isoformat()
 # ── 종목 정의 ──────────────────────────────────────────────────────────────
 
 STOCKS = {
-    # 한국 지수
-    "KOSPI":  "^KS11",
-    "KOSDAQ": "^KQ11",
-    # 한국 대형주
+    "KOSPI":    "^KS11",
+    "KOSDAQ":   "^KQ11",
     "Samsung":  "005930.KS",
     "SK_Hynix": "000660.KS",
     "Kakao":    "035720.KS",
     "Naver":    "035420.KS",
     "Hyundai":  "005380.KS",
-    # 미국 지수·ETF
-    "SP500":  "SPY",
-    "NASDAQ": "QQQ",
-    "Dow":    "DIA",
-    # 미국 변동성
-    "VIX": "^VIX",
+    "SP500":    "SPY",
+    "NASDAQ":   "QQQ",
+    "Dow":      "DIA",
+    "VIX":      "^VIX",
 }
 
 FX = {
@@ -46,7 +36,7 @@ FX = {
     "JPY_KRW": "JPYKRW=X",
     "CNY_KRW": "CNYKRW=X",
     "GBP_KRW": "GBPKRW=X",
-    "DXY":     "DX-Y.NYB",   # 달러 강세 지수
+    "DXY":     "DX-Y.NYB",
 }
 
 COMMODITIES = {
@@ -67,9 +57,8 @@ CRYPTO_IDS = "bitcoin,ethereum,binancecoin,solana,ripple"
 
 def save(df: pd.DataFrame, filepath: str) -> None:
     """
-    날짜 기반 중복 방지 저장.
-    df 안의 실제 날짜(date 컬럼)를 기준으로 이미 있는 날짜는 건너뜀.
-    → 주말에 재실행해도 금요일 데이터 중복 저장 안 됨.
+    실제 date 컬럼 기준 중복 방지 저장.
+    이미 존재하는 날짜는 건너뛰고 신규 날짜만 append.
     """
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     if os.path.exists(filepath):
@@ -79,7 +68,7 @@ def save(df: pd.DataFrame, filepath: str) -> None:
             print(f"  skip: {filepath} — 신규 날짜 없음")
             return
         new_rows.to_csv(filepath, mode="a", header=False, index=False, encoding="utf-8-sig")
-        print(f"  saved {len(new_rows)}행 ({sorted(new_rows['date'].unique())}) -> {filepath}")
+        print(f"  saved {len(new_rows)}행 {sorted(new_rows['date'].unique())} -> {filepath}")
     else:
         df.to_csv(filepath, mode="w", header=True, index=False, encoding="utf-8-sig")
         print(f"  saved {len(df)}행 -> {filepath}")
@@ -87,8 +76,8 @@ def save(df: pd.DataFrame, filepath: str) -> None:
 
 def fetch_yfinance(ticker_map: dict, label: str) -> list[dict]:
     """
-    period="5d" 로 요청해 주말·공휴일에도 마지막 거래일 데이터를 확보.
-    저장 날짜는 hist.index[-1].date() (실제 거래일) 사용.
+    period="5d": 주말·공휴일에도 마지막 거래일 데이터 확보.
+    date = hist.index[-1].date() (실제 거래일) — TODAY 저장 시 주말 중복 방지.
     """
     rows = []
     for name, ticker in ticker_map.items():
@@ -97,7 +86,7 @@ def fetch_yfinance(ticker_map: dict, label: str) -> list[dict]:
             if hist.empty:
                 continue
             r          = hist.iloc[-1]
-            trade_date = hist.index[-1].date().isoformat()   # ← 핵심 수정
+            trade_date = hist.index[-1].date().isoformat()
             rows.append({
                 "date":   trade_date,
                 "name":   name,
@@ -135,7 +124,7 @@ def collect_commodities():
 
 
 def collect_crypto():
-    """CoinGecko free API — key 불필요, 24/7 운영이므로 TODAY 기준 저장 유지"""
+    """CoinGecko free API — 24/7 운영이므로 TODAY 기준 저장"""
     try:
         resp = requests.get(
             "https://api.coingecko.com/api/v3/simple/price",
@@ -167,6 +156,33 @@ def collect_crypto():
         print(f"  [WARN] crypto: {e}")
 
 
+def collect_fear_greed():
+    """
+    CNN Fear & Greed Index (alternative.me 무료 API, key 불필요)
+    - value      : 0(극단적 공포) ~ 100(극단적 탐욕)
+    - 금융 감성 분석 프로젝트에서 뉴스 감성 점수와 교차 검증용
+    - limit=2: 오늘 + 어제 동시 수집 (하루 누락 시 보완)
+    """
+    try:
+        resp = requests.get(
+            "https://api.alternative.me/fng/",
+            params={"limit": 2, "format": "json"},
+            timeout=10,
+        )
+        rows = []
+        for item in resp.json().get("data", []):
+            rows.append({
+                "date":           TODAY,                          # 수집 날짜
+                "index_date":     pd.Timestamp(int(item["timestamp"]), unit="s").date().isoformat(),
+                "value":          int(item["value"]),
+                "classification": item["value_classification"],  # Extreme Fear/Fear/Neutral/Greed/Extreme Greed
+            })
+        if rows:
+            save(pd.DataFrame(rows), "data/markets/fear_greed.csv")
+    except Exception as e:
+        print(f"  [WARN] fear & greed: {e}")
+
+
 # ── 진입점 ─────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
@@ -175,4 +191,5 @@ if __name__ == "__main__":
     collect_fx()
     collect_commodities()
     collect_crypto()
+    collect_fear_greed()
     print("Done.")

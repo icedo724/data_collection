@@ -10,20 +10,24 @@ import requests
 from datetime import date, timedelta
 
 TODAY     = date.today().isoformat()
-YESTERDAY = (date.today() - timedelta(days=1)).strftime("%Y%m%d")
+YESTERDAY = (date.today() - timedelta(days=1)).strftime("%Y%m%d")  # YYYYMMDD (서울 API 형식)
 
 
 def save(df: pd.DataFrame, filepath: str, check_val: str = None) -> None:
+    """
+    check_val 날짜가 이미 존재하면 스킵, 없으면 append.
+    subway/bus는 YYYYMMDD 형식 날짜를 check_val로 전달.
+    """
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     key = check_val or TODAY
     if os.path.exists(filepath):
-        if key in pd.read_csv(filepath).iloc[:, 0].astype(str).values:
+        if key in pd.read_csv(filepath)["date"].astype(str).values:
             print(f"  skip: {filepath} already has {key}")
             return
         df.to_csv(filepath, mode="a", header=False, index=False, encoding="utf-8-sig")
     else:
         df.to_csv(filepath, mode="w", header=True, index=False, encoding="utf-8-sig")
-    print(f"  saved {len(df)} rows -> {filepath}")
+    print(f"  saved {len(df)}행 -> {filepath}")
 
 
 # ── 서울 지하철 승하차 인원 ────────────────────────────────────────────────
@@ -87,12 +91,12 @@ def collect_bok_indicators():
     발급: https://ecos.bok.or.kr/ → 로그인 → API 인증키 신청 (무료)
 
     수집 지표:
-    - 기준금리          (일별) stat: 722Y001 item: 0101000
-    - USD/KRW 시장평균  (일별) stat: 731Y003 item: 0000001
-    - 소비자물가지수    (월별) stat: 021Y126 item: 0
-    - 실업률            (월별) stat: 901Y027 item: I62B
-    - 수출(백만달러)    (월별) stat: 301Y013 item: X
-    - 수입(백만달러)    (월별) stat: 301Y013 item: M
+    - 기준금리       (일별) stat: 722Y001  item: 0101000
+    - USD/KRW 시장평균(일별) stat: 731Y003  item: 0000001
+    - 소비자물가(CPI) (월별) stat: 021Y126  item: 0
+    - 실업률         (월별) stat: 901Y027  item: I62B
+    - 수출           (월별) stat: 301Y013  item: X
+    - 수입           (월별) stat: 301Y013  item: M
     """
     api_key = os.environ.get("BOK_API_KEY")
     if not api_key:
@@ -105,7 +109,6 @@ def collect_bok_indicators():
     m6_ago    = (date.today().replace(day=1) - timedelta(days=180)).strftime("%Y%m%d")
 
     stats = [
-        # (stat_code, cycle, start, end, item_code, label)
         ("722Y001", "DD", m_start, today_fmt, "0101000", "기준금리"),
         ("731Y003", "DD", m_start, today_fmt, "0000001", "USD_KRW"),
         ("021Y126", "MM", m6_ago,  today_fmt, "0",       "CPI"),
@@ -131,18 +134,22 @@ def collect_bok_indicators():
             print(f"  [WARN] BOK {label}: {e}")
 
     if rows:
-        # BOK는 TIME 형식이 YYYYMM/YYYYMMDD 혼용이므로 단순 append (중복은 분석 시 dedup)
         fp = "data/public/bok_indicators.csv"
         os.makedirs(os.path.dirname(fp), exist_ok=True)
-        df = pd.DataFrame(rows)
-        df.to_csv(
-            fp,
-            mode="a" if os.path.exists(fp) else "w",
-            header=not os.path.exists(fp),
-            index=False,
-            encoding="utf-8-sig",
-        )
-        print(f"  saved {len(df)} rows -> {fp}")
+        df_new = pd.DataFrame(rows)
+
+        if os.path.exists(fp):
+            existing = pd.read_csv(fp)
+            # date + indicator 조합 기준 중복 제거: 신규 데이터만 append
+            merged = pd.concat([existing, df_new]).drop_duplicates(
+                subset=["date", "indicator"], keep="last"
+            )
+            merged.to_csv(fp, index=False, encoding="utf-8-sig")
+            added = len(merged) - len(existing)
+            print(f"  saved {added}행 신규 -> {fp} (전체 {len(merged)}행)")
+        else:
+            df_new.to_csv(fp, index=False, encoding="utf-8-sig")
+            print(f"  saved {len(df_new)}행 -> {fp}")
 
 
 # ── 진입점 ────────────────────────────────────────────────────────────────
