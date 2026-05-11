@@ -166,6 +166,9 @@ def collect_news():
     }
     rows = []
 
+    # 3일치 요청: 하루 실패해도 재수집 가능 + 초기 세팅 시 데이터 확보
+    from_date = (date.today() - timedelta(days=3)).isoformat()
+
     for category, keywords in keyword_groups.items():
         for kw in keywords:
             try:
@@ -173,7 +176,7 @@ def collect_news():
                     "https://newsapi.org/v2/everything",
                     params={
                         "q":        kw,
-                        "from":     YESTERDAY,
+                        "from":     from_date,
                         "sortBy":   "publishedAt",
                         "apiKey":   api_key,
                         "pageSize": 15,
@@ -221,24 +224,30 @@ def collect_google_trends():
     rows = []
 
     for category, keywords in keyword_groups.items():
-        try:
-            pytrends.build_payload(keywords, cat=0, timeframe="today 1-m", geo="KR")
-            df = pytrends.interest_over_time()
-            if df.empty:
-                continue
-            latest = df.iloc[-1]
-            for kw in keywords:
-                if kw in latest:
-                    rows.append({
-                        "date":     TODAY,
-                        "category": category,
-                        "keyword":  kw,
-                        "interest": int(latest[kw]),
-                        "source":   "google",
-                    })
-            time.sleep(4)  # rate limit
-        except Exception as e:
-            print(f"  [WARN] google trends '{category}': {e}")
+        success = False
+        for attempt in range(2):          # 차단 시 1회 재시도
+            try:
+                pytrends.build_payload(keywords, cat=0, timeframe="today 1-m", geo="KR")
+                df = pytrends.interest_over_time()
+                if df.empty:
+                    break
+                latest = df.iloc[-1]
+                for kw in keywords:
+                    if kw in latest:
+                        rows.append({
+                            "date":     TODAY,
+                            "category": category,
+                            "keyword":  kw,
+                            "interest": int(latest[kw]),
+                            "source":   "google",
+                        })
+                success = True
+                break
+            except Exception as e:
+                wait = 10 * (attempt + 1)
+                print(f"  [WARN] google trends '{category}' (attempt {attempt+1}): {e} — {wait}s 대기")
+                time.sleep(wait)
+        time.sleep(5 if success else 2)   # 성공 후 충분한 간격
 
     if rows:
         save(pd.DataFrame(rows), "data/sentiment/search_trends.csv")

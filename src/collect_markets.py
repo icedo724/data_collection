@@ -3,6 +3,12 @@ Markets 수집: 주식 / 환율 / 원자재 / 암호화폐
 - yfinance  : 주식·환율·원자재  (API key 불필요)
 - CoinGecko : 암호화폐          (API key 불필요, 무료 tier)
 - secrets 불필요
+
+[개선]
+- period="1d" → "5d": 주말·공휴일에도 가장 최근 거래일 데이터를 확보
+- TODAY 저장 → 실제 거래일(hist.index[-1].date()) 저장: 토요일 실행 시
+  금요일 데이터가 TODAY(토)로 중복 저장되던 문제 해결
+- save() 중복 체크: 오늘 날짜 고정 비교 → 실제 저장될 날짜 기준 비교
 """
 
 import os
@@ -27,9 +33,9 @@ STOCKS = {
     "Naver":    "035420.KS",
     "Hyundai":  "005380.KS",
     # 미국 지수·ETF
-    "SP500": "SPY",
+    "SP500":  "SPY",
     "NASDAQ": "QQQ",
-    "Dow":   "DIA",
+    "Dow":    "DIA",
     # 미국 변동성
     "VIX": "^VIX",
 }
@@ -40,8 +46,7 @@ FX = {
     "JPY_KRW": "JPYKRW=X",
     "CNY_KRW": "CNYKRW=X",
     "GBP_KRW": "GBPKRW=X",
-    # 달러 강세 지수
-    "DXY": "DX-Y.NYB",
+    "DXY":     "DX-Y.NYB",   # 달러 강세 지수
 }
 
 COMMODITIES = {
@@ -61,27 +66,40 @@ CRYPTO_IDS = "bitcoin,ethereum,binancecoin,solana,ripple"
 # ── 공통 유틸 ──────────────────────────────────────────────────────────────
 
 def save(df: pd.DataFrame, filepath: str) -> None:
+    """
+    날짜 기반 중복 방지 저장.
+    df 안의 실제 날짜(date 컬럼)를 기준으로 이미 있는 날짜는 건너뜀.
+    → 주말에 재실행해도 금요일 데이터 중복 저장 안 됨.
+    """
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     if os.path.exists(filepath):
-        if TODAY in pd.read_csv(filepath)["date"].astype(str).values:
-            print(f"  skip: {filepath} already has {TODAY}")
+        existing_dates = set(pd.read_csv(filepath)["date"].astype(str).unique())
+        new_rows = df[~df["date"].astype(str).isin(existing_dates)]
+        if new_rows.empty:
+            print(f"  skip: {filepath} — 신규 날짜 없음")
             return
-        df.to_csv(filepath, mode="a", header=False, index=False, encoding="utf-8-sig")
+        new_rows.to_csv(filepath, mode="a", header=False, index=False, encoding="utf-8-sig")
+        print(f"  saved {len(new_rows)}행 ({sorted(new_rows['date'].unique())}) -> {filepath}")
     else:
         df.to_csv(filepath, mode="w", header=True, index=False, encoding="utf-8-sig")
-    print(f"  saved {len(df)} rows -> {filepath}")
+        print(f"  saved {len(df)}행 -> {filepath}")
 
 
 def fetch_yfinance(ticker_map: dict, label: str) -> list[dict]:
+    """
+    period="5d" 로 요청해 주말·공휴일에도 마지막 거래일 데이터를 확보.
+    저장 날짜는 hist.index[-1].date() (실제 거래일) 사용.
+    """
     rows = []
     for name, ticker in ticker_map.items():
         try:
-            hist = yf.Ticker(ticker).history(period="1d")
+            hist = yf.Ticker(ticker).history(period="5d")
             if hist.empty:
                 continue
-            r = hist.iloc[-1]
+            r          = hist.iloc[-1]
+            trade_date = hist.index[-1].date().isoformat()   # ← 핵심 수정
             rows.append({
-                "date":   TODAY,
+                "date":   trade_date,
                 "name":   name,
                 "ticker": ticker,
                 "open":   round(float(r["Open"]), 4),
@@ -117,16 +135,16 @@ def collect_commodities():
 
 
 def collect_crypto():
-    """CoinGecko free API — key 불필요, 분당 10~30회 제한"""
+    """CoinGecko free API — key 불필요, 24/7 운영이므로 TODAY 기준 저장 유지"""
     try:
         resp = requests.get(
             "https://api.coingecko.com/api/v3/simple/price",
             params={
-                "ids":                  CRYPTO_IDS,
-                "vs_currencies":        "usd,krw",
-                "include_24hr_change":  "true",
-                "include_market_cap":   "true",
-                "include_24hr_vol":     "true",
+                "ids":                 CRYPTO_IDS,
+                "vs_currencies":       "usd,krw",
+                "include_24hr_change": "true",
+                "include_market_cap":  "true",
+                "include_24hr_vol":    "true",
             },
             headers={"accept": "application/json"},
             timeout=15,
