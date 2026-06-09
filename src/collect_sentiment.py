@@ -10,7 +10,7 @@ import json
 import time
 import pandas as pd
 import requests
-from datetime import date, timedelta, timezone
+from datetime import date, datetime, timedelta, timezone
 
 TODAY     = date.today().isoformat()
 YESTERDAY = (date.today() - timedelta(days=1)).isoformat()
@@ -39,8 +39,7 @@ def collect_hackernews():
     Hacker News 게시물 수집 (Algolia 무료 API, key 불필요)
     테크·금융·소비·한국 관련 글로벌 커뮤니티 반응 수집
     """
-    since_ts = int((date.today() - timedelta(days=1))
-                   .replace(tzinfo=timezone.utc).timestamp())
+    since_ts = int((datetime.now(timezone.utc) - timedelta(days=1)).timestamp())
 
     keyword_groups = {
         "tech":     ["AI", "semiconductor", "startup", "LLM", "robotics"],
@@ -321,9 +320,16 @@ def collect_naver_datalab():
 
 if __name__ == "__main__":
     print(f"=== Sentiment Collection: {TODAY} ===")
-    collect_hackernews()
-    collect_naver_news()
-    collect_news()
-    collect_google_trends()
-    collect_naver_datalab()
+    # 각 수집기를 격리: 하나가 죽어도 나머지는 계속 진행
+    for collector in (
+        collect_hackernews,
+        collect_naver_news,
+        collect_news,
+        collect_google_trends,
+        collect_naver_datalab,
+    ):
+        try:
+            collector()
+        except Exception as e:
+            print(f"  [ERROR] {collector.__name__} 실패: {e}")
     print("Done.")
