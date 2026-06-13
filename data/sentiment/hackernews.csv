@@ -487,3 +487,123 @@
 2026-06-12,consumer,retail,"Show HN: Real Job Check – paste a job post, get a cited real-or-scam verdict",1,0,biotechdude,2026-06-11T17:34:31Z,https://realjobcheck.com/
 2026-06-12,consumer,retail,"Show HN: Basepanel, a Postgres, MySQL, and SQLite Editor for iOS and Android",1,0,rc318,2026-06-11T16:05:27Z,https://www.basepanel.com/
 2026-06-12,consumer,consumer,"OpenAI Considers Drastic Price Cuts, Anticipating War for Users With Anthropic",6,1,jbk,2026-06-12T04:56:09Z,https://www.wsj.com/tech/ai/openai-considers-drastic-price-cuts-anticipating-war-for-users-with-anthropic-9b8c178e
+2026-06-13,tech,AI,"Show HN: Cortex – local-first encrypted memory for AI agents (Rust, MCP)",1,0,gambletan,2026-06-13T14:00:22Z,https://github.com/gambletan/cortex
+2026-06-13,tech,AI,World Cup AI predictor now lets users ask daft what-ifs,1,0,kagaherk,2026-06-13T13:59:29Z,https://www.theregister.com/offbeat/2026/06/13/world-cup-ai-predictor-now-lets-users-ask-daft-what-ifs/5254853
+2026-06-13,tech,AI,Google sues alleged Chinese cybercrime operation over AI-generated scam texts,1,0,adam_rida,2026-06-13T13:59:03Z,https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/
+2026-06-13,tech,AI,Show HN: Wmux – a native Windows terminal multiplexer for AI agents,1,0,wong2kim,2026-06-13T13:46:19Z,https://github.com/openwong2kim/wmux
+2026-06-13,tech,AI,AI Breaks the Monopoly of Elegant Software,2,0,fforflo,2026-06-13T13:42:50Z,https://tselai.com/ai-elegant-software-monopoly
+2026-06-13,tech,AI,"Show HN: Whim-proxy, a vibe-coded tool to reverse-tunnel webhooks to your laptop",1,0,kakwa_,2026-06-13T13:34:41Z,https://github.com/kakwa/whim-proxy
+2026-06-13,tech,AI,Has AI Killed How-To Nonfiction?,2,0,Michelangelo11,2026-06-13T13:31:18Z,https://tim.blog/2026/06/12/has-ai-already-killed-nonfiction/
+2026-06-13,tech,AI,Making our AI coding agent the only way we build our product,1,0,nurdtechie98,2026-06-13T13:30:29Z,https://anyframe.dev/blog/we-hired-an-intern-named-gilfoyle
+2026-06-13,tech,AI,AI can control your Desktop,2,0,AmDab,2026-06-13T13:21:35Z,https://clawdcursor.com
+2026-06-13,tech,AI,Why do we need AI in project management software,3,0,lb_john,2026-06-13T12:34:26Z,https://evergantt.com/blog/2026-ai-doesnt-need-to-be-in-everything/
+2026-06-13,tech,AI,Thoughts on AI and Jobs,12,31,k1m,2026-06-13T12:21:18Z,https://blog.keyvan.net/p/thoughts-on-ai-and-jobs
+2026-06-13,tech,AI,DOE wants to build a single national platform for doing science with AI,2,0,pseudolus,2026-06-13T12:18:19Z,https://cacm.acm.org/news/from-manhattan-to-genesis/
+2026-06-13,tech,AI,Yann LeCun: World Models: Enabling the Next AI Revolution,3,0,root-parent,2026-06-13T12:14:03Z,https://www.youtube.com/watch?v=72Xj8k5WQX4
+2026-06-13,tech,AI,AI OSS tool repo goes archived over night after raising $7.3M Seed,54,24,hek2sch,2026-06-13T12:10:47Z,https://github.com/tensorzero/tensorzero
+2026-06-13,tech,AI,Cerebras chips rival Nvidia GPUs for AI [video],4,0,binyu,2026-06-13T12:01:16Z,https://www.youtube.com/watch?v=qC_lCFTOJU0
+2026-06-13,tech,AI,"EU budget 2027 €200B: 75B for ""cohesion, resilience, and values"", €2.5B for AI",3,2,alecco,2026-06-13T11:33:35Z,https://twitter.com/EU_Commission/status/2064733839272899056
+2026-06-13,tech,AI,"To Thrive Alongside AI, Focus on Mindset – Not Skillset",1,0,vismit2000,2026-06-13T11:17:11Z,https://hbr.org/2026/06/to-thrive-alongside-ai-focus-on-mindset-not-skillset
+2026-06-13,tech,AI,Instrumental Convergence in AI Safety: Complete 2026 Guide,1,0,cyrc,2026-06-13T11:10:20Z,https://aisecurityandsafety.org/en/guides/instrumental-convergence-guide/
+2026-06-13,tech,AI,"Equiv, check that an AI refactor did not change what your code does",1,0,Srinathprasanna,2026-06-13T10:46:39Z,https://github.com/Neelagiri65/equiv
+2026-06-13,tech,AI,European Sovereign AI. Breakthrough Performance,2,4,doener,2026-06-13T10:38:16Z,https://infercom.ai/
+2026-06-13,tech,startup,"Show HN: Mesmereyes – classic HN demos, mashed up and remade for multitouch",1,0,kmewhort,2026-06-13T13:43:31Z,https://kmewhort.github.io/vizlib/
+2026-06-13,tech,startup,"When Washington switched off Fable/Mython 5: What happened, hour by hour",2,0,s-macke,2026-06-13T13:23:51Z,https://twitter.com/kimmonismus/status/2065774154968711429
+2026-06-13,tech,startup,How we made continuous trace intelligence possible at scale,3,1,gmays,2026-06-13T13:18:25Z,https://twitter.com/ankrgyl/status/2062635408182427859
+2026-06-13,tech,startup,"0xSero on X: ""Open Source must win",2,0,bilsbie,2026-06-13T12:07:47Z,https://twitter.com/0xSero/status/2035022588439581076
+2026-06-13,tech,startup,"EU budget 2027 €200B: 75B for ""cohesion, resilience, and values"", €2.5B for AI",3,2,alecco,2026-06-13T11:33:35Z,https://twitter.com/EU_Commission/status/2064733839272899056
+2026-06-13,tech,startup,GLM 5.2 Released,7,0,xendo,2026-06-13T10:57:23Z,https://twitter.com/i/status/2065704919299235870
+2026-06-13,tech,startup,I don't review my code anymore,2,2,high_byte,2026-06-13T10:33:20Z,https://twitter.com/high_byte/status/2065744142760628470
+2026-06-13,tech,startup,GLM-5.2 is now available with 1M-context support,11,2,angst,2026-06-13T10:29:40Z,https://twitter.com/Zai_org/status/2065704919299235870
+2026-06-13,tech,startup,Show HN: Tekyous – Interactive tech stack builder,1,0,schamack,2026-06-13T10:27:36Z,https://tekyous.dev
+2026-06-13,tech,startup,US Government directive to suspend access to Claude Fable 5 and Mythos 5,2,0,corentin88,2026-06-13T08:28:06Z,https://twitter.com/AnthropicAI/status/2065597531644743999
+2026-06-13,tech,startup,"Old games feel ""hard"" because modern emulators have layers of abstraction",2,1,tosh,2026-06-13T07:50:17Z,https://twitter.com/lauriewired/status/2065553747078709500
+2026-06-13,tech,startup,"Dave Eggers doesn't need a smartphone, the internet or your Flock camera",11,0,mikhael,2026-06-13T04:18:23Z,https://www.sfgate.com/sf-culture/article/dave-eggers-profile-22291491.php
+2026-06-13,tech,startup,Kimi-K2.7-Code,4,1,hisamafahri,2026-06-13T02:36:24Z,https://twitter.com/Kimi_Moonshot/status/2065377579130142937
+2026-06-13,tech,startup,"SpaceX starts trading, and some 'shareholders' discover they own nothing at all",4,0,MilnerRoute,2026-06-13T02:25:55Z,https://fortune.com/2026/06/12/spacex-ipo-when-trading-starts-some-shareholders-will-discover-they-own-nothing-at-all/
+2026-06-13,tech,startup,Jailbreak that potentially triggered Anthropic Fable Model ban?,1,0,abjha,2026-06-13T02:20:13Z,https://twitter.com/elder_plinius/status/2064776322979676227
+2026-06-13,tech,startup,Tell HN: I'm making 1K USD per hour with AI,7,15,anongoogleuser,2026-06-13T02:07:04Z,
+2026-06-13,tech,startup,"As a result of a US Government directive, we are suspending access to Fable 5",88,4,plonkus,2026-06-13T01:02:41Z,https://twitter.com/ClaudeDevs/status/2065597942602531163
+2026-06-13,tech,startup,We've suspended access to Claude Mythos 5 and Claude Fable 5,250,5,jesse_dot_id,2026-06-13T00:58:06Z,https://status.claude.com/incidents/s9w82lp9dcn9
+2026-06-13,tech,startup,Statement on US government directive to suspend access to Fable 5 and Mythos 5,2696,1968,Dylan1312,2026-06-13T00:51:30Z,https://www.anthropic.com/news/fable-mythos-access
+2026-06-13,tech,startup,"Mexico's president meeting with Ben Horowitz, from a16z",2,1,aylmao,2026-06-12T23:43:11Z,https://twitter.com/Claudiashein/status/2065497274893905938
+2026-06-13,tech,LLM,Ask HN: I can recover my session after quota burn CC session,1,0,pradeep1177,2026-06-13T13:50:33Z,
+2026-06-13,tech,LLM,An O(x)Caml book that runs,4,0,anirudh24seven,2026-06-13T13:11:04Z,https://kcsrk.info/ocaml/oxcaml/teaching/nptel/llm/2026/06/13/an-oxcaml-book-that-runs/
+2026-06-13,tech,LLM,"Show HN: AgentNexus – coordinate LLM agents by service boundary, not role",5,0,dugubuyan,2026-06-13T12:25:15Z,https://github.com/dugubuyan/agent-nexus
+2026-06-13,tech,LLM,An Interview with Intel's Kira Boyko: Xeon 6's Product Director,19,0,lumpa,2026-06-13T12:20:05Z,https://chipsandcheese.com/p/an-interview-with-intels-kira-boyko
+2026-06-13,tech,LLM,Implementing dark mode with standard CSS,2,0,llcooliovice,2026-06-13T12:08:47Z,https://olliewilliams.xyz/blog/dark-mode/
+2026-06-13,tech,LLM,Show HN: A laboratory to study how LLMs behave when offered a set of fake tools,2,0,vivganes,2026-06-13T11:11:01Z,https://github.com/ampyard/Llaboratory
+2026-06-13,tech,LLM,GLM 5.2 Released,7,0,xendo,2026-06-13T10:57:23Z,https://twitter.com/i/status/2065704919299235870
+2026-06-13,tech,LLM,GLM-5.2 is now available with 1M-context support,11,2,angst,2026-06-13T10:29:40Z,https://twitter.com/Zai_org/status/2065704919299235870
+2026-06-13,tech,LLM,Ask HN: What's the biggest problem you ever prevented?,2,0,bschne,2026-06-13T08:14:28Z,
+2026-06-13,tech,LLM,Ask HN: Automoderated by AI Alternative to Reddit,2,0,julienreszka,2026-06-13T08:02:16Z,
+2026-06-13,tech,LLM,Are Mythos and Fable pure marketing?,3,1,2muchtime,2026-06-13T07:08:24Z,
+2026-06-13,tech,LLM,lmcli v0.7.0 – TUI harness with smooth performance up to 1M context,3,1,wolttam,2026-06-13T06:19:33Z,https://codeberg.org/mlow/lmcli
+2026-06-13,tech,LLM,Realistic Superintelligence,1,4,onlypostonce,2026-06-13T04:50:37Z,
+2026-06-13,tech,LLM,"Show HN: LLMRender, a 10kb Markdown+LaTeX renderer for React",2,0,franciscop,2026-06-13T04:11:11Z,https://llmrender.com/
+2026-06-13,tech,LLM,Streamlit,1,0,lmg_lockdown,2026-06-13T02:41:45Z,https://godsway-academy.streamlit.app
+2026-06-13,tech,LLM,Reddit RSS feeds recent rate limiting and solution,32,13,zdw,2026-06-13T01:51:49Z,https://lapcatsoftware.com/articles/2026/6/3.html
+2026-06-13,tech,LLM,Socratic Spiral Learning with LLMs,2,1,chabi,2026-06-13T00:19:22Z,https://abhichavali.com/posts/socratic-spiral-learning-with-llms/
+2026-06-13,tech,LLM,UnpredictaBench: A Benchmark for Evaluating Distributional Randomness in LLMs,1,0,matt_d,2026-06-12T23:41:49Z,https://arxiv.org/abs/2606.06622
+2026-06-13,tech,LLM,LLMs Pre-Commodify Ideas,2,0,jger15,2026-06-12T22:28:39Z,https://summerlightning.substack.com/p/llms-pre-commodify-ideas
+2026-06-13,tech,LLM,"Show HN: Kardashev Labs – live US grid data (LMP, curtailment, queues, demand)",1,0,AShoeToast,2026-06-12T22:22:38Z,https://www.kardashevlabs.org/
+2026-06-13,tech,robotics,"Loopers, Robovacs and the Death of the /Prompt",2,0,vektormemory,2026-06-12T21:31:53Z,https://medium.com/@vektormemory/loopers-robovacs-and-the-death-of-the-prompt-404946da77f8
+2026-06-13,tech,robotics,Show HN: StackScope – I crawled over 40k indie launches to see what they ship,57,15,datafreak_,2026-06-12T15:26:12Z,https://stackscope.dev/
+2026-06-13,finance,stock market,The value of SpaceX rockets on its stock-market debut,3,0,andsoitis,2026-06-12T21:41:19Z,https://www.economist.com/business/2026/06/12/the-value-of-spacex-rockets-on-its-stock-market-debut
+2026-06-13,finance,stock market,SpaceX IPO latest: Elon Musk becomes first trillionaire as opening shares soar,4,0,Anon84,2026-06-12T20:42:53Z,https://news.sky.com/story/spacex-ipo-latest-elon-musks-company-to-debut-on-stock-market-and-could-make-him-a-trillionaire-13552004
+2026-06-13,finance,stock market,SpaceX market cap tops $2T,4,0,mattas,2026-06-12T20:26:40Z,https://www.cnbc.com/2026/06/12/spacex-stock-jumps-2-trillion.html
+2026-06-13,finance,stock market,Shares in Elon Musk's SpaceX surge after biggest IPO,4,0,layer8,2026-06-12T18:05:07Z,https://www.reuters.com/world/us/live-elon-musks-spacex-set-stock-market-trading-after-worlds-biggest-ipo-2026-06-12/
+2026-06-13,finance,stock market,SpaceX vaults over $2T valuation as stock jumps after record IPO,13,0,JumpCrisscross,2026-06-12T16:39:48Z,https://www.reuters.com/legal/transactional/after-record-ipo-musks-spacex-faces-next-test-market-debut-2026-06-12/
+2026-06-13,finance,stock market,Stocks Face Rising Risk with Mega AI Deals Ready to Flood Market,1,0,1vuio0pswjnm7,2026-06-12T16:37:03Z,https://www.bloomberg.com/news/articles/2026-06-07/ai-s-mega-stock-deals-raise-specter-of-more-shares-than-buyers
+2026-06-13,finance,stock market,"SpaceX Shares Open at $150, Above IPO Price of $135",3,0,JumpCrisscross,2026-06-12T16:03:45Z,https://www.wsj.com/livecoverage/spacex-ipo-stock-market-06-12-2026/card/spacex-shares-open-at-150-above-ipo-price-of-135-7ONi5jCqe7QQ5vdCr7Zv
+2026-06-13,finance,stock market,SpaceX makes largest ever stock market debut at $1.77T valuation,9,0,thomascountz,2026-06-12T15:10:16Z,https://www.theguardian.com/science/2026/jun/12/spacex-stock-price-ipo-spcx
+2026-06-13,finance,inflation,No Observer Is Trusted in Isolation,1,0,Bridgexapi,2026-06-12T20:26:11Z,https://blog.bridgexapi.io/no-observer-is-trusted-in-isolation
+2026-06-13,finance,inflation,Four ways AI is making your life more expensive,4,0,1vuio0pswjnm7,2026-06-12T17:57:27Z,https://www.washingtonpost.com/technology/2026/06/06/inflation-is-being-driven-up-by-huge-investment-artificial-intelligence/
+2026-06-13,finance,inflation,Responding to Plausibility of Alien Visitors,1,3,dabadabad00,2026-06-12T15:45:21Z,
+2026-06-13,finance,interest rate,Realistic Superintelligence,1,4,onlypostonce,2026-06-13T04:50:37Z,
+2026-06-13,finance,interest rate,Ask HN: I Need Help for a Product,8,5,memoryleakgame,2026-06-12T16:00:04Z,
+2026-06-13,finance,interest rate,Show HN: StackScope – I crawled over 40k indie launches to see what they ship,57,15,datafreak_,2026-06-12T15:26:12Z,https://stackscope.dev/
+2026-06-13,energy,oil price,"U.S. Military Helping Move 7M Bpd Out of Persian Gulf, Wright Says",3,1,netfortius,2026-06-13T13:00:08Z,https://oilprice.com/Latest-Energy-News/World-News/US-Military-Helping-Move-7-Million-Bpd-Out-of-Persian-Gulf-Wright-Says.html
+2026-06-13,energy,EV,"Pelican, or pelican't? A hint at Claude evals",2,0,noperator,2026-06-13T13:38:30Z,https://noperator.dev/posts/pelicant/
+2026-06-13,energy,EV,"Show HN: Whim-proxy, a vibe-coded tool to reverse-tunnel webhooks to your laptop",1,0,kakwa_,2026-06-13T13:34:41Z,https://github.com/kakwa/whim-proxy
+2026-06-13,energy,EV,"Nearly Everyone, Everywhere, Veers Left When Walking",9,0,mhb,2026-06-13T12:34:37Z,https://www.nytimes.com/2026/06/10/science/humans-walking-veer-left-counterclockwise.html
+2026-06-13,energy,EV,Why do we need AI in project management software,3,0,lb_john,2026-06-13T12:34:26Z,https://evergantt.com/blog/2026-ai-doesnt-need-to-be-in-everything/
+2026-06-13,energy,EV,Every Frame Perfect,3,0,ravenical,2026-06-13T11:40:20Z,https://tonsky.me/blog/every-frame-perfect/
+2026-06-13,energy,EV,Ask HN: How to deal with App Store rejections?,2,1,high_byte,2026-06-13T10:13:31Z,
+2026-06-13,energy,EV,Show HN: Model Due Diligence,2,0,djhope99,2026-06-13T10:10:45Z,https://github.com/mmccalla/model-due-diligence
+2026-06-13,energy,EV,Everything you ever wanted to know about anarchy (but were afraid to ask),2,0,RebootStr,2026-06-13T09:09:42Z,https://www.youtube.com/watch?v=L9V33prYC1U
+2026-06-13,energy,EV,Contrail Compute AIX the First RISC-V AI Execution Platform,3,1,EvgeniyZh,2026-06-13T08:46:49Z,https://www.epicsemi.com/products/contrail/contrail-compute/
+2026-06-13,energy,EV,Ask HN: What's the biggest problem you ever prevented?,2,0,bschne,2026-06-13T08:14:28Z,
+2026-06-13,energy,EV,Ask HN: Automoderated by AI Alternative to Reddit,2,0,julienreszka,2026-06-13T08:02:16Z,
+2026-06-13,energy,EV,Ask HN: What features do you miss in Google Docs for desktop?,3,1,mci,2026-06-13T05:40:53Z,
+2026-06-13,energy,EV,"Even ""illegible"" Mythos reasoning traces seem pretty legible",9,1,kqr,2026-06-13T05:18:04Z,https://www.lesswrong.com/posts/wCSEpT3dTGz4N86Wi/even-illegible-mythos-reasoning-traces-seem-pretty-legible
+2026-06-13,energy,EV,"Small investors scrambled to buy SpaceX, despite belief valuation 'stupid'",3,1,1vuio0pswjnm7,2026-06-13T05:09:43Z,https://www.cnbc.com/2026/06/12/small-investors-scrambled-to-get-in-on-the-spacex-ipo-even-as-some-believe-the-valuation-is-stupid.html
+2026-06-13,energy,EV,Realistic Superintelligence,1,4,onlypostonce,2026-06-13T04:50:37Z,
+2026-06-13,energy,EV,"ProofLayer Rules – runtime security, red-team evals for LangGraph",2,2,dchitimalla1,2026-06-13T03:55:23Z,https://github.com/sinewaveai/prooflayer-rules
+2026-06-13,energy,EV,Every Frame Perfect,6,0,soheilpro,2026-06-13T01:35:35Z,https://tonsky.me/blog/every-frame-perfect/
+2026-06-13,energy,EV,Solid-state batteries are now powering EVs in the real world,22,0,breve,2026-06-13T00:36:20Z,https://electrek.co/2026/06/11/solid-state-batteries-now-powering-evs-in-real-world/
+2026-06-13,energy,EV,UnpredictaBench: A Benchmark for Evaluating Distributional Randomness in LLMs,1,0,matt_d,2026-06-12T23:41:49Z,https://arxiv.org/abs/2606.06622
+2026-06-13,energy,EV,"For People with Misophonia, Everyday Noises Can Be Agony",2,0,fortran77,2026-06-12T23:09:44Z,https://www.newyorker.com/magazine/2026/06/15/for-people-with-misophonia-everyday-noises-can-be-agony
+2026-06-13,korea,Korea,Samsung may make the next Google AI chip,5,1,joseph3553,2026-06-13T02:02:22Z,https://www.koreaherald.com/article/10770505
+2026-06-13,korea,Korea,South Korea fines Coupang $409M in country's largest data breach penalty,2,0,malshe,2026-06-12T20:45:15Z,https://www.reuters.com/legal/litigation/south-korea-fines-coupang-409-mln-countrys-largest-data-breach-penalty-2026-06-11/
+2026-06-13,korea,Korea,A North Korean hiring scam,1,0,sbarre,2026-06-12T16:51:22Z,https://indicator.media/p/i-got-inside-a-north-korean-hiring-scam-what-i-found-reveals-a-troubling-shift-in-tactics
+2026-06-13,korea,Samsung,Samsung may make the next Google AI chip,5,1,joseph3553,2026-06-13T02:02:22Z,https://www.koreaherald.com/article/10770505
+2026-06-13,consumer,retail,Show HN: Untyped – Voice to Email,2,0,Cronenka,2026-06-13T12:39:49Z,https://play.google.com/store/apps/details?id=com.cronenka.untyped&hl=en_US
+2026-06-13,consumer,retail,Realistic Superintelligence,1,4,onlypostonce,2026-06-13T04:50:37Z,
+2026-06-13,consumer,retail,Show HN: Musefs – organize and tag music without touching the original files,1,0,sohex,2026-06-12T20:08:09Z,https://github.com/Sohex/musefs
+2026-06-13,consumer,retail,Show HN: DR Lens – Ahrefs Domain Rating in Chrome Toolbar,2,0,kka,2026-06-12T19:03:46Z,https://chromewebstore.google.com/detail/dr-lens-â-domain-rating-i/babgbadloikchhadbpmcmhokbbcokmao
+2026-06-13,consumer,retail,Ask HN: What do you do when you hit Claude subscription limits?,1,0,sermakarevich,2026-06-12T17:26:23Z,
+2026-06-13,consumer,retail,Show HN: AI Chat App on Durable Streams and Tanstack DB,2,0,sorenbs,2026-06-12T17:18:58Z,https://oss.chat/tour
+2026-06-13,consumer,retail,"I Tried Erewhon's New $15,000-a-Year VIP Membership for a Month",2,0,speckx,2026-06-12T17:11:34Z,https://www.eater.com/groceries-retail/964871/erewhon-reserve-membership-perks
+2026-06-13,consumer,retail,SpaceX IPO: The great fleecing of retail investors just took another dark turn,5,0,petethomas,2026-06-12T15:47:45Z,https://www.msn.com/en-us/money/topstocks/spacex-ipo-the-great-fleecing-of-retail-investors-just-took-another-dark-turn/ar-AA25tlow
+2026-06-13,consumer,retail,Show HN: StackScope – I crawled over 40k indie launches to see what they ship,57,15,datafreak_,2026-06-12T15:26:12Z,https://stackscope.dev/
+2026-06-13,consumer,consumer,"Show HN: Whim-proxy, a vibe-coded tool to reverse-tunnel webhooks to your laptop",1,0,kakwa_,2026-06-13T13:34:41Z,https://github.com/kakwa/whim-proxy
+2026-06-13,consumer,consumer,Fedora 45 Considering a Lightened Grub Bootloader for Confidential Compute,3,0,Bender,2026-06-13T12:35:19Z,https://www.phoronix.com/news/Fedora-45-Light-GRUB-For-CoCo
+2026-06-13,consumer,consumer,Show HN: GripLock – walk in real life to conquer terrain,2,0,ishener,2026-06-13T05:56:02Z,https://griplock.alephz.com/
+2026-06-13,consumer,consumer,"Show HN: LLMRender, a 10kb Markdown+LaTeX renderer for React",2,0,franciscop,2026-06-13T04:11:11Z,https://llmrender.com/
+2026-06-13,consumer,consumer,DigitalOcean Ending Student Credit Promotion,4,0,thepotatodude,2026-06-12T21:36:27Z,
+2026-06-13,consumer,consumer,Ask HN: What do you do when you hit Claude subscription limits?,1,0,sermakarevich,2026-06-12T17:26:23Z,
+2026-06-13,consumer,consumer,Ask HN: I Need Help for a Product,8,5,memoryleakgame,2026-06-12T16:00:04Z,
+2026-06-13,consumer,consumer,Ask HN: Favorite prompts for improving LLM output?,2,2,maxutility,2026-06-12T15:59:27Z,
+2026-06-13,consumer,consumer,"Euro-Office must default to ODF to be considered ""genuinely European""",5,1,bundie,2026-06-12T15:42:53Z,https://www.neowin.net/news/euro-office-must-default-to-odf-to-be-considered-genuinely-european-libreoffice-argues/
+2026-06-13,consumer,consumer,Show HN: A Terrible Way to Consume Hacker News – AI Slop,4,0,keegandonley,2026-06-12T15:16:52Z,https://deadinternet.tech/feed
