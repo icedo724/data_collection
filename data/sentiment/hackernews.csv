@@ -1427,3 +1427,107 @@
 2026-06-20,consumer,consumer,Ask HN: Is there a microSD card of the Mythos model?,2,0,smalltorch,2026-06-20T01:52:10Z,
 2026-06-20,consumer,consumer,Chinese AI models have overtaken US rivals in token consumption,4,1,jameslk,2026-06-19T20:29:41Z,https://www.ft.com/content/2567877b-9acc-4cf3-a9e5-5f46c1abd13e
 2026-06-20,consumer,consumer,Show HN: Jumpjet – a WASM runtime for game developers,3,0,lwansbrough,2026-06-19T19:52:52Z,https://jumpjet.dev
+2026-06-21,tech,AI,"Refloow Photo Studio – A local, offline photo editor with on-device AI",1,0,refloow,2026-06-21T14:04:34Z,https://github.com/Refloow/Refloow-Photo-Studio
+2026-06-21,tech,AI,Kansas City's push for facial recognition on public buses sparks privacy debate,2,0,smurda,2026-06-21T14:02:32Z,https://apnews.com/article/kansas-city-facial-recognition-ai-cameras-privacy-87847f57c94b6c2a9e22a7b3a222e703
+2026-06-21,tech,AI,AI Under Trump's Control: Can France Still Avoid Digital Dependence?,5,1,laurentlof,2026-06-21T13:51:31Z,https://thenewassociationwebmasters.blogspot.com/2026/06/ai-under-american-control-can-france.html
+2026-06-21,tech,AI,Ask HN: Do you give AI coding agents their own GitHub account?,2,0,ahmd,2026-06-21T13:49:08Z,
+2026-06-21,tech,AI,"Block rolls out Builderbot, a new suite of AI-native tools",1,1,msolujic,2026-06-21T13:48:34Z,https://block.xyz/inside/block-rolls-out-builderbot-a-new-suite-of-ai-native-tools-that-changes-the-way-we-ship
+2026-06-21,tech,AI,Show HN: Cloak – let AI agents use your API keys without ever seeing them,2,0,VarunMenon,2026-06-21T13:41:29Z,https://github.com/cloakward/cloak
+2026-06-21,tech,AI,Production Is a Compiler Input,1,0,mooreds,2026-06-21T13:32:55Z,https://aicoding.leaflet.pub/3mjx4erlboc2l
+2026-06-21,tech,AI,Google Is Using Nvidia's Playbook to Build a Rival AI Chip Business,3,1,gmays,2026-06-21T13:23:30Z,https://www.wsj.com/tech/ai/google-is-using-nvidias-playbook-to-build-a-rival-ai-chip-business-1eac86f9
+2026-06-21,tech,AI,Taste turns your Git history into enforceable coding judgment,1,0,dvcoolarun,2026-06-21T13:13:20Z,https://github.com/dvcoolarun/taste-ai
+2026-06-21,tech,AI,AI Boom Hits Labor Market Reality Check,2,1,mmeirovich,2026-06-21T13:01:37Z,https://fivetakes.news/workers-are-emerging-as-the-next-big-ai-logjam
+2026-06-21,tech,AI,Electric air taxis are stuck in the courtroom,3,2,Brajeshwar,2026-06-21T12:51:11Z,https://www.theverge.com/column/950975/electric-air-taxis-lawsuits
+2026-06-21,tech,AI,"Backporting bug fixes is dead, Project Valkey now sends in the bots",3,0,Brajeshwar,2026-06-21T12:51:00Z,https://thenewstack.io/valkey-ai-backporting-agents/
+2026-06-21,tech,AI,Show HN: A GitHub app that suggests code fixes for conversion failures,5,1,mrr7337,2026-06-21T12:42:52Z,https://rejourney.co/demo/leaks
+2026-06-21,tech,AI,Ask HN: Future of Programming?,2,1,anujmehta,2026-06-21T12:31:00Z,
+2026-06-21,tech,AI,AI Made Me Braver,1,0,neilkakkar,2026-06-21T12:26:38Z,https://neilkakkar.com/ai-made-me-braver.html
+2026-06-21,tech,AI,A viral doomsday scenario aims to shake Europe out of its AI complacency,4,0,thm,2026-06-21T12:22:21Z,https://www.theguardian.com/technology/2026/jun/20/europe-sleepwalking-ai-disaster-us-china
+2026-06-21,tech,AI,Show HN: An AI video prompt cookbook for image-to-video workflows,1,0,Ash_yasuomang,2026-06-21T11:53:44Z,https://github.com/yasuomang/ai-video-prompt-cookbook
+2026-06-21,tech,AI,Shall We? – A pre-engineering sanity check for AI-era feature bloat,3,0,tacsiazuma,2026-06-21T11:37:07Z,https://github.com/Tacsiazuma/shall-we
+2026-06-21,tech,AI,AI Warfare Is at the Point of No Return,1,1,bookofjoe,2026-06-21T11:32:07Z,https://www.wsj.com/world/ai-warfare-ukraine-russia-anthropic-29945df9
+2026-06-21,tech,AI,I aim to break the record for the fastest mile,2,0,wjb3,2026-06-21T11:23:52Z,https://www.telegraph.co.uk/athletics/2026/06/09/josh-kerr-why-im-trying-break-record-fastest-mile-bannister/
+2026-06-21,tech,startup,The New Cloud in the Stochastic CPU Era,1,0,zozo-king,2026-06-21T14:02:45Z,https://twitter.com/yossieliaz/status/2068693960814424362
+2026-06-21,tech,startup,I was wrong about the Midjourney ultra-sound scanner,5,1,MrBuddyCasino,2026-06-21T12:55:08Z,https://twitter.com/MattZirwas/status/2068365802491834541
+2026-06-21,tech,startup,How to Build a Marketplace Startup That Solves the Chicken-and-Egg Problem,2,0,insanetech,2026-06-21T12:54:16Z,https://startupfortune.com/how-to-build-a-marketplace-startup-that-solves-the-chicken-and-egg-problem/
+2026-06-21,tech,startup,Anthropic to Require ID Verification for Certain Capabilities Starting July 8,101,90,bathory,2026-06-21T12:44:13Z,https://old.reddit.com/r/ClaudeAI/comments/1ubm53n/official_anthropic_to_require_identity/
+2026-06-21,tech,startup,Show HN: A GitHub app that suggests code fixes for conversion failures,5,1,mrr7337,2026-06-21T12:42:52Z,https://rejourney.co/demo/leaks
+2026-06-21,tech,startup,The stuff nobody tells you about startup marketing,2,0,howToTestFE,2026-06-21T10:57:05Z,https://newsletter.posthog.com/p/the-stuff-nobody-tells-you-about
+2026-06-21,tech,startup,Dialog Society: Ezra Klein Comments,3,1,u1hcw9nx,2026-06-21T10:44:23Z,https://twitter.com/ezraklein/status/2068479476309151771
+2026-06-21,tech,startup,Ideas for Startups,3,1,guiltyf,2026-06-21T08:41:12Z,https://www.paulgraham.com/ideas.html
+2026-06-21,tech,startup,I built a real-time trading platform with an AI; then the clock started lying,1,0,fawraw,2026-06-21T08:24:49Z,https://faridsaid.com/en/blog/event-loop-starvation-trading.html
+2026-06-21,tech,startup,Ethereum: Still Chasing Sovereignty,2,0,johnpradeep,2026-06-21T06:03:57Z,https://twitter.com/i/status/2068429073429287373
+2026-06-21,tech,startup,The Midjourney Scanner,2,1,MrBuddyCasino,2026-06-21T05:12:18Z,https://twitter.com/midjourney/status/2067422898407837797
+2026-06-21,tech,startup,Ask HN: How to get ideas for space startups?,5,5,asxndu,2026-06-21T04:14:48Z,
+2026-06-21,tech,startup,"Show HN: Lean bulk, cut, body recomp. Calculate maintenance calories",26,9,faangguyindia,2026-06-21T01:44:43Z,https://macrocodex.app/
+2026-06-21,tech,startup,Subquadratic claims it broke through a bottleneck that's holding back LLMs,1,1,baddash,2026-06-21T00:48:21Z,https://www.technologyreview.com/2026/06/19/1139313/a-startup-claims-it-broke-through-a-bottleneck-thats-holding-back-llms/
+2026-06-21,tech,startup,Show HN: Codeflowmap – map a codebase's read/write/auth data flows,5,0,brian-m,2026-06-20T23:49:07Z,https://github.com/man-consult/code-mapper
+2026-06-21,tech,startup,Show HN: Submarius – Global water clarity for divers,10,4,celloer,2026-06-20T23:29:31Z,https://submarius.com
+2026-06-21,tech,startup,"Ask HN: After you ship a feature, what happens to what you learned?",9,9,gaggle_dk,2026-06-20T23:22:45Z,
+2026-06-21,tech,startup,Russia's Putin is spending $26B to live forever,6,0,insanetech,2026-06-20T23:06:08Z,https://startupfortune.com/russias-putin-is-spending-26-billion-to-live-forever/
+2026-06-21,tech,startup,"Show HN: Maccha – Cross Agent Brain for Antigravity, Claude Code, OpenCode etc.",4,2,kareldecherf,2026-06-20T22:31:18Z,https://github.com/KarelTestSpecial/real-agent-setup
+2026-06-21,tech,startup,A short story about Indian scammers who called the cops on themselves,4,0,Cider9986,2026-06-20T21:33:49Z,https://xcancel.com/zachxbt/status/2067938523986932005#m
+2026-06-21,tech,LLM,Daily_stock_analysis: LLM-powered multi-market stock analysis system,3,0,vantareed,2026-06-21T14:10:12Z,https://github.com/ZhuLinsen/daily_stock_analysis
+2026-06-21,tech,LLM,8086 Segmented Memory was a good idea,2,0,billpg,2026-06-21T14:07:11Z,https://owl.billpg.com/8086-segmented-memory-was-a-good-idea-almost/
+2026-06-21,tech,LLM,I'm done with LLM-through-chat-experience,2,0,nisabek,2026-06-21T13:55:08Z,https://www.thoughtfultechnologist.com/p/im-done-with-llm-through-chat-experience
+2026-06-21,tech,LLM,Seems almost every possibly interesting title here is a NAG screen?,1,0,DivingForGold,2026-06-21T13:44:25Z,
+2026-06-21,tech,LLM,Handler beliefs affect scent detection dog outcomes [pdf],1,0,thunderbong,2026-06-21T13:31:57Z,https://pmc.ncbi.nlm.nih.gov/articles/PMC3078300/
+2026-06-21,tech,LLM,Brain the Size of a Planet: Are LLMs Thonking Too Hard?,1,0,gmays,2026-06-21T13:11:36Z,https://parsiya.net/blog/llm-thonking/
+2026-06-21,tech,LLM,Tokoscope – Automatic LLM token compression and cost monitoring in 2 lines,1,0,emekuns,2026-06-21T12:25:18Z,https://tokoscope.com
+2026-06-21,tech,LLM,"Show HN: AdvertBench, ranking the ability of LLMs to create image ads",2,0,joegibbs,2026-06-21T11:50:31Z,https://advertbench.com
+2026-06-21,tech,LLM,How LLMs Distort Our Written Language,2,0,jruohonen,2026-06-21T11:50:20Z,https://sites.google.com/view/llmwritingdistortion/home
+2026-06-21,tech,LLM,Show HN: Local LLM Hardware Calculator,1,0,ermantrout,2026-06-21T11:47:21Z,https://vettedconsumer.com/can-i-run-it/
+2026-06-21,tech,LLM,The deskilling of web dev is damaging our health,13,7,lemonberry,2026-06-21T11:06:01Z,https://www.baldurbjarnason.com/2024/the-deskilling-of-web-dev-is-harming-us-all/
+2026-06-21,tech,LLM,The unreasonable effectiveness of LLMs for auditing Rust code,1,0,heinrich5991,2026-06-21T10:06:31Z,https://shnatsel.medium.com/the-unreasonable-effectiveness-of-llms-for-auditing-rust-code-d4df8bf0afd3
+2026-06-21,tech,LLM,Sword Swallowing and Its Side Effects,5,0,nephihaha,2026-06-21T09:52:04Z,https://pmc.ncbi.nlm.nih.gov/articles/PMC1761150/
+2026-06-21,tech,LLM,"NSA director: 'Mythos ""broke into almost all of our classified systems in hours""",21,22,ricksunny,2026-06-21T09:45:06Z,https://www.economist.com/briefing/2026/06/14/donald-trumps-blocking-of-anthropic-is-capricious-and-chaotic
+2026-06-21,tech,LLM,DeepSWE Benchmark updated with GLM 5.2 and updated results for other models,1,0,theanonymousone,2026-06-21T09:36:39Z,https://deepswe.datacurve.ai/
+2026-06-21,tech,LLM,A controlled hypothermia cure for Lyme disease [video],1,0,cromka,2026-06-21T09:35:21Z,https://www.youtube.com/watch?v=jwtPtlcNXEs
+2026-06-21,tech,LLM,I am dreading our LLM-written incident report future,3,0,birdculture,2026-06-21T08:53:40Z,https://surfingcomplexity.blog/2026/06/19/i-am-dreading-our-llm-written-incident-report-future/
+2026-06-21,tech,LLM,Agentic Systems Course: Learn AI Agents with an AI Coding Agent,1,0,lum1104,2026-06-21T08:34:15Z,https://github.com/bryanyzhu/agentic-ai-system-course
+2026-06-21,tech,LLM,The Scoundrel Who Steals Fruit and Apologizes Insincerely Is Having a Bad Day,2,0,bryanrasmussen,2026-06-21T07:49:05Z,https://medium.com/luminasticity/the-scoundrel-who-steals-fruit-and-apologizes-insincerely-is-having-a-bad-day-a486834224bc
+2026-06-21,tech,LLM,Show HN: Quikdown – 17 KB bidirectional Markdown parser and rich-fence editor,2,0,deftio,2026-06-21T06:34:59Z,https://github.com/deftio/quikdown
+2026-06-21,tech,robotics,Robotics Teams Are Rebuilding the Data Stack from Scratch,2,0,Tycho87,2026-06-21T12:57:10Z,https://rerun.io/blog/data-layer-tax
+2026-06-21,tech,robotics,He made your free video player run smoothly. Now he's doing that for robots,2,0,XzetaU8,2026-06-21T05:20:18Z,https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/
+2026-06-21,tech,robotics,'We had to get out of the way': The backlash over delivery robots,78,86,higginsniggins,2026-06-21T00:12:49Z,https://www.bbc.com/news/articles/c0rygp005wjo
+2026-06-21,finance,stock market,Daily_stock_analysis: LLM-powered multi-market stock analysis system,3,0,vantareed,2026-06-21T14:10:12Z,https://github.com/ZhuLinsen/daily_stock_analysis
+2026-06-21,finance,inflation,Show HN: Adbqr – ADB pair via QR code from the CLI,1,0,kristjan,2026-06-21T01:36:13Z,https://github.com/kristjan/adbqr
+2026-06-21,finance,inflation,"Ask HN: What is your #1 practical lesson or ""aha"" moment from coding with AI?",7,11,johndavid9991,2026-06-20T21:13:16Z,
+2026-06-21,finance,interest rate,Show HN: GitGauge – A Way to Try Tell If a Repo Is Authentic,4,1,davey2wavey,2026-06-20T21:50:26Z,https://github.com/Davey2Waveyy/gitgauge
+2026-06-21,finance,interest rate,Show HN: My Windows XP portfolio with working Game Boy and iPod,65,32,mitchivin,2026-06-20T19:18:48Z,https://mitchivin.com/
+2026-06-21,finance,interest rate,Show HN: StartupWiki – A Free Alternative to Crunchbase,209,64,shpran,2026-06-20T15:59:29Z,https://startupwiki.tech/
+2026-06-21,finance,recession,Automation and Repression [pdf],1,0,myyke,2026-06-21T08:22:43Z,https://economics.mit.edu/sites/default/files/2026-06/Automation%20and%20Repression.pdf
+2026-06-21,finance,recession,"Show HN: Lean bulk, cut, body recomp. Calculate maintenance calories",26,9,faangguyindia,2026-06-21T01:44:43Z,https://macrocodex.app/
+2026-06-21,energy,EV,Show HN: Stock analysis tool with quality scores and fundamental charting,1,0,FlippieFinance,2026-06-21T13:49:12Z,https://intrinsiqq.com
+2026-06-21,energy,EV,Seems almost every possibly interesting title here is a NAG screen?,1,0,DivingForGold,2026-06-21T13:44:25Z,
+2026-06-21,energy,EV,Show HN: Cloak – let AI agents use your API keys without ever seeing them,2,0,VarunMenon,2026-06-21T13:41:29Z,https://github.com/cloakward/cloak
+2026-06-21,energy,EV,Show HN: A GitHub app that suggests code fixes for conversion failures,5,1,mrr7337,2026-06-21T12:42:52Z,https://rejourney.co/demo/leaks
+2026-06-21,energy,EV,"Safe SIMD in Rust, Even on the Inside – By Sergey ""Shnatsel"" Davidoff",4,0,rbanffy,2026-06-21T12:40:55Z,https://shnatsel.medium.com/safe-simd-in-rust-even-on-the-inside-c6f1ff381828
+2026-06-21,energy,EV,Local Inference,2,0,everlier,2026-06-21T12:26:37Z,https://av.codes/blog/on-local-inference/
+2026-06-21,energy,EV,"Show HN: Chainstack Self-Hosted, hosting your own blockchain nodes made simple",4,0,loshaaaa,2026-06-21T12:02:24Z,https://docs.chainstack.com/docs/self-hosted/introduction
+2026-06-21,energy,EV,Computer Programming for Everybody,2,0,edent,2026-06-21T11:24:54Z,https://www.python.org/doc/essays/cp4e/
+2026-06-21,energy,EV,Thinking in Events,1,0,goloroden,2026-06-21T11:01:43Z,https://docs.eventsourcingdb.io/blog/2026/06/22/thinking-in-events/
+2026-06-21,energy,EV,My package manager have broken and I need help,1,0,CoolyDucks,2026-06-21T10:56:31Z,
+2026-06-21,energy,EV,Show HN: Didon – AI workday reports for productivity analysis,1,0,babakzy,2026-06-21T10:46:54Z,https://www.didon.app/
+2026-06-21,energy,EV,"Morale is so bad at Meta even CTO admits: ""probably the worst it's ever been""",5,0,theanonymousone,2026-06-21T09:10:34Z,https://finance.yahoo.com/technology/articles/morale-bad-mark-zuckerbergs-meta-130000803.html
+2026-06-21,energy,EV,I built a real-time trading platform with an AI; then the clock started lying,1,0,fawraw,2026-06-21T08:24:49Z,https://faridsaid.com/en/blog/event-loop-starvation-trading.html
+2026-06-21,energy,EV,United Postal Union's DNS Security Forum 2026,2,1,usernomdeguerre,2026-06-21T08:17:24Z,https://www.upu.int/en/events/dns-security-forum-2026
+2026-06-21,energy,EV,Show HN: Domvault – self-hostable second brain with consent-based note sharing,3,0,quietdrift_04,2026-06-21T06:37:24Z,https://github.com/dys5315/domvault
+2026-06-21,energy,EV,Show HN: Pyor – A desktop PR reviewer for the diffs GitHub chokes on,2,0,othmanosx,2026-06-21T06:36:41Z,
+2026-06-21,energy,EV,Show HN: Quikdown – 17 KB bidirectional Markdown parser and rich-fence editor,2,0,deftio,2026-06-21T06:34:59Z,https://github.com/deftio/quikdown
+2026-06-21,energy,EV,Windows UI evolution: Clicking an unassociated file,84,49,jandeboevrie,2026-06-21T06:24:52Z,https://movq.de/blog/postings/2026-06-20/0/POSTING-en.html
+2026-06-21,energy,EV,"Ask HN: If AI didn't exist, what would you be building today?",5,9,akashwadhwani35,2026-06-21T05:47:58Z,
+2026-06-21,energy,EV,Proof of AGI is the impossibility of evals,3,2,mpesce,2026-06-21T05:39:22Z,https://thewatershed.markpesce.com/quacks-ergo-duck/
+2026-06-21,korea,Korea,"South Korea Could Build Nuclear Submarines, but It Shouldn't",4,3,bear_with_me,2026-06-20T23:01:45Z,https://warontherocks.com/south-korea-could-build-nuclear-submarines-but-it-shouldnt/
+2026-06-21,consumer,retail,How do you trick your brain into avoiding impulse purchases?,1,0,buddy_game,2026-06-21T12:17:16Z,https://play.google.com/store/apps/details?id=com.priceoftime&hl=en_US
+2026-06-21,consumer,retail,Local Chrome Bookmarking Extension,1,1,alikatyc,2026-06-21T11:17:27Z,https://chromewebstore.google.com/detail/bookmarks-default/mfilaenpdpjhpmchhoboaekjdpmmeckc
+2026-06-21,consumer,retail,Show HN: MapDex – A Social Map for Travelers,1,0,ChunchyMoney,2026-06-21T07:49:25Z,
+2026-06-21,consumer,retail,"Show HN: Notedog – Git-friendly portable Markdown journal, edit from a laptop",2,0,hibariya,2026-06-21T06:35:47Z,https://notedog.run/
+2026-06-21,consumer,retail,"Show HN: FloatDeck, a floating quick-actions menu for Chrome",1,0,tapdot,2026-06-21T05:08:45Z,https://chromewebstore.google.com/detail/floatdeck-floating-button/fanagpncolgnoglmhamngmcnadkffmlo
+2026-06-21,consumer,retail,Show HN: Submarius – Global water clarity for divers,10,4,celloer,2026-06-20T23:29:31Z,https://submarius.com
+2026-06-21,consumer,retail,"Show HN: Tin Validate, a tax ID validator that explains why checks pass or fail",5,0,bapito,2026-06-20T19:17:19Z,https://tin-validate.com/
+2026-06-21,consumer,consumer,How do people in the US describe customer service in 2026?,4,0,dredmorbius,2026-06-20T21:56:30Z,https://www.theguardian.com/us-news/2026/jun/20/guardian-readers-consumer-battles
+2026-06-21,consumer,consumer,"Europe swelters under heatwave, France restricts alcohol consumption",6,0,montalbano,2026-06-20T21:37:58Z,https://www.reuters.com/business/environment/europe-swelters-under-heatwave-prompting-crisis-talks-france-2026-06-20/
+2026-06-21,consumer,consumer,GoPro and Roomba were U.S. pioneers. Chinese rivals now dominate,11,1,thm,2026-06-20T19:06:06Z,https://restofworld.org/2026/chinese-consumer-tech-brands/
+2026-06-21,consumer,consumer,Show HN: Email client focused on reducing phishing risk and inbox overload,3,0,sourdoughy,2026-06-20T18:49:28Z,https://clutterstrike.com/
+2026-06-21,consumer,consumer,Trump Conquered the Republican Party,5,1,7777777phil,2026-06-20T15:22:35Z,https://www.natesilver.net/p/how-trump-conquered-the-republican
