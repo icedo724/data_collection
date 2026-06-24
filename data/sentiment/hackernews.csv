@@ -1750,3 +1750,125 @@
 2026-06-23,consumer,consumer,UK considers forcing social media firms to prioritise trusted news,7,0,frm88,2026-06-23T03:35:13Z,https://www.reuters.com/legal/litigation/uk-considers-forcing-social-media-firms-prioritise-trusted-news-2026-06-22/
 2026-06-23,consumer,consumer,"Following user outcry, AMD reinstates memory encryption in consumer CPUs",15,1,AdmiralAsshat,2026-06-22T19:57:16Z,https://arstechnica.com/security/2026/06/following-user-outcry-amd-reinstates-memory-encryption-in-consumer-cpus/
 2026-06-23,consumer,consumer,Conservatives are dying at higher rates than liberals,12,14,ceejayoz,2026-06-22T18:23:07Z,https://www.fastcompany.com/91561329/widening-health-gap-between-liberals-and-conservatives
+2026-06-24,tech,AI,Hw to make sure AI Agents neer forget the Work?,1,0,realsanb,2026-06-24T14:26:59Z,https://github.com/budhasantosh010/ai-coding-project-templates
+2026-06-24,tech,AI,We Are Heading Towards a 'Two-Tier' Society,1,0,davikr,2026-06-24T14:23:57Z,https://ror.fm/AI-UBI-consumerism
+2026-06-24,tech,AI,A Statement on AI Talks at Hope,1,0,aestetix,2026-06-24T14:16:40Z,https://www.hope.net/a-statement-on-ai-talks-at-hope/
+2026-06-24,tech,AI,Show HN: Drip — pay-per-use finance newsletters for AI agents,2,0,blauyourmind,2026-06-24T14:13:14Z,https://dripstack.xyz/stock-picks
+2026-06-24,tech,AI,Show HN: Papermill – a document generation engine for AI workflows,1,0,davidpapermill,2026-06-24T14:11:57Z,https://papermill.io/
+2026-06-24,tech,AI,"Show HN: Build A Harness – open-source, modular harness layer for AI agents",1,0,philiparxist,2026-06-24T14:11:14Z,https://buildaharness.com/
+2026-06-24,tech,AI,Nvidia's 45°C cooling design cuts data center water use to near zero,4,1,nitin_flanker,2026-06-24T14:10:11Z,https://blogs.nvidia.com/blog/liquid-cooling-ai-factories/
+2026-06-24,tech,AI,Flower Labs: AI Is Evolving from Isolated Silos to Collaborative Networks,1,0,doener,2026-06-24T14:05:13Z,https://flower.ai/
+2026-06-24,tech,AI,AI Is Designing Radio Chips That Humans Couldn't Even Imagine,1,0,Brajeshwar,2026-06-24T14:02:16Z,https://spectrum.ieee.org/ai-radio-chip-design
+2026-06-24,tech,AI,I don't care if web content is AI-generated,1,1,speckx,2026-06-24T13:59:11Z,https://kevinboone.me/ai.html
+2026-06-24,tech,AI,The Age Of Bunker Capitalism: How AI Will Free Aristocrats From The Mob,1,0,optimalsolver,2026-06-24T13:58:03Z,https://morbidcuriosity.substack.com/p/the-age-of-bunker-capitalism
+2026-06-24,tech,AI,Qwen-AgentWorld Models,2,1,rullopat,2026-06-24T13:57:14Z,https://qwen.ai/blog?id=qwen-agentworld
+2026-06-24,tech,AI,Giskard: LLM esting platform for preventing hallucinations and security issues,2,0,doener,2026-06-24T13:55:48Z,https://www.giskard.ai/knowledge/best-ai-agent-red-teaming-tools-in-2026-understanding-features-functions-and-solutions
+2026-06-24,tech,AI,"The CEO of AWS on why Amazon is hiring 11,000 interns and junior employees",1,1,thm,2026-06-24T13:52:09Z,https://www.platformer.news/matt-garman-aws-ceo-interview-ai-jobs/
+2026-06-24,tech,AI,A Case for AI Taboos,3,0,ntnsndr,2026-06-24T13:41:34Z,https://nathanschneider.info/2026/06/a-case-for-ai-taboos/
+2026-06-24,tech,AI,Show HN: inplan – plan with your coding agent in a shared Markdown doc,1,0,diane-cis,2026-06-24T13:37:14Z,
+2026-06-24,tech,AI,Ephemeral Perception: A Reference Architecture for On-Device AI Glasses,1,0,ileider,2026-06-24T13:36:33Z,https://www.levinriegner.com/research/ephemeral-perception
+2026-06-24,tech,AI,I built a local AI deck music assistant on a Mac mini,1,0,wkswede,2026-06-24T13:31:10Z,https://github.com/wkswede/robot-deck-audio
+2026-06-24,tech,AI,"The largest CFP directory online, with AI matching talks to conferences",1,0,gemanor,2026-06-24T13:16:01Z,https://www.cfpradar.dev/
+2026-06-24,tech,AI,"Show HN: Proxy Block-CAGE, a new sparse block attention",1,0,iqbal1980,2026-06-24T13:15:44Z,https://github.com/iqbal1980/ai_research_assistant_rnd_projects/blob/main/proxy_block_cage_attention_introduction.md
+2026-06-24,tech,semiconductor,Brussels Clears €76M German Chip Subsidy for Munich,2,0,mmeirovich,2026-06-23T21:02:21Z,https://fivetakes.news/eu-approves-76-million-german-state-aid-for-quantumdiamonds-gmbhs-munich-semiconductor-facility
+2026-06-24,tech,semiconductor,Semiconductor Copilot – Global Intelligence,2,0,GlobalFounders,2026-06-23T15:34:05Z,https://semiconductor-copilot.vercel.app/hub
+2026-06-24,tech,startup,"Slate Auto's electric truck starts at $24,950 with 205 miles of range",5,1,mikestew,2026-06-24T13:59:24Z,https://electrek.co/2026/06/24/slate-electric-truck-24950-price/
+2026-06-24,tech,startup,Show HN: CLI and MCP for model fusion via harnesses,1,0,kerryritter,2026-06-24T13:43:51Z,https://github.com/KerryRitter/parley
+2026-06-24,tech,startup,Vercel Eve Starter,2,0,-jablonski,2026-06-24T13:42:04Z,https://github.com/blazity/atlas-eve-starter
+2026-06-24,tech,startup,Elevated error rate on Claude Opus 4.8,5,2,lvncelot,2026-06-24T13:35:19Z,https://status.claude.com/incidents/8b0rggdfh1hv
+2026-06-24,tech,startup,Qualcomm Is Acquiring Modular,5,1,tosh,2026-06-24T13:32:39Z,https://twitter.com/clattner_llvm/status/2069769232477192354
+2026-06-24,tech,startup,"Slate EV truck starts at $24,950",132,158,cobri,2026-06-24T13:26:43Z,https://www.slate.auto/en
+2026-06-24,tech,startup,I built a SaaS for founders to keep startups discoverable long after launch,4,0,jacksonnick,2026-06-24T13:13:00Z,https://www.founder.best
+2026-06-24,tech,startup,"The Slate Auto pickup truck starts at $24,950",4,1,deckar01,2026-06-24T13:02:00Z,https://www.theverge.com/transportation/955738/slate-auto-truck-ev-price-availability
+2026-06-24,tech,startup,"Show HN: Net worth tracker to replace your spreadsheet, E2E, no bank logins",1,1,pedromlsreis,2026-06-24T12:59:23Z,https://usequantive.app/demo
+2026-06-24,tech,startup,Chinese Models have an advantage because Chinese symbols convey more meaning,4,0,felixdoerp,2026-06-24T12:49:03Z,https://twitter.com/jun_song/status/2069666348163346942
+2026-06-24,tech,startup,Meta announces smart glasses starting at $299 Zuckerberg keeps pushing wearables,3,3,1vuio0pswjnm7,2026-06-24T12:32:01Z,https://www.cnbc.com/2026/06/23/meta-glasses-are-new-smart-glasses-starting-at-299.html
+2026-06-24,tech,startup,Kebab Benchmark for LLMs,2,0,jonbraun,2026-06-24T12:20:57Z,https://twitter.com/victormustar/status/2069688722409312332
+2026-06-24,tech,startup,Show HN: A way to respect all your user feedback and your time,3,0,Nair0,2026-06-24T10:53:37Z,https://www.triagely.net
+2026-06-24,tech,startup,"Show HN: Agnes AI – Free multimodal API (text, image, video), OpenAI-compatible",6,0,danissimo8,2026-06-24T09:40:31Z,
+2026-06-24,tech,startup,Show HN: Clippy for Vim,4,0,borysj,2026-06-24T09:15:41Z,https://codeberg.org/borysj/vim-clippy
+2026-06-24,tech,startup,Italian startup working on a 400B language model (Italian),5,0,theanonymousone,2026-06-24T08:32:38Z,https://www.ilsole24ore.com/art/frontier-grand-challenge-domyn-guidera-progetto-dell-ai-sovrana-AIgNTNoD
+2026-06-24,tech,startup,The State of Startups 2026 – Survey results,3,0,fmerian,2026-06-24T07:50:52Z,https://supabase.com/state-of-startups
+2026-06-24,tech,startup,"""Start with a Monolith"" Was Good Advice. AI Is Changing That",5,1,feeblefakie,2026-06-24T06:08:45Z,https://medium.com/@pivotfakie/start-with-a-monolith-was-good-advice-ai-is-changing-that-a2181b8e5ede
+2026-06-24,tech,startup,Ask HN: Yahoo deleted all my emails. Now what?,10,9,neya,2026-06-24T04:44:43Z,
+2026-06-24,tech,startup,Should I launch a form limiter app on the Google Workspace Marketplace? (2025),3,0,mmarian,2026-06-24T04:35:03Z,https://developerwithacat.com/blog/062025/google-workspace-marketplace-startups-part3/
+2026-06-24,tech,LLM,Giskard: LLM esting platform for preventing hallucinations and security issues,2,0,doener,2026-06-24T13:55:48Z,https://www.giskard.ai/knowledge/best-ai-agent-red-teaming-tools-in-2026-understanding-features-functions-and-solutions
+2026-06-24,tech,LLM,Qualcomm Is Acquiring Modular,5,1,tosh,2026-06-24T13:32:39Z,https://twitter.com/clattner_llvm/status/2069769232477192354
+2026-06-24,tech,LLM,"Show HN: Proxy Block-CAGE, a new sparse block attention",1,0,iqbal1980,2026-06-24T13:15:44Z,https://github.com/iqbal1980/ai_research_assistant_rnd_projects/blob/main/proxy_block_cage_attention_introduction.md
+2026-06-24,tech,LLM,OpenAI and Broadcom unveil LLM-optimized inference chip,16,0,meetpateltech,2026-06-24T13:14:39Z,https://openai.com/index/openai-broadcom-jalapeno-inference-chip/
+2026-06-24,tech,LLM,Lean Zig by building an LLM from scratch,1,1,boodleboodle,2026-06-24T13:08:26Z,https://hamanlp.org/small-kernels.html
+2026-06-24,tech,LLM,"Show HN: An opinionated ranking of 21 open-weight LLMs, filterable by your GPU",2,1,AndrewLiu96,2026-06-24T13:01:31Z,https://northwoodsystems.ai/research/open-source-models-big-board
+2026-06-24,tech,LLM,Kebab Benchmark for LLMs,2,0,jonbraun,2026-06-24T12:20:57Z,https://twitter.com/victormustar/status/2069688722409312332
+2026-06-24,tech,LLM,"Show HN: Graphenium, persistent repo memory for AI coding assistants",1,0,Graphenium,2026-06-24T11:27:02Z,https://github.com/lambda-alpha-labs/Graphenium
+2026-06-24,tech,LLM,Show HN: I made a Telegram bot that turns a voice note into a live website,1,0,almirsarajcic,2026-06-24T11:26:57Z,https://combobulate.dev
+2026-06-24,tech,LLM,Show HN: Estimating what users ask ChatGPT about your company,2,2,biduskamil,2026-06-24T11:16:25Z,https://github.com/syntropicsignal-ai/ai-visibility-audit
+2026-06-24,tech,LLM,Why Phoenix LiveView renders twice on first load,3,0,almirsarajcic,2026-06-24T11:08:35Z,https://elixirdrops.net/d/9mrw2kg3
+2026-06-24,tech,LLM,Ask HN: How to avoid LLMs struggling with Lisp parens?,3,1,chriswarbo,2026-06-24T10:22:37Z,
+2026-06-24,tech,LLM,Kawaiintu OS – Bypassing GTK4 theme limits with dynamic Python hooks,1,0,mifjpn,2026-06-24T10:13:53Z,
+2026-06-24,tech,LLM,Giving AI human-like memory limits (3–7 words) could improve language learning,3,1,giuliomagnifico,2026-06-24T10:10:04Z,https://www.mpi.nl/news/new-study-finds-forgetting-may-be-secret-better-ai-language-learning
+2026-06-24,tech,LLM,Legal tech firm sues US over limiting foreign access to Fable,3,1,Topfi,2026-06-24T10:04:47Z,https://www.reuters.com/legal/litigation/legal-tech-firm-sues-us-over-order-limiting-foreign-access-top-tier-anthropic-2026-06-23/
+2026-06-24,tech,LLM,GELab-Zero: Android automation framework for multimodal LLMs,3,0,ignoramous,2026-06-24T09:46:24Z,https://github.com/stepfun-ai/gelab-zero
+2026-06-24,tech,LLM,"Show HN: Agnes AI – Free multimodal API (text, image, video), OpenAI-compatible",6,0,danissimo8,2026-06-24T09:40:31Z,
+2026-06-24,tech,LLM,An analysis on why LLMs perform bad on long loop tasks,3,0,alexwwang,2026-06-24T09:29:33Z,https://blog.chuanxilu.net/en/posts/2026/06/half-life-of-protocol-compliance-2/
+2026-06-24,tech,LLM,Anyone else feels many LLMs are heavily biased towards consumerism these days?,6,2,pyeri,2026-06-24T07:59:53Z,
+2026-06-24,tech,LLM,Show HN: SQL MCP Server – 61.37% on DataAgentBench with GLM-5.2,2,0,gagarwal123,2026-06-24T07:37:24Z,https://github.com/gagarwal304/databridge
+2026-06-24,tech,robotics,"Agility, Maker of Humanlike Robots, to Go Public in $2.5B SPAC Deal",1,0,flurie,2026-06-24T12:15:10Z,https://www.wsj.com/finance/agility-maker-of-humanlike-robots-to-go-public-in-2-5-billion-spac-deal-62c3cb32
+2026-06-24,tech,robotics,'Who is going to pay us when we're replaced by robots?',3,1,robtherobber,2026-06-24T08:55:09Z,https://www.theguardian.com/global-development/2026/jun/24/indian-factory-workers-told-film-themselves-for-ai-robots
+2026-06-24,tech,robotics,The Robotics Experiment Loop,8,0,Tycho87,2026-06-24T07:17:19Z,https://rerun.io/learn
+2026-06-24,tech,robotics,Show HN: We Help Voice AI Handle Group Conversations,5,0,betweenDan,2026-06-23T18:20:00Z,https://github.com/attenlabs/saa-sdk
+2026-06-24,tech,robotics,New chip could help tiny robots traverse complex environments,3,0,droidjj,2026-06-23T17:40:07Z,https://news.mit.edu/2026/new-chip-could-help-tiny-robots-traverse-complex-environments-0623
+2026-06-24,tech,robotics,Are AI and robotics about to free the wealthy from the threat of revolt?,2,0,pnwpnw,2026-06-23T15:40:10Z,https://morbidcuriosity.substack.com/p/the-age-of-bunker-capitalism
+2026-06-24,finance,stock market,US AI stock sell-off shakes markets from Wall Street to Asia,46,37,colinprince,2026-06-24T03:36:50Z,https://www.theguardian.com/business/2026/jun/23/ai-stocks-sell-off-us-markets
+2026-06-24,finance,stock market,Tech Slide Deepens as AI Fears Get Worse,6,1,doener,2026-06-23T22:45:41Z,https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-06-23-2026
+2026-06-24,finance,stock market,Michael Burry: Billions in Nvidia Are Hidden Through Complex Financing Structure,3,0,doener,2026-06-23T20:39:55Z,https://finance.yahoo.com/markets/stocks/articles/michael-burry-calls-nvidia-ai-153103274.html
+2026-06-24,finance,inflation,"Show HN: L0/L1/L2 agents, leases, gates, audits, Git-worktree isolation",1,0,alexreysa,2026-06-24T14:22:43Z,https://github.com/alex-reysa/glueRun-go
+2026-06-24,finance,inflation,Intercept Fund – Eliminating respiratory infection,1,0,aresant,2026-06-24T14:09:05Z,https://www.interceptfund.com/
+2026-06-24,finance,inflation,"Show HN: Net worth tracker to replace your spreadsheet, E2E, no bank logins",1,1,pedromlsreis,2026-06-24T12:59:23Z,https://usequantive.app/demo
+2026-06-24,finance,inflation,$500M fund to make respiratory infections like colds and flu a thing of the past,2,1,TheBlapse,2026-06-24T12:51:44Z,https://interceptfund.substack.com/p/ending-respiratory-infections
+2026-06-24,finance,inflation,Show HN: How Loud Is My Hotel?,5,2,bennett_dev,2026-06-24T10:32:56Z,https://noise.vantezzen.io/
+2026-06-24,finance,inflation,Show HN: Proctor – signed isolation bundles for AI coding-agent benchmarks,3,0,dp12,2026-06-23T19:48:28Z,https://github.com/dylanp12/proctor
+2026-06-24,finance,inflation,Show HN: peerd – AI agent harness that runs entirely in your browser,3,0,NotASithLord,2026-06-23T15:05:00Z,https://github.com/NotASithLord/peerd
+2026-06-24,finance,recession,Ask HN: Has anyone replaced a human receptionist with AI for a,2,0,VaderAi,2026-06-23T22:15:22Z,
+2026-06-24,energy,EV,Show HN: Drip — pay-per-use finance newsletters for AI agents,2,0,blauyourmind,2026-06-24T14:13:14Z,https://dripstack.xyz/stock-picks
+2026-06-24,energy,EV,Flower Labs: AI Is Evolving from Isolated Silos to Collaborative Networks,1,0,doener,2026-06-24T14:05:13Z,https://flower.ai/
+2026-06-24,energy,EV,Big Mysteries Survey Dashboard,1,0,EvgeniyZh,2026-06-24T14:03:50Z,https://nafshordi.github.io/aps-dashboard/
+2026-06-24,energy,EV,AI Is Designing Radio Chips That Humans Couldn't Even Imagine,1,0,Brajeshwar,2026-06-24T14:02:16Z,https://spectrum.ieee.org/ai-radio-chip-design
+2026-06-24,energy,EV,Show HN: We built a LeetCode alternative in 15 foreign languages,2,0,Enjoyooor,2026-06-24T13:57:18Z,https://sharpskill.dev/en
+2026-06-24,energy,EV,Qualcomm to Acquire Modular,2,1,timmyd,2026-06-24T13:49:16Z,https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-to-Acquire-Modular/default.aspx
+2026-06-24,energy,EV,Vercel Eve Starter,2,0,-jablonski,2026-06-24T13:42:04Z,https://github.com/blazity/atlas-eve-starter
+2026-06-24,energy,EV,Extreme heat is muddling animals' brains–and even triggering aggression,2,0,speckx,2026-06-24T13:40:40Z,https://www.scientificamerican.com/article/extreme-heat-is-muddling-animals-brains-and-even-triggering-aggression/
+2026-06-24,energy,EV,"Slate EV truck starts at $24,950",132,158,cobri,2026-06-24T13:26:43Z,https://www.slate.auto/en
+2026-06-24,energy,EV,Show HN: Crossary – Field mapping that won't guess; every row cites its source,1,0,migueljpalmeida,2026-06-24T13:20:07Z,https://www.crossary.com
+2026-06-24,energy,EV,Show HN: A privacy-first perimenopause app with on-device statistical analysis,1,0,hossainz2023,2026-06-24T13:11:32Z,https://quarteraisolutions.com/apps/primrose-eve/
+2026-06-24,energy,EV,"The Slate Auto pickup truck starts at $24,950",4,1,deckar01,2026-06-24T13:02:00Z,https://www.theverge.com/transportation/955738/slate-auto-truck-ev-price-availability
+2026-06-24,energy,EV,"Show HN: Net worth tracker to replace your spreadsheet, E2E, no bank logins",1,1,pedromlsreis,2026-06-24T12:59:23Z,https://usequantive.app/demo
+2026-06-24,energy,EV,Show HN: SentryGuard – detect Agentjacking prompt injection in Sentry events,1,0,tangxia123,2026-06-24T12:41:09Z,https://github.com/can995835646-byte/SentryGuard
+2026-06-24,energy,EV,Ask HN: DIstribution Problem and Solutions,1,0,Neobecomer,2026-06-24T12:20:55Z,
+2026-06-24,energy,EV,Prevail – a model-agnostic AI harness for everyday life,1,0,mrlou,2026-06-24T12:16:06Z,https://prevail.sh/
+2026-06-24,energy,EV,Everyone Is Wrong About AI Except Me,26,22,teddyh,2026-06-24T12:12:20Z,https://jasonpargin.substack.com/p/everyone-is-wrong-about-ai-except
+2026-06-24,energy,EV,Show HN: Project Cherub – TempleOS Fork. Early Build (ISO) & Future Plans,1,0,Rubinoslaw,2026-06-24T11:28:17Z,
+2026-06-24,energy,EV,Ask HN: How to avoid LLMs struggling with Lisp parens?,3,1,chriswarbo,2026-06-24T10:22:37Z,
+2026-06-24,energy,EV,Show HN: PvP Minesweeper Game,1,0,AdamKib,2026-06-24T10:14:23Z,https://minesweeperpro.com/
+2026-06-24,korea,Korea,Krea 2 Technical Report,89,4,mattnewton,2026-06-23T15:31:21Z,https://www.krea.ai/blog/krea-2-technical-report
+2026-06-24,korea,Samsung,Micron Stock Dives After Memory Chip Rivals SK Hynix,1,0,01-_-,2026-06-23T16:55:49Z,https://www.barrons.com/articles/kospi-micron-stock-sk-hynix-samsung-be416ca2
+2026-06-24,consumer,e-commerce,Show HN: OpenUser: Self-hosted user-persona tester for AI coding agents,2,0,manalkaff,2026-06-23T17:03:16Z,
+2026-06-24,consumer,retail,Qualcomm to Acquire Modular,2,1,timmyd,2026-06-24T13:49:16Z,https://investor.qualcomm.com/news-events/press-releases/news-details/2026/Qualcomm-to-Acquire-Modular/default.aspx
+2026-06-24,consumer,retail,Stars light up largest and most detailed shot of Milky Way's centre,1,0,sandebert,2026-06-24T13:29:32Z,https://www.theguardian.com/science/2026/jun/24/stars-galactic-bulge-milky-way-euclid-telescope
+2026-06-24,consumer,retail,"Memex: Organize your AI conversations across Claude, ChatGPT and Perplexity",1,0,lucasly-ba,2026-06-24T11:47:09Z,https://chromewebstore.google.com/detail/memex/jiliolfjonejjhokmmekeeomppnbpacf
+2026-06-24,consumer,retail,"ChatGPT Exporter – Export Conversations to PDF, Word, Google Docs",3,1,quysala12,2026-06-24T10:34:32Z,https://chromewebstore.google.com/detail/chatgpt-exporter-save-cha/ploaaddkflkapjfbfapmkmkefigedefp
+2026-06-24,consumer,retail,Show HN: Fillr – Save web form as a preset and autofill with data you control,1,0,amineinai,2026-06-24T10:30:54Z,https://chromewebstore.google.com/detail/fillr-form-filler-test-da/peppngdnnhjpchacodkdadojgnafepdd
+2026-06-24,consumer,retail,"Best Chrome Bookmark extension, Visually organized grid and ultra fast search",2,0,mnomansd,2026-06-24T07:51:39Z,https://chromewebstore.google.com/detail/bookmarkr-â-visual-bookma/lianafemkbankodapdaokiefoffidjdc
+2026-06-24,consumer,retail,Ask HN: Yahoo deleted all my emails. Now what?,10,9,neya,2026-06-24T04:44:43Z,
+2026-06-24,consumer,retail,Child care is becoming more affordable,3,0,andsoitis,2026-06-24T02:21:46Z,https://www.economist.com/graphic-detail/2026/06/23/child-care-is-becoming-more-affordable
+2026-06-24,consumer,retail,DealMaker Uses Morning Brew and Robinhood to Lure Retail Investors,2,0,impish9208,2026-06-24T00:45:51Z,https://hntrbrk.com/investigations/shark-tank
+2026-06-24,consumer,retail,Cloudflare Collaborates with Leading Browsers to Develop Privacy-First Protocol,8,1,maxloh,2026-06-23T21:32:08Z,https://cloudflare.net/news/news-details/2026/Cloudflare-Collaborates-With-Leading-Browsers-to-Develop-a-Privacy-First-Protocol-For-the-Global-Internet/default.aspx
+2026-06-24,consumer,retail,"Walmart, in Biggest Deal in Two Years, Buys Advertising Tech Firm",2,1,impish9208,2026-06-23T18:35:30Z,https://www.wsj.com/business/retail/walmart-in-biggest-deal-in-two-years-buys-advertising-tech-firm-ccd6c03b
+2026-06-24,consumer,retail,CSV Viewer,1,0,utilist,2026-06-23T17:20:34Z,https://play.google.com/store/apps/details?id=csv.viewer.reader&hl=en_US
+2026-06-24,consumer,retail,"Show HN: Compilr.dev, multi LLM AI workspace",1,0,scozzola,2026-06-23T17:11:51Z,https://compilr.dev/
+2026-06-24,consumer,consumer,We Are Heading Towards a 'Two-Tier' Society,1,0,davikr,2026-06-24T14:23:57Z,https://ror.fm/AI-UBI-consumerism
+2026-06-24,consumer,consumer,Command and Conquer (1995) on an Atari ST,2,0,indyjo,2026-06-24T12:27:46Z,https://indyjo.itch.io/commandconquer
+2026-06-24,consumer,consumer,Anyone else feels many LLMs are heavily biased towards consumerism these days?,6,2,pyeri,2026-06-24T07:59:53Z,
+2026-06-24,consumer,consumer,How to find AI-conservative companies to work for?,15,5,tossitawayplz,2026-06-23T21:25:04Z,
+2026-06-24,consumer,consumer,Show HN: Pool – A lightweight financial account with members and rules,2,0,inmygarage,2026-06-23T20:00:44Z,https://poolmoney.com/
+2026-06-24,consumer,consumer,Ask HN: What jobs can I escape to outside of tech?,5,1,ericyd,2026-06-23T18:31:44Z,
+2026-06-24,consumer,consumer,"Show HN: Compilr.dev, multi LLM AI workspace",1,0,scozzola,2026-06-23T17:11:51Z,https://compilr.dev/
