@@ -287,9 +287,12 @@ def collect_naver_datalab():
         for result in resp.json().get("results", []):
             for point in result.get("data", []):
                 rows.append({
+                    # search_trends.csv 스키마(google trends)와 동일하게 맞춘다:
+                    # date, category, keyword, interest, source
                     "date":     point["period"],
                     "category": result["title"],
-                    "ratio":    point["ratio"],
+                    "keyword":  result["title"],   # 데이터랩은 그룹 단위 → 그룹명 사용
+                    "interest": round(float(point["ratio"])),
                     "source":   "naver",
                 })
     except Exception as e:

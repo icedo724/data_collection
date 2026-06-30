@@ -148,39 +148,43 @@ def collect_oil_price():
     오피넷 전국 평균 유가 API
     발급: https://www.opinet.co.kr/user/main/mainView.do → 오픈API → 이용신청
     (data.go.kr 키와 별도로 오피넷 전용 API 키 필요)
+
+    avgAllPrice.do는 prodcd 파라미터와 무관하게 전 유종 평균가를 한 번에 반환한다.
+    유종 구분은 응답의 PRODCD로 해야 하며, 호출 시 임의의 유종명을 덮어쓰면 안 된다.
     """
     api_key = os.environ.get("OPINET_API_KEY")
     if not api_key:
         print("  [SKIP] Oil price: OPINET_API_KEY missing")
         return
 
-    # 전국 평균가 (휘발유·경유·등유·LPG)
-    prod_map = {
+    # 오피넷 표준 유종 코드 (응답의 PRODCD 기준)
+    PROD_CODE = {
         "B027": "휘발유",
+        "B034": "고급휘발유",
         "D047": "경유",
         "C004": "등유",
         "K015": "LPG",
     }
     rows = []
 
-    for prod_cd, prod_name in prod_map.items():
-        try:
-            resp = requests.get(
-                "https://www.opinet.co.kr/api/avgAllPrice.do",
-                params={"code": api_key, "out": "json", "prodcd": prod_cd},
-                timeout=10,
-            )
-            items = resp.json().get("RESULT", {}).get("OIL", [])
-            for it in items:
-                rows.append({
-                    "date":      TODAY,
-                    "fuel_type": prod_name,
-                    "price_krw": it.get("PRICE"),
-                    "diff":      it.get("DIFF"),    # 전일 대비 변동
-                    "area":      it.get("AREA_NM", "전국"),
-                })
-        except Exception as e:
-            print(f"  [WARN] oil price {prod_name}: {e}")
+    try:
+        resp = requests.get(
+            "https://www.opinet.co.kr/api/avgAllPrice.do",
+            params={"code": api_key, "out": "json"},
+            timeout=10,
+        )
+        items = resp.json().get("RESULT", {}).get("OIL", [])
+        for it in items:
+            prod_cd = it.get("PRODCD", "")
+            rows.append({
+                "date":      TODAY,
+                "fuel_type": PROD_CODE.get(prod_cd, it.get("PRODNM", prod_cd)),
+                "price_krw": it.get("PRICE"),
+                "diff":      it.get("DIFF"),    # 전일 대비 변동
+                "area":      it.get("AREA_NM", "전국"),
+            })
+    except Exception as e:
+        print(f"  [WARN] oil price: {e}")
 
     if rows:
         save(pd.DataFrame(rows), "data/environment/oil_price.csv")
