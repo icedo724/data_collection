@@ -13,6 +13,7 @@ import os
 import time
 import pandas as pd
 import requests
+from urllib.parse import quote
 from datetime import date, datetime, timedelta, timezone
 
 TODAY = date.today().isoformat()
@@ -194,12 +195,59 @@ def collect_google_trends():
         save(pd.DataFrame(rows), "data/sentiment/search_trends.csv")
 
 
+# ── Wikipedia Pageviews (Wikimedia REST, 무키) ────────────────────────────
+
+# 프로젝트 테마(시장·테크·한국 기업·소비) 관심도 추이용 문서
+WIKI_ARTICLES = {
+    "ko.wikipedia.org": ["삼성전자", "SK하이닉스", "카카오 (기업)", "비트코인",
+                          "인공지능", "쿠팡", "코스피", "부동산"],
+    "en.wikipedia.org": ["Bitcoin", "Artificial intelligence", "Nvidia", "Stock market"],
+}
+
+
+def collect_wikipedia():
+    """
+    위키백과 일별 조회수 (Wikimedia Pageviews API, key 불필요, UA 필요).
+    데이터가 1~2일 지연되므로 최근 구간을 요청해 가장 최신 일자만 누적한다.
+    """
+    start = (date.today() - timedelta(days=4)).strftime("%Y%m%d")
+    end   = (date.today() - timedelta(days=1)).strftime("%Y%m%d")
+    headers = {"User-Agent": "data-collection/1.0 (github actions; daily collection)"}
+    rows = []
+
+    for project, articles in WIKI_ARTICLES.items():
+        for article in articles:
+            try:
+                title = quote(article.replace(" ", "_"), safe="")
+                url = (f"https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/"
+                       f"{project}/all-access/user/{title}/daily/{start}/{end}")
+                resp = requests.get(url, headers=headers, timeout=15)
+                items = resp.json().get("items", [])
+                if not items:
+                    continue
+                latest = items[-1]                       # 가장 최신 가용 일자
+                rows.append({
+                    "date":    f"{latest['timestamp'][:4]}-{latest['timestamp'][4:6]}-{latest['timestamp'][6:8]}",
+                    "project": project,
+                    "article": article,
+                    "views":   latest.get("views", 0),
+                    "source":  "wikipedia",
+                })
+                time.sleep(0.2)
+            except Exception as e:
+                print(f"  [WARN] wikipedia '{article}' ({project}): {e}")
+
+    if rows:
+        save(pd.DataFrame(rows), "data/sentiment/wikipedia.csv")
+
+
 # ── 진입점 ────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
     print(f"=== Sentiment Collection (no-key): {TODAY} ===")
     # 각 수집기 격리: 하나가 죽어도 나머지는 계속 진행
-    for collector in (collect_hackernews, collect_gdelt_news, collect_google_trends):
+    for collector in (collect_hackernews, collect_gdelt_news,
+                      collect_google_trends, collect_wikipedia):
         try:
             collector()
         except Exception as e:

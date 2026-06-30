@@ -11,9 +11,10 @@ Environment 수집 (API 키 불필요): 날씨 / 대기질 — 전부 Open-Meteo
 import os
 import pandas as pd
 import requests
-from datetime import date
+from datetime import date, timedelta
 
-TODAY = date.today().isoformat()
+TODAY     = date.today().isoformat()
+YESTERDAY = (date.today() - timedelta(days=1)).isoformat()
 
 # 기존 수집과 동일한 9개 도시 (위·경도)
 CITIES = {
@@ -167,10 +168,61 @@ def collect_air_quality():
         save(pd.DataFrame(rows), "data/environment/air_quality.csv")
 
 
+# ── 지진 (USGS FDSN, 무키) ────────────────────────────────────────────────
+
+def _fetch_quakes(params: dict, region: str) -> list[dict]:
+    rows = []
+    try:
+        resp = requests.get(
+            "https://earthquake.usgs.gov/fdsnws/event/1/query",
+            params={"format": "geojson", "starttime": YESTERDAY, "endtime": TODAY, **params},
+            headers={"User-Agent": "data-collection/1.0"},
+            timeout=20,
+        )
+        for f in resp.json().get("features", []):
+            p = f.get("properties", {})
+            c = (f.get("geometry", {}) or {}).get("coordinates", [None, None, None])
+            ts = p.get("time")
+            rows.append({
+                "date":      TODAY,
+                "region":    region,
+                "event_time": (pd.Timestamp(ts, unit="ms", tz="UTC").isoformat()
+                               if ts is not None else ""),
+                "place":     p.get("place", ""),
+                "magnitude": p.get("mag"),
+                "mag_type":  p.get("magType", ""),
+                "depth_km":  c[2],
+                "lat":       c[1],
+                "lon":       c[0],
+                "usgs_id":   f.get("id", ""),
+            })
+    except Exception as e:
+        print(f"  [WARN] earthquakes {region}: {e}")
+    return rows
+
+
+def collect_earthquakes():
+    """
+    USGS 지진 카탈로그 (key 불필요).
+    - global  : 전 세계 규모 4.5+ (주요 지진 이벤트 마커)
+    - eastasia: 한반도·동아시아 bbox 규모 2.5+ (국지 활동)
+    """
+    rows = _fetch_quakes({"minmagnitude": 4.5}, "global")
+    rows += _fetch_quakes(
+        {"minmagnitude": 2.5,
+         "minlatitude": 33, "maxlatitude": 43,
+         "minlongitude": 124, "maxlongitude": 132},
+        "eastasia",
+    )
+    if rows:
+        save(pd.DataFrame(rows), "data/environment/earthquakes.csv")
+
+
 # ── 진입점 ────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
     print(f"=== Environment Collection (no-key): {TODAY} ===")
     collect_weather()
     collect_air_quality()
+    collect_earthquakes()
     print("Done.")
