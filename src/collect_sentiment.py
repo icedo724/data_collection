@@ -1,23 +1,26 @@
 """
-Sentiment 수집: Hacker News / 네이버 뉴스 / NewsAPI / Google Trends / 네이버 데이터랩
-- secrets: NEWS_API_KEY
-           NAVER_CLIENT_ID, NAVER_CLIENT_SECRET
-- Hacker News / Google Trends: API key 불필요
+Sentiment 수집 (API 키 불필요): Hacker News / GDELT 글로벌 뉴스 / Google Trends
+
+- Hacker News (Algolia)  : key 불필요
+- GDELT 2.0 DOC API      : key 불필요 — NewsAPI(키·30일 제한) 대체. 100+개 언어, 기간 제한 없음
+- Google Trends (pytrends): key 불필요 (rate-limit 있어 재시도 처리)
+
+뉴스는 기존 news.csv 스키마(date,category,keyword,title,source,published_at,description)와
+동일하게 GDELT로 이어서 누적한다.
 """
 
 import os
-import json
 import time
 import pandas as pd
 import requests
+from urllib.parse import quote
 from datetime import date, datetime, timedelta, timezone
 
-TODAY     = date.today().isoformat()
-YESTERDAY = (date.today() - timedelta(days=1)).isoformat()
+TODAY = date.today().isoformat()
 
 
 def save(df: pd.DataFrame, filepath: str) -> None:
-    """date 컬럼 기준 중복 방지 저장 (collect_markets.py와 동일 패턴)"""
+    """date 컬럼 기준 중복 방지 저장 (당일 1회만 누적)."""
     os.makedirs(os.path.dirname(filepath), exist_ok=True)
     if os.path.exists(filepath):
         existing_dates = set(pd.read_csv(filepath)["date"].astype(str).unique())
@@ -35,10 +38,7 @@ def save(df: pd.DataFrame, filepath: str) -> None:
 # ── Hacker News (Algolia API) — key 불필요 ───────────────────────────────
 
 def collect_hackernews():
-    """
-    Hacker News 게시물 수집 (Algolia 무료 API, key 불필요)
-    테크·금융·소비·한국 관련 글로벌 커뮤니티 반응 수집
-    """
+    """Hacker News 게시물 수집 (Algolia 무료 API). 테크·금융·소비 글로벌 반응."""
     since_ts = int((datetime.now(timezone.utc) - timedelta(days=1)).timestamp())
 
     keyword_groups = {
@@ -83,116 +83,68 @@ def collect_hackernews():
         save(pd.DataFrame(rows), "data/sentiment/hackernews.csv")
 
 
-# ── 네이버 뉴스 검색 ──────────────────────────────────────────────────────
+# ── GDELT 2.0 DOC API — key 불필요 (NewsAPI 대체) ─────────────────────────
 
-def collect_naver_news():
-    """기존 NAVER_CLIENT_ID/SECRET 재사용, 한국 뉴스 반응 수집"""
-    client_id     = os.environ.get("NAVER_CLIENT_ID")
-    client_secret = os.environ.get("NAVER_CLIENT_SECRET")
-    if not (client_id and client_secret):
-        print("  [SKIP] Naver News: credentials missing")
-        return
-
-    keyword_groups = {
-        "economy":    ["금리", "물가", "경기침체", "수출", "환율"],
-        "industry":   ["반도체", "이차전지", "AI 산업", "바이오"],
-        "consumer":   ["소비트렌드", "온라인쇼핑", "배달시장"],
-        "employment": ["취업시장", "고용", "실업률"],
-        "realestate": ["부동산", "아파트 가격", "전세"],
-    }
-
-    headers = {
-        "X-Naver-Client-Id":     client_id,
-        "X-Naver-Client-Secret": client_secret,
-    }
-    rows = []
-
-    for category, keywords in keyword_groups.items():
-        for kw in keywords:
-            try:
-                resp = requests.get(
-                    "https://openapi.naver.com/v1/search/news.json",
-                    headers=headers,
-                    params={"query": kw, "display": 20, "sort": "date"},
-                    timeout=10,
-                )
-                for item in resp.json().get("items", []):
-                    # HTML 태그 제거 (b 태그 + HTML entity)
-                    def clean(s: str) -> str:
-                        return (s.replace("<b>", "").replace("</b>", "")
-                                 .replace("&amp;", "&").replace("&quot;", '"')
-                                 .replace("&#39;", "'").replace("&lt;", "<")
-                                 .replace("&gt;", ">"))
-                    rows.append({
-                        "date":        TODAY,
-                        "category":    category,
-                        "keyword":     kw,
-                        "title":       clean(item.get("title", ""))[:200],
-                        "source":      item.get("originallink", "")[:100],
-                        "pub_date":    item.get("pubDate", ""),
-                        "description": clean(item.get("description", ""))[:300],
-                    })
-                time.sleep(0.3)
-            except Exception as e:
-                print(f"  [WARN] Naver news '{kw}': {e}")
-
-    if rows:
-        save(pd.DataFrame(rows), "data/sentiment/naver_news.csv")
-
-
-# ── NewsAPI 영문 뉴스 ─────────────────────────────────────────────────────
-
-def collect_news():
-    api_key = os.environ.get("NEWS_API_KEY")
-    if not api_key:
-        print("  [SKIP] News: API key missing")
-        return
-
+def collect_gdelt_news():
+    """
+    GDELT DOC API로 영문 글로벌 뉴스 수집. key 불필요, 기간 제한 없음.
+    기존 news.csv 스키마(date,category,keyword,title,source,published_at,description)로 누적.
+    GDELT ArtList는 본문 요약을 제공하지 않아 description은 출처국가/언어로 채운다.
+    """
     keyword_groups = {
         "finance":     ["stock market", "KOSPI", "Korea economy", "inflation", "interest rate"],
-        "tech":        ["artificial intelligence", "semiconductor", "startup Korea"],
+        "tech":        ["artificial intelligence", "semiconductor", "Korea startup"],
         "consumer":    ["retail sales", "e-commerce", "consumer sentiment"],
         "energy":      ["oil price", "renewable energy", "energy crisis"],
         "geopolitics": ["North Korea", "US China trade", "geopolitical risk"],
     }
-    # 3일치 요청: 하루 누락돼도 다음 실행에서 보완 수집
-    from_date = (date.today() - timedelta(days=3)).isoformat()
     rows = []
 
     for category, keywords in keyword_groups.items():
         for kw in keywords:
             try:
                 resp = requests.get(
-                    "https://newsapi.org/v2/everything",
+                    "https://api.gdeltproject.org/api/v2/doc/doc",
                     params={
-                        "q":        kw,
-                        "from":     from_date,
-                        "sortBy":   "publishedAt",
-                        "apiKey":   api_key,
-                        "pageSize": 15,
-                        "language": "en",
+                        "query":      f'"{kw}" sourcelang:english',
+                        "mode":       "ArtList",
+                        "format":     "json",
+                        "maxrecords": 25,
+                        "timespan":   "1d",
+                        "sort":       "DateDesc",
                     },
-                    timeout=10,
+                    headers={"User-Agent": "data-collection/1.0"},
+                    timeout=20,
                 )
-                for a in resp.json().get("articles", []):
+                # GDELT는 결과 없을 때 빈 본문/HTML을 주기도 하므로 방어적으로 파싱
+                try:
+                    articles = resp.json().get("articles", [])
+                except ValueError:
+                    articles = []
+                for a in articles:
+                    seen = a.get("seendate", "")  # 형식: 20260630T120000Z
+                    try:
+                        published = datetime.strptime(seen, "%Y%m%dT%H%M%SZ").isoformat() + "Z"
+                    except ValueError:
+                        published = seen
                     rows.append({
                         "date":         TODAY,
                         "category":     category,
                         "keyword":      kw,
                         "title":        (a.get("title") or "")[:200],
-                        "source":       (a.get("source") or {}).get("name", ""),
-                        "published_at": a.get("publishedAt", ""),
-                        "description":  (a.get("description") or "")[:300],
+                        "source":       a.get("domain", ""),
+                        "published_at": published,
+                        "description":  f"{a.get('sourcecountry', '')} / {a.get('language', '')}".strip(" /"),
                     })
-                time.sleep(0.3)
+                time.sleep(1)  # GDELT rate-limit 배려
             except Exception as e:
-                print(f"  [WARN] news '{kw}': {e}")
+                print(f"  [WARN] GDELT '{kw}': {e}")
 
     if rows:
         save(pd.DataFrame(rows), "data/sentiment/news.csv")
 
 
-# ── Google Trends ─────────────────────────────────────────────────────────
+# ── Google Trends — key 불필요 ────────────────────────────────────────────
 
 def collect_google_trends():
     try:
@@ -201,7 +153,9 @@ def collect_google_trends():
         print("  [SKIP] pytrends not installed")
         return
 
-    pytrends = TrendReq(hl="ko-KR", tz=540)
+    # 요청 간 지연으로 datacenter IP rate-limit(429) 완화
+    pytrends = TrendReq(hl="ko-KR", tz=540, timeout=(10, 25), retries=1, backoff_factor=1.0)
+    time.sleep(5)  # 첫 요청 전 워밍업
 
     keyword_groups = {
         "food_delivery": ["배달음식", "치킨 배달", "배달의민족"],
@@ -234,100 +188,77 @@ def collect_google_trends():
                 success = True
                 break
             except Exception as e:
-                wait = 10 * (attempt + 1)
+                wait = 20 * (attempt + 1)
                 print(f"  [WARN] google trends '{category}' (시도 {attempt+1}): {e} — {wait}s 대기")
                 time.sleep(wait)
-        time.sleep(5 if success else 2)
+        # 그룹 간 간격을 넓혀 연쇄 429 완화 (성공 시 12s, 실패 시 8s)
+        time.sleep(12 if success else 8)
 
     if rows:
         save(pd.DataFrame(rows), "data/sentiment/search_trends.csv")
 
 
-# ── 네이버 데이터랩 ───────────────────────────────────────────────────────
+# ── Wikipedia Pageviews (Wikimedia REST, 무키) ────────────────────────────
 
-def collect_naver_datalab():
+# 프로젝트 테마(시장·테크·한국 기업·소비) 관심도 추이용 문서
+WIKI_ARTICLES = {
+    "ko.wikipedia.org": ["삼성전자", "SK하이닉스", "카카오 (기업)", "비트코인",
+                          "인공지능", "쿠팡", "코스피", "부동산"],
+    "en.wikipedia.org": ["Bitcoin", "Artificial intelligence", "Nvidia", "Stock market"],
+}
+
+
+def collect_wikipedia():
     """
-    네이버 데이터랩 검색어 트렌드 API (무료, 25,000 req/day)
-    발급: https://developers.naver.com/apps/ → 데이터랩 검색어 트렌드 체크
+    위키백과 일별 조회수 (Wikimedia Pageviews API, key 불필요, UA 필요).
+    데이터가 1~2일 지연되므로 최근 구간을 요청해 가장 최신 일자만 누적한다.
     """
-    client_id     = os.environ.get("NAVER_CLIENT_ID")
-    client_secret = os.environ.get("NAVER_CLIENT_SECRET")
-    if not (client_id and client_secret):
-        print("  [SKIP] Naver DataLab: credentials missing")
-        return
-
-    keyword_groups = [
-        {"groupName": "배달앱",    "keywords": ["배달의민족", "쿠팡이츠", "요기요"]},
-        {"groupName": "온라인쇼핑", "keywords": ["쿠팡", "11번가", "지마켓"]},
-        {"groupName": "패션",      "keywords": ["무신사", "지그재그", "에이블리"]},
-        {"groupName": "재테크",    "keywords": ["주식", "부동산", "코인"]},
-        {"groupName": "취업",      "keywords": ["취업", "이직", "자소서"]},
-        {"groupName": "여행",      "keywords": ["해외여행", "항공권", "호텔"]},
-        {"groupName": "건강",      "keywords": ["헬스장", "다이어트", "영양제"]},
-        {"groupName": "AI",        "keywords": ["챗GPT", "AI", "클로드"]},
-    ]
-
+    start = (date.today() - timedelta(days=4)).strftime("%Y%m%d")
+    end   = (date.today() - timedelta(days=1)).strftime("%Y%m%d")
+    headers = {"User-Agent": "data-collection/1.0 (github actions; daily collection)"}
     rows = []
-    try:
-        resp = requests.post(
-            "https://openapi.naver.com/v1/datalab/search",
-            headers={
-                "X-Naver-Client-Id":     client_id,
-                "X-Naver-Client-Secret": client_secret,
-                "Content-Type":          "application/json",
-            },
-            data=json.dumps({
-                "startDate":     YESTERDAY,
-                "endDate":       TODAY,
-                "timeUnit":      "date",
-                "keywordGroups": keyword_groups,
-            }),
-            timeout=15,
-        )
-        for result in resp.json().get("results", []):
-            for point in result.get("data", []):
-                rows.append({
-                    "date":     point["period"],
-                    "category": result["title"],
-                    "ratio":    point["ratio"],
-                    "source":   "naver",
-                })
-    except Exception as e:
-        print(f"  [WARN] naver datalab: {e}")
+
+    for project, articles in WIKI_ARTICLES.items():
+        for article in articles:
+            title = quote(article.replace(" ", "_"), safe="")
+            url = (f"https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/"
+                   f"{project}/all-access/user/{title}/daily/{start}/{end}")
+            # 빈 응답/일시적 429에 대비해 2회 재시도
+            for attempt in range(2):
+                try:
+                    resp = requests.get(url, headers=headers, timeout=15)
+                    if resp.status_code == 404:          # 문서 없음 → 재시도 불필요
+                        break
+                    items = resp.json().get("items", [])
+                    if not items:
+                        raise ValueError("empty items")
+                    latest = items[-1]                   # 가장 최신 가용 일자
+                    rows.append({
+                        "date":    f"{latest['timestamp'][:4]}-{latest['timestamp'][4:6]}-{latest['timestamp'][6:8]}",
+                        "project": project,
+                        "article": article,
+                        "views":   latest.get("views", 0),
+                        "source":  "wikipedia",
+                    })
+                    break
+                except Exception as e:
+                    if attempt == 0:
+                        time.sleep(1.5)
+                        continue
+                    print(f"  [WARN] wikipedia '{article}' ({project}): {e}")
+            time.sleep(0.3)
 
     if rows:
-        # naver datalab은 date가 실제 날짜값이므로 같은 방식으로 dedup
-        fp = "data/sentiment/search_trends.csv"
-        os.makedirs(os.path.dirname(fp), exist_ok=True)
-        df_new = pd.DataFrame(rows)
-        if os.path.exists(fp):
-            existing = pd.read_csv(fp)
-            # source별 날짜 중복 방지
-            existing_key = set(
-                existing[existing["source"] == "naver"]["date"].astype(str).unique()
-            )
-            df_new = df_new[~df_new["date"].astype(str).isin(existing_key)]
-            if df_new.empty:
-                print(f"  skip: search_trends naver — 신규 날짜 없음")
-                return
-            df_new.to_csv(fp, mode="a", header=False, index=False, encoding="utf-8-sig")
-        else:
-            df_new.to_csv(fp, index=False, encoding="utf-8-sig")
-        print(f"  saved {len(df_new)}행 (naver) -> {fp}")
+        save(pd.DataFrame(rows), "data/sentiment/wikipedia.csv")
 
 
 # ── 진입점 ────────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    print(f"=== Sentiment Collection: {TODAY} ===")
-    # 각 수집기를 격리: 하나가 죽어도 나머지는 계속 진행
-    for collector in (
-        collect_hackernews,
-        collect_naver_news,
-        collect_news,
-        collect_google_trends,
-        collect_naver_datalab,
-    ):
+    print(f"=== Sentiment Collection (no-key): {TODAY} ===")
+    # 각 수집기 격리: 하나가 죽어도 나머지는 계속 진행
+    for collector in (collect_hackernews, collect_gdelt_news,
+                      collect_google_trends, collect_wikipedia):
         try:
             collector()
         except Exception as e:

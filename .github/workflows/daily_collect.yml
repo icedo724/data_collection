@@ -27,36 +27,22 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # ── 1. 시장 데이터 (주식·환율·원자재·암호화폐) ───────────────────
-      # API key 불필요 — yfinance + CoinGecko 무료
+      # 모든 수집기는 API key 불필요 (yfinance·CoinGecko·alternative.me·
+      # Open-Meteo·GDELT·Hacker News·Google Trends)
+
+      # ── 1. 시장 데이터 (주식·환율·원자재·암호화폐·공포탐욕지수) ───────
       - name: Collect Markets
         run: python src/collect_markets.py
         continue-on-error: true
 
-      # ── 2. 감성·트렌드 (Reddit·뉴스·Google Trends·Naver DataLab) ────
+      # ── 2. 감성·트렌드 (Hacker News·GDELT 뉴스·Google Trends) ───────
       - name: Collect Sentiment & Trends
-        env:
-          NEWS_API_KEY:        ${{ secrets.NEWS_API_KEY }}
-          NAVER_CLIENT_ID:     ${{ secrets.NAVER_CLIENT_ID }}
-          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: python src/collect_sentiment.py
         continue-on-error: true
 
-      # ── 3. 환경 데이터 (날씨·대기질·유가) ───────────────────────────
+      # ── 3. 환경 데이터 (날씨·대기질, Open-Meteo) ────────────────────
       - name: Collect Environment
-        env:
-          OPENWEATHER_API_KEY: ${{ secrets.OPENWEATHER_API_KEY }}
-          PUBLIC_DATA_API_KEY: ${{ secrets.PUBLIC_DATA_API_KEY }}
-          OPINET_API_KEY:      ${{ secrets.OPINET_API_KEY }}
         run: python src/collect_environment.py
-        continue-on-error: true
-
-      # ── 4. 공공 데이터 (지하철·버스·한국은행 거시지표) ───────────────
-      - name: Collect Public Data
-        env:
-          SEOUL_DATA_API_KEY: ${{ secrets.SEOUL_DATA_API_KEY }}
-          BOK_API_KEY:        ${{ secrets.BOK_API_KEY }}
-        run: python src/collect_public.py
         continue-on-error: true
 
       # ── 수집된 data/ 폴더를 레포에 커밋 ─────────────────────────────

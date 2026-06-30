@@ -1,0 +1,17 @@
+﻿date,region,event_time,place,magnitude,mag_type,depth_km,lat,lon,usgs_id
+2026-06-30,global,2026-06-29T22:06:46.596000+00:00,east of the Kuril Islands,4.6,mb,10.0,44.8824,151.8082,us6000t939
+2026-06-30,global,2026-06-29T21:38:36.945000+00:00,"236 km E of Levuka, Fiji",4.6,mb,616.793,-17.9754,-178.4499,us6000t937
+2026-06-30,global,2026-06-29T18:47:16.538000+00:00,"234 km SSW of ‘Ohonua, Tonga",4.9,mb,10.0,-23.414,-175.4452,us6000t91x
+2026-06-30,global,2026-06-29T15:51:18.068000+00:00,south of the Fiji Islands,4.8,mb,537.255,-23.8507,179.9587,us6000t907
+2026-06-30,global,2026-06-29T12:33:04.790000+00:00,"101 km ENE of Aksu, China",4.8,mb,10.0,41.6562,81.3141,us6000t8z3
+2026-06-30,global,2026-06-29T11:35:33.629000+00:00,"218 km W of Bandon, Oregon",5.5,mww,10.0,43.3828,-127.0788,us6000t8yt
+2026-06-30,global,2026-06-29T11:33:12.639000+00:00,"40 km SW of Jurm, Afghanistan",4.5,mb,204.45,36.5625,70.5788,us6000t8yu
+2026-06-30,global,2026-06-29T11:01:03.516000+00:00,"27 km N of Caraballeda, Venezuela",4.6,mb,10.0,10.8601,-66.8435,us6000t8yf
+2026-06-30,global,2026-06-29T07:38:27.562000+00:00,off the coast of Central America,5.1,mww,10.0,2.302,-84.3832,us6000t8xq
+2026-06-30,global,2026-06-29T07:36:09.992000+00:00,"213 km SE of Vilyuchinsk, Russia",4.6,mb,10.0,51.3546,160.1889,us6000t8xr
+2026-06-30,global,2026-06-29T07:19:50.329000+00:00,"131 km E of Bitung, Indonesia",4.6,mb,35.0,1.285,126.2952,us6000t8xp
+2026-06-30,global,2026-06-29T06:54:16.912000+00:00,"Volcano Islands, Japan region",4.5,mb,179.368,22.9945,142.2351,us6000t8xk
+2026-06-30,global,2026-06-29T04:23:05.855000+00:00,"107 km SSW of Sarangani, Philippines",5.2,mb,9.906,4.4724,125.1893,us6000t8x8
+2026-06-30,global,2026-06-29T04:14:33.185000+00:00,"90 km S of Sarangani, Philippines",4.9,mb,45.108,4.5908,125.4036,us6000t8x6
+2026-06-30,global,2026-06-29T03:32:39.606000+00:00,"35 km SSW of Cordova, Alaska",5.3,ml,13.3,60.237,-145.91,aka2026msxacu
+2026-06-30,global,2026-06-29T03:10:28.375000+00:00,Kermadec Islands region,4.9,mb,10.0,-31.2186,-177.6455,us6000t8wr
