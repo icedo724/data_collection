@@ -153,7 +153,9 @@ def collect_google_trends():
         print("  [SKIP] pytrends not installed")
         return
 
-    pytrends = TrendReq(hl="ko-KR", tz=540)
+    # 요청 간 지연으로 datacenter IP rate-limit(429) 완화
+    pytrends = TrendReq(hl="ko-KR", tz=540, timeout=(10, 25), retries=1, backoff_factor=1.0)
+    time.sleep(5)  # 첫 요청 전 워밍업
 
     keyword_groups = {
         "food_delivery": ["배달음식", "치킨 배달", "배달의민족"],
@@ -186,10 +188,11 @@ def collect_google_trends():
                 success = True
                 break
             except Exception as e:
-                wait = 10 * (attempt + 1)
+                wait = 20 * (attempt + 1)
                 print(f"  [WARN] google trends '{category}' (시도 {attempt+1}): {e} — {wait}s 대기")
                 time.sleep(wait)
-        time.sleep(5 if success else 2)
+        # 그룹 간 간격을 넓혀 연쇄 429 완화 (성공 시 12s, 실패 시 8s)
+        time.sleep(12 if success else 8)
 
     if rows:
         save(pd.DataFrame(rows), "data/sentiment/search_trends.csv")
@@ -217,25 +220,33 @@ def collect_wikipedia():
 
     for project, articles in WIKI_ARTICLES.items():
         for article in articles:
-            try:
-                title = quote(article.replace(" ", "_"), safe="")
-                url = (f"https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/"
-                       f"{project}/all-access/user/{title}/daily/{start}/{end}")
-                resp = requests.get(url, headers=headers, timeout=15)
-                items = resp.json().get("items", [])
-                if not items:
-                    continue
-                latest = items[-1]                       # 가장 최신 가용 일자
-                rows.append({
-                    "date":    f"{latest['timestamp'][:4]}-{latest['timestamp'][4:6]}-{latest['timestamp'][6:8]}",
-                    "project": project,
-                    "article": article,
-                    "views":   latest.get("views", 0),
-                    "source":  "wikipedia",
-                })
-                time.sleep(0.2)
-            except Exception as e:
-                print(f"  [WARN] wikipedia '{article}' ({project}): {e}")
+            title = quote(article.replace(" ", "_"), safe="")
+            url = (f"https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/"
+                   f"{project}/all-access/user/{title}/daily/{start}/{end}")
+            # 빈 응답/일시적 429에 대비해 2회 재시도
+            for attempt in range(2):
+                try:
+                    resp = requests.get(url, headers=headers, timeout=15)
+                    if resp.status_code == 404:          # 문서 없음 → 재시도 불필요
+                        break
+                    items = resp.json().get("items", [])
+                    if not items:
+                        raise ValueError("empty items")
+                    latest = items[-1]                   # 가장 최신 가용 일자
+                    rows.append({
+                        "date":    f"{latest['timestamp'][:4]}-{latest['timestamp'][4:6]}-{latest['timestamp'][6:8]}",
+                        "project": project,
+                        "article": article,
+                        "views":   latest.get("views", 0),
+                        "source":  "wikipedia",
+                    })
+                    break
+                except Exception as e:
+                    if attempt == 0:
+                        time.sleep(1.5)
+                        continue
+                    print(f"  [WARN] wikipedia '{article}' ({project}): {e}")
+            time.sleep(0.3)
 
     if rows:
         save(pd.DataFrame(rows), "data/sentiment/wikipedia.csv")
