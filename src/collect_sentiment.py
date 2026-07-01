@@ -147,15 +147,22 @@ def collect_gdelt_news():
 # ── Google Trends — key 불필요 ────────────────────────────────────────────
 
 def collect_google_trends():
+    """
+    Google Trends (pytrends, 무키) — best-effort 수집.
+
+    datacenter IP는 구글이 구조적으로 429 차단하므로 안정 수집이 불가능하다.
+    재시도·긴 대기 없이 실패 시 즉시 다음 그룹으로 넘어가(fail-fast) 런타임을
+    낭비하지 않고, 되는 날만 보너스로 수집한다.
+    관심도 축의 안정 소스는 Wikipedia 조회수(collect_wikipedia)가 담당.
+    """
     try:
         from pytrends.request import TrendReq
     except ImportError:
         print("  [SKIP] pytrends not installed")
         return
 
-    # 요청 간 지연으로 datacenter IP rate-limit(429) 완화
-    pytrends = TrendReq(hl="ko-KR", tz=540, timeout=(10, 25), retries=1, backoff_factor=1.0)
-    time.sleep(5)  # 첫 요청 전 워밍업
+    # 짧은 timeout·재시도 없음 → 막히면 빨리 실패
+    pytrends = TrendReq(hl="ko-KR", tz=540, timeout=(5, 15), retries=0)
 
     keyword_groups = {
         "food_delivery": ["배달음식", "치킨 배달", "배달의민족"],
@@ -166,34 +173,30 @@ def collect_google_trends():
         "travel":        ["해외여행", "국내여행", "항공권"],
     }
     rows = []
+    ok = 0
 
     for category, keywords in keyword_groups.items():
-        success = False
-        for attempt in range(2):
-            try:
-                pytrends.build_payload(keywords, cat=0, timeframe="today 1-m", geo="KR")
-                df = pytrends.interest_over_time()
-                if df.empty:
-                    break
-                latest = df.iloc[-1]
-                for kw in keywords:
-                    if kw in latest:
-                        rows.append({
-                            "date":     TODAY,
-                            "category": category,
-                            "keyword":  kw,
-                            "interest": int(latest[kw]),
-                            "source":   "google",
-                        })
-                success = True
-                break
-            except Exception as e:
-                wait = 20 * (attempt + 1)
-                print(f"  [WARN] google trends '{category}' (시도 {attempt+1}): {e} — {wait}s 대기")
-                time.sleep(wait)
-        # 그룹 간 간격을 넓혀 연쇄 429 완화 (성공 시 12s, 실패 시 8s)
-        time.sleep(12 if success else 8)
+        try:
+            pytrends.build_payload(keywords, cat=0, timeframe="today 1-m", geo="KR")
+            df = pytrends.interest_over_time()
+            if df.empty:
+                continue
+            latest = df.iloc[-1]
+            for kw in keywords:
+                if kw in latest:
+                    rows.append({
+                        "date":     TODAY,
+                        "category": category,
+                        "keyword":  kw,
+                        "interest": int(latest[kw]),
+                        "source":   "google",
+                    })
+            ok += 1
+        except Exception as e:
+            print(f"  [WARN] google trends '{category}' 스킵: {e}")
+        time.sleep(1)  # 최소 간격만
 
+    print(f"  google trends: {ok}/{len(keyword_groups)} 그룹 성공")
     if rows:
         save(pd.DataFrame(rows), "data/sentiment/search_trends.csv")
 
