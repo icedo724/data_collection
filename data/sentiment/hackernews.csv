@@ -4006,3 +4006,124 @@
 2026-07-13,consumer,consumer,"Netflix reportedly considering always-on channels and bundles, which is, cable",6,2,rolph,2026-07-12T20:28:07Z,https://thenextweb.com/news/netflix-always-on-channels-bundles-cable
 2026-07-13,consumer,consumer,Show HN: The Line of Hope – how current teams compare to past champions,3,0,marcreicher,2026-07-12T16:33:06Z,https://titlehopes.com/mlb/standings/index.html
 2026-07-13,consumer,consumer,"Show HN: Itara – Distributed system topology as an explicit, executable layer",3,2,gkiss0001,2026-07-12T14:58:52Z,https://github.com/itara-project/itara
+2026-07-14,tech,AI,"Show HN: CrowdMind, Free app for building AI personas and testing stimuli",1,0,jjaramillor,2026-07-14T13:43:25Z,https://github.com/Brokenwatch24/crowdmind
+2026-07-14,tech,AI,Demis Hassabis has a plan to harness AI safely,1,0,andsoitis,2026-07-14T13:43:05Z,https://www.economist.com/business/2026/07/14/demis-hassabis-has-a-plan-to-harness-ai-safely
+2026-07-14,tech,AI,Two sizes fit most: Postgres and ClickHouse,1,0,saisrirampur,2026-07-14T13:39:02Z,https://clickhouse.com/blog/ai-best-of-breed-data-stack
+2026-07-14,tech,AI,CometBFT runs the SecretConnection crypto handshake before authenticating peers,1,0,simonmorley,2026-07-14T13:36:58Z,https://nullrabbit.ai/research/cometbft-secretconnection-preauth-handshake-cpu-burn
+2026-07-14,tech,AI,Show HN: Kmux – Parallel terminal workspace optimized for AI coding agents,1,0,kkd927,2026-07-14T13:34:00Z,https://github.com/kkd927/kmux
+2026-07-14,tech,AI,Show HN: VisualEther – Wireshark PCAPs to sequence diagrams; MCP for AI analysis,1,0,eventhelix,2026-07-14T13:26:08Z,https://www.eventhelix.com/visualether/case-studies/5g-nr-r16-mdt-mac-pdcp-decryption-scheduling-harq-ipsec-esp-analysis.html
+2026-07-14,tech,AI,Show HN: Two Next.js templates with zero dependencies and one config file,1,0,Sanmukapriya,2026-07-14T13:21:08Z,https://nova-ai-saas-template.vercel.app
+2026-07-14,tech,AI,"Ask HN: PhDs, how have you organized your research visits?",1,1,thrawyact,2026-07-14T13:19:02Z,
+2026-07-14,tech,AI,Ask HN: Prompting AI for black magic incantations?,1,0,julienreszka,2026-07-14T13:18:05Z,
+2026-07-14,tech,AI,Anthropic commits $10M to Canadian AI research,3,0,surprisetalk,2026-07-14T13:16:08Z,https://www.anthropic.com/news/canadian-ai-research
+2026-07-14,tech,AI,AI-Notify – Context-aware terminal notifications for multitasking devs,2,0,heliasdev,2026-07-14T13:15:10Z,https://medium.com/engineering-in-the-age-of-ai/ai-notify-context-aware-notifications-for-multi-tasking-developers-3614635398ec
+2026-07-14,tech,AI,Identify Skin: AI Dermatology SaaS,2,0,GemsGame,2026-07-14T13:12:35Z,https://identify.skin/en
+2026-07-14,tech,AI,Don't bring an AI detector to a deepfake fight: provenance over detection,2,0,Despoisj,2026-07-14T13:11:29Z,https://www.lesswrong.com/posts/MBRNR5h9g6HGvAJDe/don-t-bring-an-ai-detector-to-a-deepfake-fight-proving
+2026-07-14,tech,AI,Ask HN: Any objective research on which languages are best for AI agents?,2,2,mwigdahl,2026-07-14T13:10:05Z,
+2026-07-14,tech,AI,Show HN: Town – Discord in a pixel town where the NPCs have skills,4,3,harshithmul,2026-07-14T13:06:24Z,https://github.com/redplanethq/town
+2026-07-14,tech,AI,U of Chicago law school bans laptops from classes amid AI backlash,6,0,smurda,2026-07-14T12:57:08Z,https://www.the-independent.com/tech/laptop-ban-university-ai-backlash-b3013911.html
+2026-07-14,tech,AI,Mnemo AI – Local agentic assistant for any LLM that learns from its failures,2,0,br1pistone,2026-07-14T12:49:54Z,https://github.com/brunopistone/mnemoai
+2026-07-14,tech,AI,DOGE Used AI for Housing Policy. The Government Won't Say How,8,1,speckx,2026-07-14T12:46:34Z,https://www.wired.com/story/doge-deployed-ai-housing-policy/
+2026-07-14,tech,AI,Show HN: I RL-trained an agent that trains models with RL (for –$1.3k),24,4,Danau5tin,2026-07-14T12:41:25Z,https://github.com/Danau5tin/ai-trains-ai
+2026-07-14,tech,AI,Lenz – A fact-checking API for AI-generated content,5,2,kostaj,2026-07-14T12:39:03Z,https://lenz.io/
+2026-07-14,tech,semiconductor,Apple's rumored M7 Ultra targets 1.5TB and Blackwell-class AI performance,26,31,rbanffy,2026-07-13T15:32:19Z,https://www.tomshardware.com/tech-industry/semiconductors/apples-rumored-m7-ultra-targets-1-5tb-of-memory-and-blackwell-class-ai
+2026-07-14,tech,startup,"What Is Yuanjiwei, the Chinese Startup Promising 5nm Chips Without EUV?",1,0,technewssss,2026-07-14T13:25:35Z,https://mrkt30.com/what-is-yuanjiwei-the-chinese-startup-promising-5nm-chips-without-euv/
+2026-07-14,tech,startup,Ask HN: Prompting AI for black magic incantations?,1,0,julienreszka,2026-07-14T13:18:05Z,
+2026-07-14,tech,startup,Show HN: Town – Discord in a pixel town where the NPCs have skills,4,3,harshithmul,2026-07-14T13:06:24Z,https://github.com/redplanethq/town
+2026-07-14,tech,startup,Global smartphone shipments in Q2 hit lowest in 13 years on memory chip crunch,6,0,giuliomagnifico,2026-07-14T11:32:55Z,https://www.reuters.com/business/media-telecom/global-smartphone-shipments-second-quarter-hit-lowest-13-years-memory-chip-2026-07-13/
+2026-07-14,tech,startup,Indian startup builds motors without permanent magnets,3,0,hiyer,2026-07-14T11:29:01Z,https://www.indiatoday.in/technology/features/story/look-ma-no-magnets-how-an-indian-startup-is-using-software-to-break-chinas-rare-earth-monopoly-2946039-2026-07-12
+2026-07-14,tech,startup,6status: IPv4/v6 dual stack status board,3,0,airhangerf15,2026-07-14T11:24:16Z,https://forge.sumit.im/djsumdog/6status
+2026-07-14,tech,startup,Codex starts encrypting sub-agent prompts,209,123,embedding-shape,2026-07-14T11:21:32Z,https://github.com/openai/codex/issues/28058
+2026-07-14,tech,startup,Show HN: Rejourney – Open-source revenue leak prediction for web and mobile apps,15,0,mrr7337,2026-07-14T11:06:09Z,https://github.com/rejourneyco/rejourney
+2026-07-14,tech,startup,Show HN: BYO AI free notetaking with optional screen reading for OpenClaw/hermes,3,1,piotraleksander,2026-07-14T11:02:38Z,https://stagewhisper.io/lite
+2026-07-14,tech,startup,Bryan Johnson: The world wants me to die,1,0,fittingopposite,2026-07-14T10:41:18Z,https://xcancel.com/bryan_johnson/status/2076365226354909522
+2026-07-14,tech,startup,Thoughts on starting new projects with LLM agents,1,0,signa11,2026-07-14T10:36:11Z,https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/
+2026-07-14,tech,startup,Ask HN: US Equivalent of Anabin?,1,0,xqb64,2026-07-14T09:32:40Z,
+2026-07-14,tech,startup,Grok Build CLI accused of uploading Git repos to a Google Cloud bucket,1,0,maxloh,2026-07-14T09:28:11Z,https://twitter.com/i/status/2076689215258014069
+2026-07-14,tech,startup,Hassabis – A Framework for Frontier AI and the Dawning of a New Age,4,0,asiergoni,2026-07-14T09:20:07Z,https://twitter.com/demishassabis/status/2076957440109625718
+2026-07-14,tech,startup,Embracing TanStack Start for full-stack development on Cloudflare – PageZERO v2,1,0,pawelgalazka,2026-07-14T09:02:00Z,https://pagezero.dev/blog/tanstack-start-cloudflare-full-stack
+2026-07-14,tech,startup,I was wrong about MCPs,2,0,heftykoo,2026-07-14T08:07:40Z,https://twitter.com/_overment/status/2076440928726708612
+2026-07-14,tech,startup,I want to build an OTT app. Where should I start?,2,2,ibuld,2026-07-14T06:36:02Z,
+2026-07-14,tech,startup,Show HN: Themis – Self-hosted AI code reviews with your own keys and models,3,0,Diwadoo,2026-07-14T06:34:22Z,https://github.com/Zaimwa9/themis
+2026-07-14,tech,startup,Ask HN: How could a startup stand a chance when Reddit won't even let you post?,6,7,SecureChats,2026-07-14T05:12:16Z,
+2026-07-14,tech,startup,Ask HN: Why are so many accomplished founders joining Anthropic?,3,3,guru3s,2026-07-14T05:04:59Z,
+2026-07-14,tech,LLM,Ask HN: How do you keep up with news in a particular sector?,2,5,doruk101,2026-07-14T13:02:25Z,
+2026-07-14,tech,LLM,Show HN: I built a tool that turns GitHub commits into posts,2,0,rudolfsrijkuris,2026-07-14T13:01:27Z,https://postezi.com
+2026-07-14,tech,LLM,Show HN: Chauffeur – One Click restore of your aplication Context,2,1,dmaginas,2026-07-14T12:57:28Z,https://www.emaginasion.com/
+2026-07-14,tech,LLM,Guardian Angels: LLM Personalization for Productivity and Security,3,0,andsoitis,2026-07-14T12:50:29Z,https://gwern.net/guardian-angel
+2026-07-14,tech,LLM,Mnemo AI – Local agentic assistant for any LLM that learns from its failures,2,0,br1pistone,2026-07-14T12:49:54Z,https://github.com/brunopistone/mnemoai
+2026-07-14,tech,LLM,"Switching an LLM's tier changes its ""best tool"" answer about half the time",2,0,arephan,2026-07-14T12:42:21Z,https://modelsagree.com/labs/model-tiers
+2026-07-14,tech,LLM,Human rabies despite PEP: review of breakthrough cases after zoonotic exposures,6,0,keepamovin,2026-07-14T12:31:40Z,https://pmc.ncbi.nlm.nih.gov/articles/PMC11403119/
+2026-07-14,tech,LLM,Show HN: IChingPortal – Keyword search and news aggregator using the I Ching,1,0,richcostello68,2026-07-14T12:13:42Z,https://ichingportal.com/
+2026-07-14,tech,LLM,The database wars and where LLMs are (maybe) headed,2,0,rruxandra_l,2026-07-14T12:02:08Z,https://rruxandra.github.io/the-database-in-the-room.html
+2026-07-14,tech,LLM,Show HN: I built a deterministic check for fabricated quotes in LLM output,3,0,pobonin,2026-07-14T11:53:57Z,https://github.com/pierreolivierbonin/verbatimeter
+2026-07-14,tech,LLM,Show HN: Planetary Facts – food and product impacts against the planet's limits,2,0,mikethemerry,2026-07-14T11:19:27Z,https://planetaryfacts.com
+2026-07-14,tech,LLM,Show HN: Rejourney – Open-source revenue leak prediction for web and mobile apps,15,0,mrr7337,2026-07-14T11:06:09Z,https://github.com/rejourneyco/rejourney
+2026-07-14,tech,LLM,X just gave us an interface that AI agents can use. I pointed it at my own posts,2,0,ibobev,2026-07-14T11:04:56Z,https://lemire.me/blog/2026/07/11/x-just-gave-us-an-interface-that-ai-agents-can-use-i-pointed-it-at-my-own-posts/
+2026-07-14,tech,LLM,Thoughts on starting new projects with LLM agents,1,0,signa11,2026-07-14T10:36:11Z,https://eli.thegreenplace.net/2026/thoughts-on-starting-new-projects-with-llm-agents/
+2026-07-14,tech,LLM,"Simulating everything, sort of: The promise and limits of world models",2,0,thm,2026-07-14T10:07:21Z,https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/
+2026-07-14,tech,LLM,The Unfair Judge: A Mechanistic Interpretability Account of LLM-as-Judge,1,0,sbulaev,2026-07-14T09:54:06Z,https://arxiv.org/abs/2607.11871
+2026-07-14,tech,LLM,ModelDNA: Verifying the lineage of open-weight LLMs from weight fingerprints,2,0,saadaamir14,2026-07-14T08:50:13Z,https://arxiv.org/abs/2607.10617
+2026-07-14,tech,LLM,We gave our agent memory: building an LLM Wiki over sources that never sit still,5,0,choboswaggings,2026-07-14T08:03:31Z,https://engineering.taktile.com/blog/llm-wiki-agent-memory/
+2026-07-14,tech,LLM,OpenAI Added 1M Users in a Day. Fable Is Still in Limbo,3,0,vincent_s,2026-07-14T07:28:27Z,https://www.vincentschmalbach.com/codex-million-users-fable-limbo/
+2026-07-14,tech,LLM,Autoresearch doubled GLM-5.2 throughput. Production traffic broke it,4,1,Leonerd,2026-07-14T07:22:44Z,https://fparisio.substack.com/p/an-ai-agent-cold-tuned-our-glm-52
+2026-07-14,tech,robotics,Floating Companion: Exploring Design Space for Soft Floating Robots for Indoor,3,0,RebootStr,2026-07-14T13:15:14Z,https://www.youtube.com/watch?v=6qrZC1kF7Kc
+2026-07-14,tech,robotics,"Altera returns to growth as AI, robotics fuel demand, CEO says",1,0,adithyaharish,2026-07-14T05:03:07Z,https://www.reuters.com/business/altera-returns-growth-ai-robotics-fuel-demand-ceo-says-2026-07-10/
+2026-07-14,tech,robotics,China's Robotics Dream Began in 1972,2,0,gwintrob,2026-07-14T01:46:09Z,https://www.chinatalk.media/p/chinas-father-of-robotics
+2026-07-14,tech,robotics,A Robot Army Remakes Ground Warfare in Ukraine,3,0,lxm,2026-07-13T16:55:18Z,https://www.nytimes.com/2026/07/13/world/europe/ukraine-ground-robots.html
+2026-07-14,finance,stock market,"Show HN: Microphone – Talk out your side-project ideas, then test them with ads",9,7,Kriptering,2026-07-14T00:25:58Z,https://www.trie.dev/
+2026-07-14,finance,stock market,Show HN: Finterm.ai Bloomberg terminal for Claude Code,5,0,cheeseblubber,2026-07-13T17:52:10Z,https://finterm.ai/
+2026-07-14,finance,stock market,Show HN: Spellfolio – my stock market game with news events and inside info,4,0,pandaman28,2026-07-13T16:05:56Z,https://www.spellfolio.com/
+2026-07-14,finance,inflation,V. vulnificus infection has extreme mortality and lacks a treatment protocol,4,0,burnt-resistor,2026-07-13T21:04:51Z,https://en.wikipedia.org/wiki/Vibrio_vulnificus
+2026-07-14,finance,inflation,AI buildout poses latest inflation threat,4,1,billybuckwheat,2026-07-13T21:03:05Z,https://apnews.com/article/ai-inflation-federal-reserve-434f02e62a02f9b92e57995d9375df57
+2026-07-14,finance,interest rate,Show HN: ContextVault – Shared memory layer for your AI and your team,10,6,Repeater22746,2026-07-13T23:22:18Z,https://www.contextvault.dev/
+2026-07-14,finance,interest rate,Show HN: Duiduidui is a new Chinese dictionary and flashcard app,2,0,benjismith,2026-07-13T19:15:20Z,https://duiduidui.app/en/
+2026-07-14,finance,interest rate,Show HN: Clay Seal Identity – Agents need accountability,5,0,pberlizov,2026-07-13T17:07:05Z,https://github.com/clayseal/clayseal-identity
+2026-07-14,finance,interest rate,"Show HN: HTML, CSS and JavaScript in the Terminal",9,8,keepamovin,2026-07-13T15:52:54Z,https://duetbrowser.com/krnl-ss-redirect?k2vh
+2026-07-14,finance,recession,Show HN: FixBugs – Reproduce production bugs and verify fixes,34,28,kirtivr,2026-07-13T23:42:53Z,https://fixbugs.ai
+2026-07-14,finance,recession,"Collapse of romantic infrastructure an engineering fail, not GenZ character flaw",3,1,prmph,2026-07-13T17:37:31Z,https://www.slowboring.com/p/i-dont-buy-your-dating-recession
+2026-07-14,energy,EV,Show HN: VisualEther – Wireshark PCAPs to sequence diagrams; MCP for AI analysis,1,0,eventhelix,2026-07-14T13:26:08Z,https://www.eventhelix.com/visualether/case-studies/5g-nr-r16-mdt-mac-pdcp-decryption-scheduling-harq-ipsec-esp-analysis.html
+2026-07-14,energy,EV,"Ask HN: PhDs, how have you organized your research visits?",1,1,thrawyact,2026-07-14T13:19:02Z,
+2026-07-14,energy,EV,The Center of Our Galaxy Is More Like a Raspberry Donut Than We Realized,2,0,downwithdisease,2026-07-14T13:15:42Z,https://www.sciencealert.com/scientists-find-the-first-true-sugar-ever-detected-in-interstellar-space
+2026-07-14,energy,EV,Show HN: Town – Discord in a pixel town where the NPCs have skills,4,3,harshithmul,2026-07-14T13:06:24Z,https://github.com/redplanethq/town
+2026-07-14,energy,EV,Show HN: I built a tool that turns GitHub commits into posts,2,0,rudolfsrijkuris,2026-07-14T13:01:27Z,https://postezi.com
+2026-07-14,energy,EV,Show HN: Chauffeur – One Click restore of your aplication Context,2,1,dmaginas,2026-07-14T12:57:28Z,https://www.emaginasion.com/
+2026-07-14,energy,EV,One drum machine that everyone on the internet plays at once,2,0,mint_cloud,2026-07-14T12:54:58Z,https://app.loopclub.xyz/
+2026-07-14,energy,EV,Show HN: Proton – A pure Go GUI library with zero CGO and API immunity,3,1,CzaxTanmay,2026-07-14T12:41:45Z,
+2026-07-14,energy,EV,Show HN: IChingPortal – Keyword search and news aggregator using the I Ching,1,0,richcostello68,2026-07-14T12:13:42Z,https://ichingportal.com/
+2026-07-14,energy,EV,Tell HN: Up/downvotes of comments on HN are silently ignored when using Tor,3,1,fsflover,2026-07-14T12:11:55Z,
+2026-07-14,energy,EV,Everynoise – comprehensive music genre exporer with samples,2,0,xelxebar,2026-07-14T12:10:35Z,https://everynoise.com/
+2026-07-14,energy,EV,Show HN: Planetary Facts – food and product impacts against the planet's limits,2,0,mikethemerry,2026-07-14T11:19:27Z,https://planetaryfacts.com
+2026-07-14,energy,EV,Show HN: Rejourney – Open-source revenue leak prediction for web and mobile apps,15,0,mrr7337,2026-07-14T11:06:09Z,https://github.com/rejourneyco/rejourney
+2026-07-14,energy,EV,Why can't you commit a .env file?,1,1,devmtk,2026-07-14T10:42:26Z,
+2026-07-14,energy,EV,"Simulating everything, sort of: The promise and limits of world models",2,0,thm,2026-07-14T10:07:21Z,https://arstechnica.com/ai/2026/07/simulating-everything-sort-of-the-promise-and-limits-of-world-models/
+2026-07-14,energy,EV,Improve Router Hygiene to Protect Against Russian State-Sponsored Targeting,2,0,giuliomagnifico,2026-07-14T09:59:24Z,https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-194a
+2026-07-14,energy,EV,Ask HN: US Equivalent of Anabin?,1,0,xqb64,2026-07-14T09:32:40Z,
+2026-07-14,energy,EV,"European ""age verification"" ""app"" forcing everyone to use Android or iOS",140,109,roundabout-host,2026-07-14T08:34:57Z,https://github.com/eu-digital-identity-wallet/av-doc-technical-specification/discussions/19
+2026-07-14,energy,EV,"Show HN: ZenStack – access control at the ORM layer, built for coding agents",7,0,carlual,2026-07-14T07:08:27Z,https://zenstack.framer.website/
+2026-07-14,energy,EV,Show HN: Benchmark your eng team's AI agent maturity in 5 minutes,12,7,adamgold7,2026-07-14T06:48:47Z,https://agent-benchmarks.com/software-factory/
+2026-07-14,korea,Samsung,Samsung Health app threatens data deletion if users opt out AI training,334,91,bundie,2026-07-13T20:01:43Z,https://neow.in/cWsyMTV3
+2026-07-14,korea,Samsung,Samsung overtakes Apple as smartphone market sinks to a 13-year low,29,19,Brajeshwar,2026-07-13T17:18:10Z,https://www.androidauthority.com/counterpoint-research-q2-2026-smartphone-shipment-report-3686931/
+2026-07-14,korea,Samsung,Samsung's Texas fab enters production for Tesla's AI5 chip on 2nm,1,0,Brajeshwar,2026-07-13T15:54:19Z,https://electrek.co/2026/07/13/samsung-taylor-fab-tesla-ai5-chip-2nm/
+2026-07-14,korea,Kakao,"Karaoke Room – sing with friends with live video chat, in the browser",2,0,zhiwenhuang,2026-07-13T18:09:30Z,https://karaokeroom.xyz
+2026-07-14,consumer,e-commerce,"Anthropic banned my thirteen 20x accounts, what now?",5,12,flipdin,2026-07-14T06:39:14Z,
+2026-07-14,consumer,retail,Web3dsurvey.com 2.0: Adds WebGPU WGLS language features and vendors details,2,0,bhouston,2026-07-14T12:46:51Z,https://ben3d.ca/blog/web-3d-survey-v2
+2026-07-14,consumer,retail,New EU report details age verification plans and ID requirements,5,1,_____k,2026-07-14T10:35:22Z,https://commission.europa.eu/document/download/d833504d-5ec3-4fac-945f-38e7d0bd5326_en
+2026-07-14,consumer,retail,Jurassic Park computers in excruciating detail,5,0,rcarmo,2026-07-14T07:16:10Z,https://fabiensanglard.net/jurrasic_park_computers/index.html
+2026-07-14,consumer,retail,Indian scientists produce most detailed 3D atlas of the human brainstem,113,10,BaudouinVH,2026-07-14T06:43:28Z,https://www.bbc.com/news/articles/cg53l737v1qo
+2026-07-14,consumer,retail,$9.99 Became the Most Compelling Price in Retail,6,0,petethomas,2026-07-14T05:48:58Z,https://www.wsj.com/business/retail/how-9-99-became-the-most-compelling-price-in-retail-ad54da92
+2026-07-14,consumer,retail,Australian energy retailers must provide three hours of free daytime electricity,164,255,i2oc,2026-07-14T04:31:48Z,https://lenergy.com.au/free-daytime-electricity-is-coming-heres-how-it-actually-works/
+2026-07-14,consumer,retail,Built a Chrome extension to organize GitHub stars,1,0,nandanadileep29,2026-07-14T04:09:51Z,https://chromewebstore.google.com/detail/stardeck/cegfcmcniionnghnglfehbdmelffbnan
+2026-07-14,consumer,retail,Why Smucker's $5B Bet on the Twinkie Flopped,7,1,doctaj,2026-07-14T00:51:10Z,https://www.wsj.com/business/retail/smucker-hostess-twinkies-365614e5
+2026-07-14,consumer,retail,Show HN: Duiduidui is a new Chinese dictionary and flashcard app,2,0,benjismith,2026-07-13T19:15:20Z,https://duiduidui.app/en/
+2026-07-14,consumer,retail,America's Shoplifting Lab,3,0,maybemaybeyes,2026-07-13T17:28:43Z,https://slate.com/life/2026/07/shoplifting-walmart-target-amazon-retail-florida.html
+2026-07-14,consumer,retail,"Show HN: Jacquard, a programming language for AI-written, human-reviewed code",93,51,jbwinters,2026-07-13T15:56:02Z,https://github.com/jbwinters/jacquard-lang
+2026-07-14,consumer,retail,"Show HN: Hackney – Compare Uber, Lyft, Waymo, and Robotaxi Prices",53,44,griffinli,2026-07-13T14:47:23Z,https://hackney.app/
+2026-07-14,consumer,consumer,Ask HN: How do you keep up with news in a particular sector?,2,5,doruk101,2026-07-14T13:02:25Z,
+2026-07-14,consumer,consumer,Show HN: Planetary Facts – food and product impacts against the planet's limits,2,0,mikethemerry,2026-07-14T11:19:27Z,https://planetaryfacts.com
+2026-07-14,consumer,consumer,Show HN: Rejourney – Open-source revenue leak prediction for web and mobile apps,15,0,mrr7337,2026-07-14T11:06:09Z,https://github.com/rejourneyco/rejourney
+2026-07-14,consumer,consumer,Show HN: BYO AI free notetaking with optional screen reading for OpenClaw/hermes,3,1,piotraleksander,2026-07-14T11:02:38Z,https://stagewhisper.io/lite
+2026-07-14,consumer,consumer,Ask HN: Why are so many accomplished founders joining Anthropic?,3,3,guru3s,2026-07-14T05:04:59Z,
+2026-07-14,consumer,consumer,Ask HN: AI Agent and harness containerization/security recommendations,2,1,dv35z,2026-07-13T22:19:31Z,
+2026-07-14,consumer,consumer,Consumer Resources – CFPB,2,0,enjoyyourlife,2026-07-13T21:04:59Z,https://www.consumerfinance.gov/consumer-tools/
+2026-07-14,consumer,consumer,What's the first thing you look up when evaluating a company?,2,1,salleisha,2026-07-13T20:25:32Z,
