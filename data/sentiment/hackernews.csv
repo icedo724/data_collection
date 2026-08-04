@@ -6500,3 +6500,128 @@
 2026-08-03,consumer,consumer,Louis Theroux Interview [video],1,0,consumer451,2026-08-03T01:39:50Z,https://www.youtube.com/watch?v=kdxgsCrEDY8
 2026-08-03,consumer,consumer,Tips for Landing a YC Internship?,6,6,cnnadozi,2026-08-02T22:21:58Z,
 2026-08-03,consumer,consumer,Do not trust the marketing IOPS on Consumer SSD,13,5,humbfool2,2026-08-02T21:27:43Z,https://bsid.io/writing/the-ssd-that-cried-etcd
+2026-08-04,tech,AI,"Celeris-1 tops AI speed ranking at 2,158 tokens per second",1,0,ryanmerket,2026-08-04T14:10:10Z,https://runtimewire.com/article/celeris-1-tops-ai-speed-ranking-diffusion-model
+2026-08-04,tech,AI,Show HN: We gave a voice agent an inner monologue so it stops forgetting,1,0,harshit119,2026-08-04T14:10:05Z,https://waterr.ai/research/monologue
+2026-08-04,tech,AI,"It's not a fear of ""AI communism""; it's a fear of competitive market capitalism",1,0,speckx,2026-08-04T14:07:30Z,http://observationalepidemiology.blogspot.com/2026/07/its-not-fear-of-ai-communism-its-fear.html
+2026-08-04,tech,AI,Show HN: Stonefold – a deterministic gateway between AI agents and your systems,1,0,gabert,2026-08-04T14:02:23Z,https://stonefold.ai/
+2026-08-04,tech,AI,Lossless Inference,3,0,OsamaJaber,2026-08-04T13:57:44Z,https://runinfra.ai/news/lossless-inference
+2026-08-04,tech,AI,"Show HN: Gigacode – the model writes its own multi-agent workflow, then runs it",1,1,dempseye,2026-08-04T13:48:49Z,https://github.com/kolega-ai/kolega-code
+2026-08-04,tech,AI,"I measured defect rates across 2,307 AI-generated 3D models",1,0,soalza116,2026-08-04T13:45:20Z,https://github.com/alza123123/3dqa-benchmark
+2026-08-04,tech,AI,"I Phish My AI Agent, and You Should Too",1,0,mikle,2026-08-04T13:44:01Z,https://sveder.com/blog/i-phish-my-ai-agent-and-you-should-too/
+2026-08-04,tech,AI,AI slop pollutes the CVE pipeline with fake vulns,1,1,Bender,2026-08-04T13:43:52Z,https://www.theregister.com/security/2026/08/03/ai-slop-pollutes-the-cve-pipeline-with-fake-vulns/5282462
+2026-08-04,tech,AI,Bending Spoons buying Airtable for $2.2B,4,1,tonylucas,2026-08-04T13:38:40Z,https://techcrunch.com/2026/08/04/bending-spoons-to-buy-airtable-for-1-28b/
+2026-08-04,tech,AI,I built an LLM debugger for fine-tuning failures,3,3,abdullah-xyz,2026-08-04T13:27:56Z,https://github.com/gradian-ai/gradian
+2026-08-04,tech,AI,Pdf-inspector: The rust-powered open-source PDF parser for AI,1,0,richbray,2026-08-04T13:26:58Z,https://firecrawl.github.io/pdf-inspector/
+2026-08-04,tech,AI,Show HN: I made a self-built catalogue of education Simulation games,1,0,zameermfm,2026-08-04T13:24:13Z,https://cloudsims.online
+2026-08-04,tech,AI,Show HN: My journey into game development with AI,1,0,gennadiygryva,2026-08-04T13:19:54Z,https://playdowntime.com/
+2026-08-04,tech,AI,vLLM Recipes,4,0,kristianpaul,2026-08-04T13:15:47Z,https://recipes.vllm.ai
+2026-08-04,tech,AI,The 4 Categories of Context Rules to Power Enterprise Governance,1,0,sparkystacey,2026-08-04T13:14:55Z,https://promptowl.ai/resources/the-four-rulebooks-for-enterprise-ai/
+2026-08-04,tech,AI,AI pricing is not broken. We have the answers for how to do it,1,0,arnon,2026-08-04T13:13:24Z,https://www.solvimon.com/blog/ai-pricing-is-not-broken
+2026-08-04,tech,AI,"Show HN: Entangle, hand a live AI coding session to anyone with three words",4,0,gowthamsaiyadav,2026-08-04T13:12:22Z,https://github.com/gowtham-sai-yadav/entangle
+2026-08-04,tech,AI,Show HN: Aimeterly – Per-user cost dashboards from Claude Code's built-in OTel,1,0,ninomae,2026-08-04T13:11:58Z,https://aimeterly.com/en
+2026-08-04,tech,AI,Show HN: Loopers – Fail-closed reverse proxy and circuit breaker for AI agents,1,0,varad-khoriya,2026-08-04T13:10:52Z,https://app.tryloopers.com/
+2026-08-04,tech,semiconductor,China has changed its legal definition of semiconductors,5,1,giuliomagnifico,2026-08-04T05:11:05Z,https://www.theregister.com/legal/2026/08/04/china-claims-global-chip-leadership-thanks-to-new-legal-definition-of-integrated-circuits/5282563
+2026-08-04,tech,startup,You Don't Need a Blowtorch to Light a Birthday Candle,1,0,mulle188,2026-08-04T13:46:09Z,https://twitter.com/BritneyMuller/status/2084636285847711792
+2026-08-04,tech,startup,Show HN: I made a self-built catalogue of education Simulation games,1,0,zameermfm,2026-08-04T13:24:13Z,https://cloudsims.online
+2026-08-04,tech,startup,We let models localize into 16 languages. How we made it read native.,1,1,stuess,2026-08-04T13:23:38Z,https://reelang.com/open-startup/blog/llm-localization-context-beats-translator
+2026-08-04,tech,startup,Show HN: My journey into game development with AI,1,0,gennadiygryva,2026-08-04T13:19:54Z,https://playdowntime.com/
+2026-08-04,tech,startup,"Show HN: Neal – Codex writes the code, Claude reviews it",1,0,navels,2026-08-04T13:14:27Z,https://github.com/navels/neal
+2026-08-04,tech,startup,"Show HN: Forge – a JS runtime on SpiderMonkey, faster cold start than Bun",2,0,opentestudox07,2026-08-04T12:46:08Z,https://github.com/varadTheDeveloper/forge-runtime
+2026-08-04,tech,startup,"Show HN: Isolade, a local-first coding agent workbench with secretless microVMs",2,0,jachris,2026-08-04T12:42:07Z,https://github.com/isolade/isolade
+2026-08-04,tech,startup,Show HN: Salary Ticker – a macOS menu bar app that ticks up your pay,5,0,steveharrison,2026-08-04T11:27:33Z,https://steveharrison.dev/salaryticker/
+2026-08-04,tech,startup,Show HN: cctap – see and reach the Claude Code session that needs you,2,0,micstradev,2026-08-04T10:56:09Z,https://github.com/chipmates/cctap
+2026-08-04,tech,startup,Bending Spoons to Acquire Airtable,3,0,jbegley,2026-08-04T09:48:54Z,https://twitter.com/fedesimio/status/2084539635829465266
+2026-08-04,tech,startup,Ask HN: Has anyone tried a minimal AGENTS.md that grows with you repo?,1,0,xinbenlv,2026-08-04T08:32:31Z,
+2026-08-04,tech,startup,What nobody tells you about writing agent skills,1,0,tosh,2026-08-04T07:39:11Z,https://twitter.com/posthog/status/2084345938089316582
+2026-08-04,tech,startup,"OpenAI has the right strategy, but is unlucky",2,0,Taikhoom2010,2026-08-04T07:01:34Z,
+2026-08-04,tech,startup,How to groth hack in AI era,2,0,aratama123,2026-08-04T05:55:42Z,
+2026-08-04,tech,startup,A good way to start building your own software today,2,0,zooboole,2026-08-04T05:21:26Z,https://initacademy.oyakoo.store/
+2026-08-04,tech,startup,Startup Marketing 101,1,0,iacguy,2026-08-04T03:05:31Z,https://skeptrune.substack.com/p/startup-marketing-101
+2026-08-04,tech,startup,Token use for exact prompt across models,2,1,kappi,2026-08-04T02:23:13Z,https://twitter.com/jpschroeder/status/2081751862768717956
+2026-08-04,tech,startup,"We Rewrote Our Agent to Run in a Durable Object with Pi, Agents SDK, Code Mode",1,0,gmays,2026-08-04T01:03:15Z,https://twitter.com/Vercantez/status/2082138839888589200
+2026-08-04,tech,startup,Robinhood Private Company Fund to Back Y Combinator Startups,3,0,PKop,2026-08-03T23:42:45Z,https://finance.yahoo.com/small-business/articles/robinhood-private-company-fund-back-145137332.html
+2026-08-04,tech,startup,Show HN: I built a Neovim plugin to answer questions about your config,1,0,neuropacabra,2026-08-03T22:19:23Z,https://github.com/michtesar/how.nvim
+2026-08-04,tech,LLM,Three major PC makers now using Chinese memory,2,0,rbanffy,2026-08-04T14:08:08Z,https://www.tomshardware.com/tech-industry/three-major-pc-makers-now-using-chinese-memory-to-fight-unprecedented-memory-shortage-report-claims-hp-asus-and-acer-using-small-amounts-of-cxmt-chips-in-lim
+2026-08-04,tech,LLM,Real cost running LLMs production,1,0,javiermanzano,2026-08-04T14:03:56Z,https://soamee.com/en/blog/en-real-cost-running-llms-production
+2026-08-04,tech,LLM,I built an LLM debugger for fine-tuning failures,3,3,abdullah-xyz,2026-08-04T13:27:56Z,https://github.com/gradian-ai/gradian
+2026-08-04,tech,LLM,We let models localize into 16 languages. How we made it read native.,1,1,stuess,2026-08-04T13:23:38Z,https://reelang.com/open-startup/blog/llm-localization-context-beats-translator
+2026-08-04,tech,LLM,vLLM Recipes,4,0,kristianpaul,2026-08-04T13:15:47Z,https://recipes.vllm.ai
+2026-08-04,tech,LLM,"Show HN: Neal – Codex writes the code, Claude reviews it",1,0,navels,2026-08-04T13:14:27Z,https://github.com/navels/neal
+2026-08-04,tech,LLM,"Aligning 800 audiobooks (8k hours) to text in 6 days, no LLM in the loop",2,0,samuelcole,2026-08-04T12:58:58Z,https://tale.fyi/@sam/aligning-800-audiobooks-8-000-hours-to-text-in-6-days-no-llm-in-the-loop?from=hn
+2026-08-04,tech,LLM,We built an AI model router that cut LLM costs by 94%,1,1,inesbarros1,2026-08-04T12:53:38Z,https://swordhealth.com/research/reduce-enterprise-ai-costs
+2026-08-04,tech,LLM,Static vs. Dynamic vs. Continuous Batching in LLM Inference,2,0,eigenBasis,2026-08-04T12:20:27Z,https://machinelearningmastery.com/static-vs-dynamic-vs-continuous-batching-in-llm-inference/
+2026-08-04,tech,LLM,LLM-Shield-Proxy - Zero-Egress PII Proxy for LLM SoC 2 (24MB RAM),2,0,ninadphalak,2026-08-04T12:11:37Z,https://github.com/ninadphalak/LLM-Shield-Proxy
+2026-08-04,tech,LLM,"Ask HN: Is ""Agentic"" Programming a Flop?",2,0,cyanregiment,2026-08-04T12:07:20Z,
+2026-08-04,tech,LLM,Arm's Cortex A55 – By Chester Lam,3,0,rbanffy,2026-08-04T11:45:34Z,https://chipsandcheese.com/p/arms-cortex-a55
+2026-08-04,tech,LLM,"OSS WebUI Llms.py v4: Projects, Agent Profiles, PDF Studio, 1-Click Sharing",4,0,mythz,2026-08-04T11:34:59Z,https://llmspy.org/docs/latest
+2026-08-04,tech,LLM,I Spent 2B Tokens Writing a C++ Compiler So You Don't Have To,2,0,lemming,2026-08-04T11:31:45Z,https://medium.com/@vishvananda/i-spent-2-billion-tokens-writing-a-c-compiler-so-you-dont-have-to-d3e4eec4781e
+2026-08-04,tech,LLM,Show HN: A new type of search engine,2,2,wesammikhail,2026-08-04T11:25:25Z,https://galefox.com/
+2026-08-04,tech,LLM,Cross-Model LLM Code Review: Should you use Claude to review Codex or vice versa,2,1,mil22,2026-08-04T10:20:45Z,https://arxiv.org/abs/2607.21656
+2026-08-04,tech,LLM,I RL-finetuned an LLM to unslop my writing,3,0,stevekrouse,2026-08-04T10:10:47Z,https://castform.com/blog/unslop/
+2026-08-04,tech,LLM,"Homebench – Benchmark local LLMs for speed, memory, and quality",18,1,davai-g,2026-08-04T09:48:43Z,https://github.com/david-g-3654/homebench
+2026-08-04,tech,LLM,Show HN: Clawx – A package manager where packages are agent tasks,2,0,debarshri,2026-08-04T09:45:50Z,https://github.com/debarshibasak/clawx
+2026-08-04,tech,LLM,"Show HN: Made Our BI v7 – Free Open Source with All Features (AI, SSO, RLS etc.)",5,0,nikhelical,2026-08-04T08:32:50Z,
+2026-08-04,tech,robotics,Trump's AI protectionism has come for robotics,1,0,joozio,2026-08-04T07:01:27Z,https://www.technologyreview.com/2026/08/03/1141056/trumps-ai-protectionism-has-come-for-robotics/
+2026-08-04,tech,robotics,Show HN: Fetchcheck – send a signed crawler to any site and see if it gets in,2,0,zeppelin_7,2026-08-03T20:46:36Z,https://sitedex.dev/tools/fetchcheck
+2026-08-04,tech,robotics,Satyress – Robots That Work,2,0,petethomas,2026-08-03T16:55:53Z,https://www.satyress.com/
+2026-08-04,tech,robotics,FCC Restricts Imports of New Foreign Power Inverters and Robotic Devices,24,1,atlasunshrugged,2026-08-03T16:49:29Z,https://www.covingtonblogs.com/2026/07/31/fcc-restricts-imports-of-new-foreign-produced-power-inverters-and-advanced-robotic-devices-with-additions-to-its-covered-list/
+2026-08-04,tech,robotics,"When expressive humanoid robots are awkward, people become wary – brain study",2,1,hn_acker,2026-08-03T16:44:45Z,https://theconversation.com/when-expressive-humanoid-robots-are-awkward-people-become-wary-new-brain-study-288696
+2026-08-04,tech,robotics,Can a robotics startup survive by pivoting from hardware to data scraping?,3,0,hjkofj,2026-08-03T14:43:41Z,
+2026-08-04,finance,stock market,Ask HN: Good ASX Shares API?,1,0,prologic,2026-08-04T12:34:41Z,
+2026-08-04,finance,stock market,Korean stock market crash threatening to upset tech boom,4,0,robin_reala,2026-08-04T05:23:32Z,https://www.abc.net.au/news/2026-08-03/korean-markets-threatening-upset-tech-boom/106981956
+2026-08-04,finance,stock market,Is Snap Inc Back?,3,0,Taikhoom2010,2026-08-04T05:15:07Z,
+2026-08-04,finance,stock market,Show HN: Spellfolio – my stock market game with news events and inside info,3,0,pandaman28,2026-08-03T22:38:56Z,https://www.spellfolio.com/
+2026-08-04,finance,stock market,Amazon's debt doubled to $129B in 6 months,4,2,johnbarron,2026-08-03T21:25:01Z,https://finance.yahoo.com/markets/stocks/articles/amazons-debt-nearly-doubled-129-140000968.html
+2026-08-04,finance,inflation,"Show HN: Isolade, a local-first coding agent workbench with secretless microVMs",2,0,jachris,2026-08-04T12:42:07Z,https://github.com/isolade/isolade
+2026-08-04,finance,inflation,"Linux didn't just eat 10% of Windows share, AI bots are inflating the numbers",4,3,taubek,2026-08-03T19:57:06Z,https://www.windowslatest.com/2026/08/03/linux-didnt-just-eat-10-of-windows-market-share-ai-bots-are-inflating-the-numbers/
+2026-08-04,finance,interest rate,"Show HN: ApeiroCraft – Proposals that track views, e-sign and invoice",2,0,lolllll,2026-08-03T16:43:13Z,
+2026-08-04,finance,recession,Why the Fed Can Look Hawkish. The Machinery for Financial Repression Is Ready,3,0,anishgodha,2026-08-04T09:40:07Z,https://anishgodha.com/2026/08/04/why-the-fed-can-look-hawkish-the-pieces-of-financial-repression-are-quietly-falling-into-place/
+2026-08-04,finance,recession,Show HN: Product analytics (and evals) for agent sessions on your MCP,41,2,screm,2026-08-03T16:17:59Z,https://armature.tech/
+2026-08-04,energy,oil price,"Trump blasts Exxon, Chevron for making 'too much money,' demands lower prices",9,6,petethomas,2026-08-03T22:35:24Z,https://www.reuters.com/business/energy/trump-demands-lower-gas-prices-oil-companies-chides-chevron-ceo-2026-08-03/
+2026-08-04,energy,oil price,The Great Chinese Oil Mystery,6,3,idontwantthis,2026-08-03T16:54:03Z,https://www.theatlantic.com/economy/2026/07/china-iran-usa-oil-prices/688086/
+2026-08-04,energy,EV,YInMn Blue: The first new blue in two centuries,1,0,zhinit,2026-08-04T14:04:02Z,https://chemistry.oregonstate.edu/chemistry-news-events/yinmn-blue
+2026-08-04,energy,EV,Beyond Static Benchmarks: A Post-Leaderboard Evaluation Paradigm for Music GenAI,1,0,lerch,2026-08-04T14:03:22Z,http://www.alexanderlerch.com/posts/paper-musaik/
+2026-08-04,energy,EV,"Show HN: Real-time bus tracker for every stop in Great Britain, built on BODS",1,0,josephmjustin,2026-08-04T13:59:36Z,https://stopboard.uk/
+2026-08-04,energy,EV,Every way to dereference a pointer in C (personal-blog),1,0,SyntaxError2505,2026-08-04T13:56:53Z,https://blog-rosy-mu-6g08eh3dr6.vercel.app/blog/pointers
+2026-08-04,energy,EV,Show HN: Free SEO checker that finds redirect chains and www issues,1,0,joshkurz,2026-08-04T13:49:42Z,https://redirectiq.com/tools/seo-checker
+2026-08-04,energy,EV,Fructose and glucose trigger different brain responses,3,1,brandonb,2026-08-04T13:39:41Z,https://www.nih.gov/news-events/nih-research-matters/fructose-glucose-trigger-different-brain-responses
+2026-08-04,energy,EV,Being a Luddite Is Fun Again,3,0,surprisetalk,2026-08-04T13:21:40Z,https://www.404media.co/luddite-events-nyc-off-tech-summer-of-ludd/
+2026-08-04,energy,EV,Show HN: Skillreaper – find agent skills that load every session but never fire,1,0,thousandflowers,2026-08-04T13:15:42Z,https://github.com/thousandflowers/skillreaper
+2026-08-04,energy,EV,"Show HN: Neal – Codex writes the code, Claude reviews it",1,0,navels,2026-08-04T13:14:27Z,https://github.com/navels/neal
+2026-08-04,energy,EV,Show HN: Wide Events – Rails telemetry for agents and humans in a DB you own,2,0,adammiribyan,2026-08-04T12:59:02Z,https://github.com/adammiribyan/wide_events
+2026-08-04,energy,EV,Show HN: Av9n – Check an AI agents claims against evidence it does not control,3,0,sbbrandon,2026-08-04T12:11:12Z,https://av9n.ai/demo
+2026-08-04,energy,EV,How did Wikipedia layout become so bloated?,9,17,countWSS,2026-08-04T12:04:30Z,
+2026-08-04,energy,EV,Will AI change how we evaluate the NIH syndrome?,1,0,nunodonato,2026-08-04T12:01:40Z,https://www.nunodonato.com/will-ai-change-how-we-evaluate-the-nih-syndrome/
+2026-08-04,energy,EV,Show HN: Evochess – AI feels more like human opponent,1,1,penkovsky,2026-08-04T11:50:14Z,https://penkovsky.github.io/evochess/
+2026-08-04,energy,EV,One Man's Quest to Fix Every Deadly Guardrail,2,0,mhb,2026-08-04T11:34:43Z,https://www.newyorker.com/magazine/2026/07/27/one-mans-quest-to-fix-every-deadly-guardrail
+2026-08-04,energy,EV,Buckminster Fuller: everything I know,44,16,simonebrunozzi,2026-08-04T11:33:32Z,https://www.bfi.org/about-fuller/everything-i-know/
+2026-08-04,energy,EV,Show HN: A new type of search engine,2,2,wesammikhail,2026-08-04T11:25:25Z,https://galefox.com/
+2026-08-04,energy,EV,Show HN: cctap – see and reach the Claude Code session that needs you,2,0,micstradev,2026-08-04T10:56:09Z,https://github.com/chipmates/cctap
+2026-08-04,energy,EV,Ask HN: Has anyone solved P2P routing at 100B+ nodes without DHT degradation?,6,10,ikhrabry,2026-08-04T10:33:24Z,
+2026-08-04,energy,EV,Learning-Rust.Github.io: Rust Programming Language Tutorials for Everyone,19,1,dumindunuwan,2026-08-04T10:03:46Z,https://learning-rust.github.io
+2026-08-04,korea,Korea,Korean stock market crash threatening to upset tech boom,4,0,robin_reala,2026-08-04T05:23:32Z,https://www.abc.net.au/news/2026-08-03/korean-markets-threatening-upset-tech-boom/106981956
+2026-08-04,korea,Samsung,Samsung Says It's Banning Smart TV Apps That Expose Users' Internet Connections,2,0,speckx,2026-08-03T16:36:43Z,https://www.engadget.com/2229078/samsung-says-its-banning-smart-tv-apps-that-expose-users-internet-connections/
+2026-08-04,consumer,retail,Show HN: My journey into game development with AI,1,0,gennadiygryva,2026-08-04T13:19:54Z,https://playdowntime.com/
+2026-08-04,consumer,retail,"Show HN: Neal – Codex writes the code, Claude reviews it",1,0,navels,2026-08-04T13:14:27Z,https://github.com/navels/neal
+2026-08-04,consumer,retail,Background Remover Chrome Plugin,1,0,javatuts,2026-08-04T12:42:24Z,https://chromewebstore.google.com/detail/background-remover/mnbkdhmkopnjagljdcnhfpppkkanadfp
+2026-08-04,consumer,retail,A computer made of particles oscillating in a liquid,2,0,wjSgoWPm5bWAhXB,2026-08-04T11:46:34Z,https://www.uni-konstanz.de/en/university/news-and-media/current-announcements/news-in-detail/a-computer-made-of-particles-oscillating-in-a-liquid/
+2026-08-04,consumer,retail,Real-Time Level-of-Detail Rendering with ReSTIR,2,0,ibobev,2026-08-04T11:29:11Z,https://research.nvidia.com/labs/rtr/publication/wang2026levelofdetail/
+2026-08-04,consumer,retail,Gabor Fields: Orientation-Selective Level-of-Detail for Volume Rendering,2,0,ibobev,2026-08-04T11:28:17Z,https://arcanous98.github.io/projectPages/gaborVolumes.html
+2026-08-04,consumer,retail,Show HN: cctap – see and reach the Claude Code session that needs you,2,0,micstradev,2026-08-04T10:56:09Z,https://github.com/chipmates/cctap
+2026-08-04,consumer,retail,Lego deploys Hubble Space Telescope as detailed desktop model,2,0,emot,2026-08-04T10:39:41Z,https://arstechnica.com/space/2026/08/lego-deploys-hubble-space-telescope-as-detailed-desktop-model/
+2026-08-04,consumer,retail,Lego deploys Hubble Space Telescope as detailed desktop model,2,1,Tomte,2026-08-04T03:07:30Z,https://www.collectspace.com/news/news-080226a-lego-icons-hubble-space-telescope-details.html
+2026-08-04,consumer,retail,Telegram says app restored on Apple's App Store,15,0,mfiguiere,2026-08-04T02:15:24Z,https://www.reuters.com/business/retail-consumer/telegram-says-app-restored-apples-app-store-2026-08-04/
+2026-08-04,consumer,retail,Show HN: Poker and Liar's Dice over Bluetooth Low Energy,1,0,yincrash,2026-08-03T20:56:26Z,https://testco.de/airplane-mode-games
+2026-08-04,consumer,retail,Launch HN: Hoplite (YC S26) – Effortlessly deploy cloud coding agents,75,60,BenceRed,2026-08-03T16:32:06Z,https://hoplite.sh
+2026-08-04,consumer,retail,Tell HN: Pretending not to use AI has made me a better developer,13,4,throwaway260803,2026-08-03T16:20:49Z,
+2026-08-04,consumer,retail,Back up a whole online course to a folder of MP4s and Markdown,1,0,shraey96,2026-08-03T15:49:02Z,https://chromewebstore.google.com/detail/skool-video-downloader-â/ecgcpbebclgdbgoloomppbeggfnnkklb
+2026-08-04,consumer,retail,"Indirected Reality – Language, Truth, and LLMs",1,1,vinhnx,2026-08-03T14:53:38Z,https://queue.acm.org/detail.cfm?id=3819081
+2026-08-04,consumer,retail,"Show HN: Lunar, a ""fast"", memory-efficient Lua 5.1 VM written in Go",7,2,drakenot,2026-08-03T14:30:04Z,https://github.com/mmcdole/lunar
+2026-08-04,consumer,consumer,MouthPad turns your tongue into a wireless trackpad,2,0,fortran77,2026-08-04T13:09:08Z,https://newatlas.com/consumer-tech/mouthpad-tongue-wireless-trackpad/
+2026-08-04,consumer,consumer,Telegram says app restored on Apple's App Store,15,0,mfiguiere,2026-08-04T02:15:24Z,https://www.reuters.com/business/retail-consumer/telegram-says-app-restored-apples-app-store-2026-08-04/
+2026-08-04,consumer,consumer,How are you operating AI infrastructure in production?,4,0,kkgupta,2026-08-04T01:05:25Z,
+2026-08-04,consumer,consumer,Show HN: Mirall – Secure large (terabyte) file transfer. No cloud. No middleman,3,0,gokohl,2026-08-03T20:16:08Z,https://github.com/ok/mirall-app
+2026-08-04,consumer,consumer,"Show HN: Laurie, play chords from your laptop keyboard",3,0,adhivd,2026-08-03T17:04:41Z,https://laurie.fm/
+2026-08-04,consumer,consumer,Show HN: TokenMaxxer – track every AI token you spend across your coding tools,5,0,SYeomans,2026-08-03T16:31:05Z,https://tokenmaxxer.xyz
+2026-08-04,consumer,consumer,Show HN: Self-hosted pet diary built on Frigate and a local vision model,1,0,bolt012,2026-08-03T15:21:34Z,https://github.com/bolt12/pet-report
+2026-08-04,consumer,consumer,What xPal Learned Putting a Consumer Messenger Through NIST's CAVP Validation,1,0,Brandon-Coll,2026-08-03T15:18:28Z,https://xpalapp.substack.com/p/xpal-messenger-nist-cavp-validation-process
