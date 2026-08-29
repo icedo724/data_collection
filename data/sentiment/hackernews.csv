@@ -9305,3 +9305,106 @@
 2026-08-28,consumer,consumer,Ask HN: What new skills are you learning to hedge against AI,7,4,quaintdev,2026-08-28T06:09:24Z,
 2026-08-28,consumer,consumer,Streaming database queries helps reduce application memory consumption,3,0,qikouki,2026-08-28T02:38:45Z,https://www.kubeblogs.com/how-streaming-database-queries-helps-reduce-application-memory-consumption/
 2026-08-28,consumer,consumer,Show HN: Asking – A simpler customer support inbox for small teams,2,0,wozzp,2026-08-28T02:00:56Z,https://asking.com.br/
+2026-08-29,tech,AI,The growing divide between AI hype and software engineering reality,1,0,jruohonen,2026-08-29T16:16:32Z,https://optimizedbyotto.com/post/why-open-source-projects-ban-ai/
+2026-08-29,tech,AI,The first AI use case that genuinely saves me time (outside of programming),1,0,tducret,2026-08-29T15:45:24Z,https://ducret.dev/grocery-shopping-with-ai/
+2026-08-29,tech,AI,Manchester Airports breach exposes data on 8.7M customers,2,0,kuuuzya,2026-08-29T15:40:34Z,https://forgeeks.net/manchester-airports-data-breach-8-7-million/
+2026-08-29,tech,AI,Google further buries search results under AI mode,2,1,chicken-stew,2026-08-29T15:21:06Z,https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand
+2026-08-29,tech,AI,"BoqCalc, an AI pipeline that prices a 500-line BOQ without hallucinating rates",1,0,boqcalc,2026-08-29T14:53:29Z,https://boqcalc.com
+2026-08-29,tech,AI,AI Lattice Proofs with Chris Peikert,1,0,henrikhorluck,2026-08-29T14:52:01Z,https://securitycryptographywhatever.com/2026/08/26/ai-lattice-proofs-with-chris-peikert/
+2026-08-29,tech,AI,Would you share your weirdest agent logs with AI safety researchers?,3,0,matildagh,2026-08-29T14:43:57Z,https://www.reddit.com/r/AI_Agents/comments/1w1nuzb/whats_your_weirdest_ai_agent_log/
+2026-08-29,tech,AI,Three mistakes of new AI teams,2,0,softwaredoug,2026-08-29T14:41:07Z,https://softwaredoug.com/blog/2026/08/29/ai-team-mistakes
+2026-08-29,tech,AI,The Fed confronts a powerful new economic force (AI),2,1,fjd,2026-08-29T14:33:24Z,https://www.washingtonpost.com/technology/2026/08/29/federal-reserve-officials-are-debating-ais-effect-economy-jobs/
+2026-08-29,tech,AI,Show HN: DataZen – a local-first client for cross-database workflows,2,0,flyxl,2026-08-29T14:21:59Z,https://flyxl.github.io/datazen/
+2026-08-29,tech,AI,Data Exfiltration from Amazon Kiro via Prompt Injection,3,1,coder-pm,2026-08-29T14:19:39Z,https://mindgard.ai/blog/amazon-kiro-data-exfiltration
+2026-08-29,tech,AI,Calibre eBook manager lets you generate AI book covers,5,0,cdrnsf,2026-08-29T14:19:04Z,https://www.omgubuntu.co.uk/2026/08/calibre-ebook-ai-covers
+2026-08-29,tech,AI,Gemini Notebook now lets you incorporate insights from books you own,2,0,the-mitr,2026-08-29T14:16:28Z,https://blog.google/innovation-and-ai/products/gemini-notebook/expert-intelligence-leading-sources/
+2026-08-29,tech,AI,Major security weaknesses found in leading open AI models,4,0,pseudolus,2026-08-29T14:15:36Z,https://uwaterloo.ca/news/media/major-security-weaknesses-found-leading-open-ai-models
+2026-08-29,tech,AI,Air Powered 64 Pixel Display [video],2,0,elsewhen,2026-08-29T14:14:45Z,https://www.youtube.com/watch?v=RTOARC-yeMc
+2026-08-29,tech,AI,Microsoft-backed AI data center faces backlash over 62 unpermitted gas turbines,3,0,sbulaev,2026-08-29T14:07:07Z,https://www.tomshardware.com/tech-industry/data-centers/microsoft-backed-ai-data-center-faces-multiple-complaints-from-community-issues-range-from-unpermitted-gas-turbines-to-illegal-construction-and-
+2026-08-29,tech,AI,"Debian votes to allow ""responsible use of generative AI""",243,191,pluc,2026-08-29T14:02:10Z,https://lwn.net/Articles/1091231/
+2026-08-29,tech,AI,A Disillusioned Software Engineer explains LLMs to a Babylonian Scribe,2,0,m_aiswaryaa,2026-08-29T14:00:12Z,https://avocadoslaw.substack.com/p/babylon-3pm
+2026-08-29,tech,AI,"Backlash Against AI Data Centers Is Real, Organic, Widespread",5,0,newsomix9xl,2026-08-29T13:52:40Z,https://www.yahoo.com/news/politics/articles/backlash-against-ai-data-centers-115222320.html
+2026-08-29,tech,AI,Musk says Grok's political lean is 'a function of SF Bay Area political views',4,1,cdnsteve,2026-08-29T13:48:01Z,https://tokenstead.ai/guides/musk-grok-politics-bay-area-views
+2026-08-29,tech,startup,"Smartphone Shipments Set for Record 16.7% Drop in 2026, as Memory Crisis Hits",2,0,clumsysmurf,2026-08-29T15:41:43Z,https://www.idc.com/resource-center/blog/smartphone-shipments-set-for-record-16-7-drop-in-2026-as-the-memory-crisis-hits-full-force/
+2026-08-29,tech,startup,Show HN: DataZen – a local-first client for cross-database workflows,2,0,flyxl,2026-08-29T14:21:59Z,https://flyxl.github.io/datazen/
+2026-08-29,tech,startup,Ask HN: Best way to archive 25 years of emails,1,5,astatine,2026-08-29T12:19:07Z,
+2026-08-29,tech,startup,"Researcher Tricked Claude, Codex and Hermes into Running Malware",12,0,CuriousLLM,2026-08-29T08:24:36Z,https://startupfortune.com/researcher-alon-hertz-tricked-claude-codex-and-hermes-into-running-malware/
+2026-08-29,tech,startup,Show HN: Doodle AI: open-source photo-to-doodle avatar generator,1,1,Yash16,2026-08-29T07:38:02Z,https://doodleai.art/
+2026-08-29,tech,startup,Show HN: Explore JVM class-resolution traces as interactive directed graphs,1,0,benzewdu,2026-08-29T07:25:14Z,https://github.com/menzew/class-trace-explorer
+2026-08-29,tech,startup,Dimethyl Mercury Exposure Incident at MIT,20,11,notRobot,2026-08-29T05:17:59Z,https://twitter.com/andrew_n_carr/status/2093524390390694232
+2026-08-29,tech,startup,Nvidia Starts Pac as AI Chip Maker Builds DC Influence Force,2,0,dagmx,2026-08-29T05:07:31Z,https://www.bloomberg.com/news/articles/2026-08-27/nvidia-starts-pac-as-ai-chip-maker-builds-dc-influence-force
+2026-08-29,tech,startup,Vercel Status – Elevated errors for Workflow streams,1,0,kyisaiah47,2026-08-29T03:14:48Z,https://www.vercel-status.com/incidents/ybx6km0j1gwk
+2026-08-29,tech,startup,Start a Blog,4,1,bilsbie,2026-08-29T02:09:48Z,https://guzey.com/personal/why-have-a-blog/
+2026-08-29,tech,startup,Increased Errors for Durable Objects in the Hong Kong Region – Cloudflare Status,2,0,kyisaiah47,2026-08-29T01:43:12Z,https://www.cloudflarestatus.com/incidents/mlr8smgngv5h
+2026-08-29,tech,startup,"Show HN: Leiolai, AI that pays users for the compute their devices provide",1,1,leiolai,2026-08-29T00:58:17Z,https://leiolai.com/
+2026-08-29,tech,startup,Show HN: Free lifetime pro access for limited time to crunchbase alternative,2,0,skiski,2026-08-29T00:50:33Z,https://startupwiki.tech/blog/free-lifetime-pro-giveaway
+2026-08-29,tech,startup,"Show HN: MicroVM daemon, deploy any Docker image",2,2,sankalpnarula,2026-08-29T00:39:57Z,
+2026-08-29,tech,startup,Claude Status – Degraded Performance for Claude Opus 5 and Claude Haiku 4.5,2,2,kyisaiah47,2026-08-29T00:11:35Z,https://status.claude.com/incidents/hkcw95k7r0f4
+2026-08-29,tech,startup,Why Responsible AI Adoption Still Starts with People,2,0,cebert,2026-08-28T21:45:25Z,https://www.tylertech.com/resources/blog-articles/why-responsible-ai-adoption-still-starts-with-people
+2026-08-29,tech,startup,Audience Infrastructure,1,0,DIMAZA,2026-08-28T21:28:26Z,
+2026-08-29,tech,startup,I have made an OS in CUDA,3,0,porridgeraisin,2026-08-28T21:26:25Z,https://twitter.com/ShimazuSystems/status/2093064608122655000
+2026-08-29,tech,startup,"SigmaPointPi, one financial system for startups and operators",1,0,tofaelonpi,2026-08-28T21:11:27Z,https://www.sigmapointpi.com/
+2026-08-29,tech,startup,Show HN: Kosh – Bash shell runtime with 100x faster Shellcheck and LSP built-in,7,1,toiletbril,2026-08-28T20:58:32Z,https://github.com/toiletbril/kosh
+2026-08-29,tech,LLM,"OpenLake: Fast, Durable Storage for LLM Inference and Training",2,0,kunalsin9h,2026-08-29T15:00:32Z,https://www.theopenlake.com/blog/introducing-openlake
+2026-08-29,tech,LLM,SwarmWorld: Stigmergic technological evolution in societies of LLM agents,2,1,wintercarver,2026-08-29T14:59:33Z,https://arxiv.org/abs/2608.26081
+2026-08-29,tech,LLM,ELPI – Embeddable Lambda Prolog Interpreter,3,0,TheWiggles,2026-08-29T14:57:33Z,https://github.com/LPCIC/elpi
+2026-08-29,tech,LLM,Stripe LLMS.txt with note to install latest,2,0,esher,2026-08-29T14:29:18Z,https://docs.stripe.com/llms.txt
+2026-08-29,tech,LLM,A Disillusioned Software Engineer explains LLMs to a Babylonian Scribe,2,0,m_aiswaryaa,2026-08-29T14:00:12Z,https://avocadoslaw.substack.com/p/babylon-3pm
+2026-08-29,tech,LLM,Ask AI buttons like social media links for webpages,1,0,loudsilence,2026-08-29T13:29:16Z,https://llmcheck.app/ai-ask-buttons/
+2026-08-29,tech,LLM,Building an LLM runtime in 700 lines of C,4,1,ryansen,2026-08-29T13:10:09Z,https://github.com/ryanssenn/gemma4.c
+2026-08-29,tech,LLM,Skopo – a Chrome new tab limited to three priorities,1,0,tazumi,2026-08-29T12:25:09Z,https://chromewebstore.google.com/detail/skopo/nfhmabcoalbnedaimhcikokeimimejbd
+2026-08-29,tech,LLM,Uber Solved DB Overload: From Static Rate-Limiting to Intelligent Load Mgmt,1,0,porridgeraisin,2026-08-29T12:06:28Z,https://www.uber.com/in/en/blog/from-static-rate-limiting-to-intelligent-load-management/
+2026-08-29,tech,LLM,Results for LLM usage in Debian (vote),2,0,ckastner,2026-08-29T11:01:02Z,https://lists.debian.org/debian-vote/2026/08/msg00360.html
+2026-08-29,tech,LLM,What we optimise for when we reach for an LLM,1,0,michaelwebb76,2026-08-29T10:54:09Z,https://exploring-better-ways.bellroy.com/what-we-optimise-for-when-we-reach-for-an-llm.html
+2026-08-29,tech,LLM,Ask HN: Why do we need MCP?,6,13,jwally,2026-08-29T10:26:48Z,
+2026-08-29,tech,LLM,Tinker: GLM 5.3 Fine-Tuning,2,0,tosh,2026-08-29T10:12:48Z,https://tinker-docs.thinkingmachines.ai/tinker/models/
+2026-08-29,tech,LLM,LightSwitch – In-Network and Photonic LLM Inference in Transit,1,0,Shibano89,2026-08-29T09:51:22Z,https://github.com/pisantifrancesco89/Project-LightSwitch
+2026-08-29,tech,LLM,What GLM-5.3 Flash running on Chinese hardware means,2,0,ymolodtsov,2026-08-29T08:10:58Z,https://martinalderson.com/posts/glm-5-3-flash-chinese-hardware/
+2026-08-29,tech,LLM,Agent Security Is a Systems Problem: What 247 Papers Say About Secure AI Agents,1,0,LogTrim,2026-08-29T07:36:35Z,https://www.truefoundry.com/blog/llm-agent-security-runtime-control-planes
+2026-08-29,tech,LLM,"Show HN: Tokensift, an open-sourced token-efficiency linter for LLM prompts",3,2,ritenv,2026-08-29T06:33:51Z,https://github.com/ritenv/tokensift
+2026-08-29,tech,LLM,Beyond the Editing Canvas: Evidence Divergence in Ooxml-to-LLM Ingestion,3,0,sbulaev,2026-08-29T06:07:07Z,https://arxiv.org/abs/2608.25880
+2026-08-29,tech,LLM,Debian has published the official results for the 2026 GR on LLM usage,14,7,tulio_ribeiro,2026-08-29T04:48:52Z,https://vote.debian.org/~secretary/gr_llm/results.txt
+2026-08-29,tech,LLM,LLGo: Go compiler based on LLVM that integrate Go with the C ecosystem,1,1,xushiwei,2026-08-29T04:16:59Z,https://github.com/xgo-dev/llgo
+2026-08-29,tech,robotics,Are these 13 free AV and Robotics engineering calculators are useful?,1,0,dlimbu,2026-08-29T05:05:22Z,
+2026-08-29,tech,robotics,Meta's Push to Put Robots to Work in Data Centers,7,5,newsomix9xl,2026-08-29T04:21:17Z,https://www.wired.com/story/inside-metas-experiments-with-data-center-robots/
+2026-08-29,tech,robotics,ICE Plans to Spend Millions on Boston Dynamics Dog Robots,17,0,johnshades,2026-08-28T18:56:15Z,https://www.404media.co/ice-plans-to-spends-millions-on-boston-dynamics-dog-robots/
+2026-08-29,finance,interest rate,We’re rolling out ads in ChatGPT,2,4,kasdi,2026-08-28T20:36:01Z,
+2026-08-29,finance,recession,Ask HN: Why is there a Default to 4G?,1,2,zahirbmirza,2026-08-29T11:00:18Z,
+2026-08-29,energy,oil price,Gold Price vs. Oil Trends,4,0,efavdb,2026-08-29T14:03:57Z,https://www.macrotrends.net/1334/gold-prices-vs-oil-prices-historical-correlation
+2026-08-29,energy,oil price,E.V. Sales Are Rising After the Gulf Oil Shock. Here's Where.,3,2,bookofjoe,2026-08-29T13:09:40Z,https://www.nytimes.com/interactive/2026/08/18/climate/ev-car-sales-oil-prices.html
+2026-08-29,energy,EV,The Everything Theory of Mass Transit,1,0,karakoram,2026-08-29T15:51:23Z,https://worksinprogress.co/issue/the-everything-theory-of-mass-transit/
+2026-08-29,energy,EV,Show HN: I was getting tired of looking for my travel info so I built this,1,0,sarbogast,2026-08-29T15:48:44Z,https://skaoot.com
+2026-08-29,energy,EV,Music in Even Parts,2,0,vismit2000,2026-08-29T15:24:22Z,https://adelpha.studio/learn/euclidean-rhythms/
+2026-08-29,energy,EV,Metric Spaces – An Interactive Exploration,1,0,vismit2000,2026-08-29T15:22:18Z,https://evan-leach.github.io/metric-spaces/
+2026-08-29,energy,EV,News-deframe: Structural comparison of how news outlets frame the same event,1,0,August0422,2026-08-29T15:05:49Z,https://github.com/422August/news-deframe
+2026-08-29,energy,EV,Understanding Event-Driven Systems,2,0,adletbalzhanov,2026-08-29T15:01:57Z,https://www.thetrueengineer.com/p/understanding-event-driven-systems
+2026-08-29,energy,EV,SwarmWorld: Stigmergic technological evolution in societies of LLM agents,2,1,wintercarver,2026-08-29T14:59:33Z,https://arxiv.org/abs/2608.26081
+2026-08-29,energy,EV,Why Everybody Hates Palantir,5,2,bookofjoe,2026-08-29T14:59:26Z,https://www.economist.com/britain/2026/08/20/why-everybody-hates-palantir
+2026-08-29,energy,EV,Show HN: DataZen – a local-first client for cross-database workflows,2,0,flyxl,2026-08-29T14:21:59Z,https://flyxl.github.io/datazen/
+2026-08-29,energy,EV,E.V. Sales Are Rising After the Gulf Oil Shock. Here's Where.,3,2,bookofjoe,2026-08-29T13:09:40Z,https://www.nytimes.com/interactive/2026/08/18/climate/ev-car-sales-oil-prices.html
+2026-08-29,energy,EV,"Show HN: Pictiur: Image converter, optimizer and resizer, all in one",2,0,Etheon,2026-08-29T11:48:59Z,https://pictiur.pages.dev/
+2026-08-29,energy,EV,Is Slate Auto's new electric truck the EV Americans need?,1,0,joozio,2026-08-29T11:01:16Z,https://www.technologyreview.com/2026/08/27/1142953/electric-truck-slate-auto/
+2026-08-29,energy,EV,Ask HN: Why is there a Default to 4G?,1,2,zahirbmirza,2026-08-29T11:00:18Z,
+2026-08-29,energy,EV,Ask HN: Why do we need MCP?,6,13,jwally,2026-08-29T10:26:48Z,
+2026-08-29,energy,EV,WikiSkill: Compiling Agent Experience for Skill Evolution,1,0,joshcorbin,2026-08-29T10:07:38Z,https://arxiv.org/abs/2608.27454
+2026-08-29,energy,EV,Automated researchers can reliably mitigate alignment failures,1,0,EvgeniyZh,2026-08-29T09:30:20Z,https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures
+2026-08-29,energy,EV,Show HN: Player vs. Computer,1,0,PolishDevelop22,2026-08-29T09:09:37Z,https://github.com/Rubinoslaw/Player-vs-Computer/
+2026-08-29,energy,EV,"We probed every remote server in the official MCP registry (15,329 URLs)",2,0,chiefgrowth,2026-08-29T06:18:18Z,https://fetchgate.dev/blog/mcp-registry-audit-2026
+2026-08-29,energy,EV,Beyond the Editing Canvas: Evidence Divergence in Ooxml-to-LLM Ingestion,3,0,sbulaev,2026-08-29T06:07:07Z,https://arxiv.org/abs/2608.25880
+2026-08-29,energy,EV,DoD confirms 'refrigeration disruption' at military commissaries,6,1,everybodyknows,2026-08-29T05:13:21Z,https://www.militarytimes.com/news/your-military/2026/08/28/dod-confirms-refrigeration-disruption-at-military-commissaries/
+2026-08-29,korea,Korea,We Tested a Smartphone Smuggled from North Korea - WSJ [video],3,0,mudil,2026-08-28T21:32:15Z,https://www.youtube.com/watch?v=nBRZKG1kjBM
+2026-08-29,korea,Korea,We Tested a Smartphone Smuggled from North Korea,6,1,fortran77,2026-08-28T19:58:51Z,https://www.wsj.com/world/asia/we-tested-a-smartphone-smuggled-from-north-korea-c2915548
+2026-08-29,korea,Korea,South Korea leans toward military conscription for women,2,0,Teever,2026-08-28T17:03:58Z,https://www.dw.com/en/south-korea-leans-toward-military-conscription-for-women/a-78547426
+2026-08-29,korea,Samsung,Samsung's Processing-in-Memory (PIM),184,65,ingve,2026-08-29T06:06:51Z,https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing
+2026-08-29,consumer,retail,Skopo – a Chrome new tab limited to three priorities,1,0,tazumi,2026-08-29T12:25:09Z,https://chromewebstore.google.com/detail/skopo/nfhmabcoalbnedaimhcikokeimimejbd
+2026-08-29,consumer,retail,Post on X in your native language,1,0,42echo,2026-08-29T10:58:52Z,https://chromewebstore.google.com/detail/gndbphllkdajhkbmpcddbonifpbbdane/preview?hl=pl&authuser=4
+2026-08-29,consumer,retail,ASCII City: Traffic and Detail Update [video],13,0,guiambros,2026-08-29T02:11:05Z,https://www.youtube.com/watch?v=DSRooHo_HSI
+2026-08-29,consumer,retail,Show HN: Kosh – Bash shell runtime with 100x faster Shellcheck and LSP built-in,7,1,toiletbril,2026-08-28T20:58:32Z,https://github.com/toiletbril/kosh
+2026-08-29,consumer,retail,Show HN: PorchWeather – a free site that pings you when it's nice outside,1,3,gregable,2026-08-28T20:46:24Z,https://porchweather.com/
+2026-08-29,consumer,retail,We’re rolling out ads in ChatGPT,2,4,kasdi,2026-08-28T20:36:01Z,
+2026-08-29,consumer,retail,TwitterWebViewer has been permanently discontinued,11,5,avidruntime,2026-08-28T17:59:36Z,
+2026-08-29,consumer,retail,Ask HN: AI writes better code than me. How to keep my identity?,13,19,jdw64,2026-08-28T17:40:39Z,
+2026-08-29,consumer,consumer,Canadian council considers changing street named after Trump to Taco Avenue,6,0,bushwart,2026-08-29T10:15:57Z,https://www.cnn.com/2026/08/27/americas/ottawa-rename-trump-avenue-lake-america-latam-intl
+2026-08-29,consumer,consumer,I'd like to take a moment to speak to you about the Adobe PSD format (2012),6,1,consumer451,2026-08-28T21:24:35Z,https://github.com/zepouet/Xee-xCode-4.5/blob/master/XeePhotoshopLoader.m
+2026-08-29,consumer,consumer,We’re rolling out ads in ChatGPT,2,4,kasdi,2026-08-28T20:36:01Z,
+2026-08-29,consumer,consumer,"Initially delayed, the pass-through of tariffs to consumer prices has arrived",19,0,NomNew,2026-08-28T19:51:51Z,https://www.minneapolisfed.org/article/2026/initially-delayed-the-pass-through-of-tariffs-to-consumer-prices-has-arrived
