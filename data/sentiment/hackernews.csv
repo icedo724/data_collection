@@ -10537,3 +10537,126 @@
 2026-09-08,consumer,consumer,Robotics with Conan: consuming ROS as a regular package,2,0,czoido,2026-09-08T11:14:01Z,https://blog.conan.io/cpp/conan/ros/ros2/robotics/2026/09/08/Robotics-with-Conan-consuming-ROS.html
 2026-09-08,consumer,consumer,Please consider running a NTP server in the NTP Pool,33,6,robinpie,2026-09-08T08:15:04Z,https://dreamstation.systems/personal/ntppool.html
 2026-09-08,consumer,consumer,Generals – Conquer the live world map,2,0,mshermamatov,2026-09-08T05:58:18Z,https://generals.lol
+2026-09-09,tech,AI,Show HN: Locksmith: Store Maven Secrets in the macOS Keychain (Or a Unix Socket),1,0,exabrial,2026-09-09T16:01:47Z,https://github.com/exabrial/locksmith
+2026-09-09,tech,AI,Vertebrae: Privacy-First AI Notetaker,1,0,qin,2026-09-09T16:00:59Z,https://vertebrae.ai/
+2026-09-09,tech,AI,Amazon is now using generative AI to dub Prime Video with matching lip movements,1,0,bundie,2026-09-09T15:58:43Z,https://www.neowin.net/news/amazon-prime-video-is-getting-ai-powered-dubbing-that-syncs-actors-lips/
+2026-09-09,tech,AI,"AI could kill all humans in next decade, warn experts",2,0,lf88,2026-09-09T15:53:30Z,https://www.theguardian.com/technology/2026/sep/09/ai-superintelligence-risks-warnings-scientists-politicians
+2026-09-09,tech,AI,Better AI code comment detector,4,0,ibobev,2026-09-09T15:45:43Z,https://entropicthoughts.com/better-ai-comment-classifier
+2026-09-09,tech,AI,AI made me doubt everything about programming by Felienne Hermans [video],2,1,wazoox,2026-09-09T15:44:15Z,https://www.youtube.com/watch?v=0-6-f94n_9M
+2026-09-09,tech,AI,Handmade Network adopts new AI policy,2,0,hovsater,2026-09-09T15:38:48Z,https://handmade.network/blog/p/9203-september_2026__a_new_ai_policy#30763
+2026-09-09,tech,AI,Rich Schwartz – The Fate of the Riemann Hypothesis [pdf],3,1,_jcrossley,2026-09-09T15:36:00Z,https://www.math.brown.edu/reschwar/Stories/AI.pdf
+2026-09-09,tech,AI,New Records Reveal Problems with Medicare's AI Prior Authorization Experiment,3,0,hn_acker,2026-09-09T15:35:26Z,https://www.eff.org/deeplinks/2026/09/new-records-reveal-problems-medicares-ai-prior-authorization-experiment
+2026-09-09,tech,AI,Ask HN: Is there any solution to the AI infestation?,2,0,yathern,2026-09-09T15:32:41Z,
+2026-09-09,tech,AI,DeepSeek v4.1 Flash Beta on Vercel,2,0,JonSchneider,2026-09-09T15:28:12Z,https://vercel.com/ai-gateway/models/deepseek-v4.1-flash-beta
+2026-09-09,tech,AI,Automatically detecting AI text in my browser,2,1,gmays,2026-09-09T15:21:21Z,https://www.seangoedecke.com/deckard/
+2026-09-09,tech,AI,Google: Attackers are using prompt injection against coding agents,6,0,fourfire,2026-09-09T15:19:57Z,https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai
+2026-09-09,tech,AI,How to pick the right AI model for each task [video],2,0,deepmem,2026-09-09T15:17:44Z,https://www.youtube.com/watch?v=FdbcY41N9fs
+2026-09-09,tech,AI,"School Students Who Use AI Get Worse Test Scores, OECD Warns",4,1,airstrike,2026-09-09T15:15:48Z,https://www.bloomberg.com/news/articles/2026-09-08/school-students-who-use-ai-get-worse-test-scores-oecd-warns
+2026-09-09,tech,AI,FinOps for LLM Spend – why your bill has changed,1,0,leanroute_ai,2026-09-09T15:10:40Z,
+2026-09-09,tech,AI,"Anthropic researcher says more than 10% chance AI ""could kill all humans""",35,72,jb1991,2026-09-09T15:10:39Z,https://www.cbsnews.com/news/ai-kill-humans-anthropic-researcher-more-than-ten-percent-chance/
+2026-09-09,tech,AI,Show HN: Give your AI agent on-screen guides that show users where to click,1,0,pancomplex,2026-09-09T15:09:05Z,
+2026-09-09,tech,AI,The Einstein test: what happens when AI tries to rediscover relativity?,3,0,sbulaev,2026-09-09T15:07:08Z,https://www.nature.com/articles/d41586-026-02804-x
+2026-09-09,tech,AI,Legal AI startup Harvey reaches $15.6B valuation with $550M round,1,0,utiiiD,2026-09-09T15:05:50Z,https://bloomberg.com/news/articles/2026-09-09/legal-ai-startup-harvey-hits-15-6-billion-value-with-550-million-round
+2026-09-09,tech,semiconductor,"Besxar is building an orbital semiconductor factory, one SpaceX rocket at a time",1,0,Brajeshwar,2026-09-09T15:18:05Z,https://techcrunch.com/2026/09/09/besxar-is-strapping-advanced-chip-fabs-onto-spacexs-falcon-9-rockets/
+2026-09-09,tech,semiconductor,Designing Semiconductors in Sub-Saharan Africa [YouTube],1,1,johncole,2026-09-09T11:56:37Z,https://www.youtube.com/watch?v=zyglpl-Gyq0
+2026-09-09,tech,startup,Ask HN: Is there any solution to the AI infestation?,2,0,yathern,2026-09-09T15:32:41Z,
+2026-09-09,tech,startup,"Show HN: A free, open-source agent orchestrator for knowledge work",1,0,SchezHugo,2026-09-09T15:23:46Z,https://www.itsverso.xyz/
+2026-09-09,tech,startup,"I'm not an economist, but here's an argument I've been thinking about",5,0,tosh,2026-09-09T15:19:44Z,https://twitter.com/slatestarcodex/status/2097599396749992185
+2026-09-09,tech,startup,Legal AI startup Harvey reaches $15.6B valuation with $550M round,1,0,utiiiD,2026-09-09T15:05:50Z,https://bloomberg.com/news/articles/2026-09-09/legal-ai-startup-harvey-hits-15-6-billion-value-with-550-million-round
+2026-09-09,tech,startup,Cloudflare Startups Program,2,0,tomrod,2026-09-09T14:46:50Z,https://www.cloudflare.com/startups/
+2026-09-09,tech,startup,"Show HN: Whetuu – An opinionated, zero-config status line and history picker",3,0,yamafaktory,2026-09-09T14:37:07Z,https://github.com/yamafaktory/whetuu
+2026-09-09,tech,startup,deleted,5,0,jacobgold,2026-09-09T14:26:33Z,
+2026-09-09,tech,startup,"Show HN: Email where an address is a keypair, with an SMTP bridge",1,0,mertenvg,2026-09-09T14:14:38Z,https://dmcn.dev/
+2026-09-09,tech,startup,Why becoming rich is not evli?,1,0,iaziz786,2026-09-09T14:14:22Z,
+2026-09-09,tech,startup,DeepSeek Flash v4.1 Is Coming,4,1,84634E1A607A,2026-09-09T13:42:01Z,https://twitter.com/White1637402/status/2097230806796419340
+2026-09-09,tech,startup,We have to build AI that murders us,2,0,k1m,2026-09-09T13:31:41Z,https://twitter.com/RayKump/status/2097499730137760183
+2026-09-09,tech,startup,Show HN: Type.com: Multiplayer Codex/Claude in the cloud for non-tech use cases,14,7,krashidov,2026-09-09T13:24:02Z,
+2026-09-09,tech,startup,Andreessen/Thiel-backed defense startup opens U.S. missile factory,2,0,cramer4next,2026-09-09T13:23:48Z,https://www.cnbc.com/2026/09/09/defense-tech-covenant-anthem-missile.html
+2026-09-09,tech,startup,Show HN: Revliu – Multi-touch attribution from acquisition to revenue,4,0,TychiqueY,2026-09-09T12:57:33Z,https://www.revliu.com/demo
+2026-09-09,tech,startup,Show HN: Buymydeadstartup.com – Sell your IP to AI labs,1,0,bkfh,2026-09-09T12:35:14Z,https://www.buymydeadstartup.com/
+2026-09-09,tech,startup,I launched a fake deodorant brand to see if AI would notice,3,0,mooreds,2026-09-09T12:18:20Z,https://twitter.com/medeana/status/2084671218704159169
+2026-09-09,tech,startup,"ChatGPT: ""Super shady"" data controls settings",2,1,anon373839,2026-09-09T12:15:31Z,https://twitter.com/edoardocontente/status/2097607340505928153
+2026-09-09,tech,startup,"Has anybody burned out of tech like me, and done something else?",3,2,password03,2026-09-09T11:34:34Z,
+2026-09-09,tech,startup,I resigned from Anthropic today (Jacob Coxon),44,16,wrongful1520,2026-09-09T10:25:03Z,https://xcancel.com/hilbertspaess/status/2097476196791709843?s=20
+2026-09-09,tech,startup,Lotus Notes and the dangers of starting from scratch,126,81,maguay,2026-09-09T10:01:15Z,https://buttondown.com/blog/lotus-notes-email
+2026-09-09,tech,LLM,Show HN: Locksmith: Store Maven Secrets in the macOS Keychain (Or a Unix Socket),1,0,exabrial,2026-09-09T16:01:47Z,https://github.com/exabrial/locksmith
+2026-09-09,tech,LLM,No Man's Sky Cosmos,8,2,Limb,2026-09-09T15:47:42Z,https://www.nomanssky.com/cosmos-update/
+2026-09-09,tech,LLM,Ask HN: Is there any solution to the AI infestation?,2,0,yathern,2026-09-09T15:32:41Z,
+2026-09-09,tech,LLM,Lloyds Bank Denies Palestine Action Prisoner's Mum Mortgage over 'Adverse Media',2,0,slowin,2026-09-09T15:16:56Z,https://novaramedia.com/2026/09/09/lloyds-bank-denies-palestine-action-prisoners-mum-mortgage-over-adverse-media/
+2026-09-09,tech,LLM,Which Mac for Local LLMs in 2026? A Buyer's Guide,1,0,speckx,2026-09-09T15:15:11Z,https://vettedconsumer.com/which-mac-for-local-llms-2026-buyers-guide/
+2026-09-09,tech,LLM,FinOps for LLM Spend – why your bill has changed,1,0,leanroute_ai,2026-09-09T15:10:40Z,
+2026-09-09,tech,LLM,"Knowledge vs. wisdom: asking AI ""What mushroom is that?""",2,0,stared,2026-09-09T14:50:21Z,https://quesma.com/blog/mushroom-llm-just-ask/
+2026-09-09,tech,LLM,"A language, a runtime and preludes built for LLMs, not for humans",2,0,andreasronge,2026-09-09T14:50:06Z,https://ptc-runner.dev/blog/tools-built-for-llms/
+2026-09-09,tech,LLM,Public vs. Private LLM,2,0,portmortem,2026-09-09T14:46:59Z,https://wirt.ee/logbook/litellm-proxy/
+2026-09-09,tech,LLM,Pythagorean Lambdoma Harmonic Keyboard Created by Barbara Hero,1,0,thunderbong,2026-09-09T14:31:29Z,https://www.lambdoma.com/keyboard.html
+2026-09-09,tech,LLM,14yr old Russian female pilot,1,1,barrister,2026-09-09T14:15:13Z,https://web.archive.org/web/20231021135735oe_/https://rr1---sn-o097znzd.googlevideo.com/videoplayback?expire=1697918233&ei=udgzZc2YGOugsfIPv4acgAI&ip=207.241.233.167&id=o-AOBqIkZ5O7iGzNQwg1YD17fMlmkRb
+2026-09-09,tech,LLM,"Show HN: Email where an address is a keypair, with an SMTP bridge",1,0,mertenvg,2026-09-09T14:14:38Z,https://dmcn.dev/
+2026-09-09,tech,LLM,Show HN: Briff – Site Summarizer,1,1,Kuyawa,2026-09-09T14:04:32Z,https://briff.site
+2026-09-09,tech,LLM,My LLM eval cried wolf. Here's what I measured,2,0,alexpran,2026-09-09T13:53:09Z,https://digline.dev/blog/my-llm-eval-cried-wolf/
+2026-09-09,tech,LLM,The expensive model was cheaper: six other things I got wrong on an LLM judge,2,0,AdamWendrich,2026-09-09T13:43:27Z,https://rekall.study/blog/expensive-model-was-cheaper/
+2026-09-09,tech,LLM,Ask HN: Anyone still coding like 2021? Where do you work?,54,68,sph,2026-09-09T13:41:55Z,
+2026-09-09,tech,LLM,Writing with AI Is Stupid,2,0,rbanffy,2026-09-09T13:30:36Z,https://lambdaland.org/posts/2026-08-07-ai-writing-stupid/
+2026-09-09,tech,LLM,Show HN: Revliu – Multi-touch attribution from acquisition to revenue,4,0,TychiqueY,2026-09-09T12:57:33Z,https://www.revliu.com/demo
+2026-09-09,tech,LLM,Post-Training RLM Agents for End-to-End M&A Diligence,3,0,yarapavan,2026-09-09T12:56:11Z,https://www.harvey.ai/blog/post-training-rlm-agents-for-m-and-a-diligence
+2026-09-09,tech,LLM,"Show HN: DortDB, a TS library for mixed-lang queries on JavaScript structures",3,0,jeeza,2026-09-09T12:54:21Z,https://github.com/filipjezek/dortdb
+2026-09-09,tech,robotics,Robotics with Conan: consuming ROS as a regular package,2,0,ibobev,2026-09-09T15:46:00Z,https://blog.conan.io/cpp/conan/ros/ros2/robotics/2026/09/08/Robotics-with-Conan-consuming-ROS.html
+2026-09-09,tech,robotics,X402-trinity – kills the cloud server back end for local AI and robotics,1,0,devmster,2026-09-09T14:31:25Z,https://github.com/devmster/x402-trinity
+2026-09-09,tech,robotics,Robots-check: see what your robots.txt is serving (Cloudflare AI Crawl Control),1,0,janibert09,2026-09-09T03:15:27Z,https://github.com/janibert1/robots-check
+2026-09-09,tech,robotics,"Robots ""protest"" in Warsaw to demand regulation of AI and automation",2,0,giuliomagnifico,2026-09-08T17:58:48Z,https://notesfrompoland.com/2026/09/08/robots-protest-in-warsaw-to-demand-regulation-of-ai-and-automation/
+2026-09-09,finance,stock market,Do Durable Market Power Characteristics Predict Future Fundamentals and Returns? [pdf],1,0,Heshamus,2026-09-08T23:59:24Z,https://mplymoat.com/research/durable-market-power-stock-returns/paper.pdf
+2026-09-09,finance,stock market,Chime Announces Agreement to Acquire Stride Bank,1,0,d1egoaz,2026-09-08T20:29:58Z,https://finance.yahoo.com/markets/stocks/articles/chime-announces-agreement-acquire-stride-200500404.html
+2026-09-09,finance,inflation,Inflation is back around the world–as is the fight against it,2,1,andsoitis,2026-09-09T02:42:56Z,https://www.economist.com/finance-and-economics/2026/09/06/inflation-is-back-around-the-world-as-is-the-fight-against-it
+2026-09-09,finance,interest rate,Ask HN: Is there any solution to the AI infestation?,2,0,yathern,2026-09-09T15:32:41Z,
+2026-09-09,finance,recession,"Show HN: DortDB, a TS library for mixed-lang queries on JavaScript structures",3,0,jeeza,2026-09-09T12:54:21Z,https://github.com/filipjezek/dortdb
+2026-09-09,energy,oil price,Every job boil down to producing a desired effect,1,0,alex_brajkovic,2026-09-09T08:10:25Z,
+2026-09-09,energy,EV,Dive into FrontierHarness Eval: Claude Code cost 5.6× for the same pass rate,3,0,ADD-SP,2026-09-09T15:59:47Z,https://runta.com/blog/introducing-frontierharness-eval/
+2026-09-09,energy,EV,"Middle aged are 'squeezed from every angle', some cannot even picture retirement",3,0,robtherobber,2026-09-09T15:49:29Z,https://www.thisismoney.co.uk/money/pensions/article-16113791/Middle-aged-squeezed-retirement.html
+2026-09-09,energy,EV,AI made me doubt everything about programming by Felienne Hermans [video],2,1,wazoox,2026-09-09T15:44:15Z,https://www.youtube.com/watch?v=0-6-f94n_9M
+2026-09-09,energy,EV,Ask HN: Is there any solution to the AI infestation?,2,0,yathern,2026-09-09T15:32:41Z,
+2026-09-09,energy,EV,"Show HN: A free, open-source agent orchestrator for knowledge work",1,0,SchezHugo,2026-09-09T15:23:46Z,https://www.itsverso.xyz/
+2026-09-09,energy,EV,Google: Attackers are using prompt injection against coding agents,6,0,fourfire,2026-09-09T15:19:57Z,https://cloud.google.com/blog/topics/threat-intelligence/from-prompting-to-autonomy-the-evolution-of-adversarial-ai
+2026-09-09,energy,EV,Show HN: Give your AI agent on-screen guides that show users where to click,1,0,pancomplex,2026-09-09T15:09:05Z,
+2026-09-09,energy,EV,The everything theory of mass transit,2,0,surprisetalk,2026-09-09T15:00:49Z,https://worksinprogress.co/issue/the-everything-theory-of-mass-transit/
+2026-09-09,energy,EV,Show HN: Geiger – See every AI agent on your machine and what it can touch,23,12,atomburst,2026-09-09T14:54:49Z,https://github.com/Atomburstofficial/geiger
+2026-09-09,energy,EV,Show HN: Cynative – build your own security agents,1,1,szin,2026-09-09T14:39:30Z,https://github.com/cynative/cynative
+2026-09-09,energy,EV,Canonical Evolution of Enterprise Open Source RISC-V at Hot Chips 2026,1,0,fork-bomber,2026-09-09T14:21:34Z,https://www.servethehome.com/canonical-evolution-of-enterprise-open-source-risc-v-at-hot-chips-2026/
+2026-09-09,energy,EV,"Show HN: Open statistics for every Finnish postal code, with an MCP server",1,0,itulo,2026-09-09T14:20:18Z,https://suomiatlas.com/en/mcp
+2026-09-09,energy,EV,"Show HN: Email where an address is a keypair, with an SMTP bridge",1,0,mertenvg,2026-09-09T14:14:38Z,https://dmcn.dev/
+2026-09-09,energy,EV,Why becoming rich is not evli?,1,0,iaziz786,2026-09-09T14:14:22Z,
+2026-09-09,energy,EV,Show HN: Briff – Site Summarizer,1,1,Kuyawa,2026-09-09T14:04:32Z,https://briff.site
+2026-09-09,energy,EV,Voice AI Benchmarks: a directory of voice-agent evaluations,1,0,codelion,2026-09-09T14:02:47Z,https://voicebenchmarks.com/
+2026-09-09,energy,EV,My LLM eval cried wolf. Here's what I measured,2,0,alexpran,2026-09-09T13:53:09Z,https://digline.dev/blog/my-llm-eval-cried-wolf/
+2026-09-09,energy,EV,Passing evals isn't enough: trace-aware judges for agents,2,0,saturn5k,2026-09-09T13:42:00Z,https://infere.com/blog/agent-evaluation-passing-evals-isnt-enough/
+2026-09-09,energy,EV,Slideforge,2,0,vreddhi,2026-09-09T13:31:29Z,
+2026-09-09,energy,EV,"Show HN: Parlel – LinkedIn, but searchable by AI agents",3,0,Dheerajiitr,2026-09-09T13:25:55Z,https://parlel.com/
+2026-09-09,korea,Korea,"John T. Downey, CIA agent captured by China during the Korean War (2014)",3,0,speckx,2026-09-09T15:34:10Z,https://slate.com/news-and-politics/2014/11/john-t-downey-cia-agent-captured-by-china-during-the-korean-war-the-story-of-the-longest-held-american-pow.html
+2026-09-09,korea,Korea,Designing a Dbt Pipeline for Consent Withdrawal,1,0,Tomte,2026-09-09T07:01:43Z,https://kore-nordmann.de/blog/designing-a-dbt-pipeline-for-consent-withdrawal.html
+2026-09-09,korea,Korea,"Show HN: Korean filings with minute-level receipt times, and what happened next",2,0,aikstockdata,2026-09-09T04:50:33Z,https://aikstockdata.com/en/api
+2026-09-09,consumer,retail,Show HN: Give your AI agent on-screen guides that show users where to click,1,0,pancomplex,2026-09-09T15:09:05Z,
+2026-09-09,consumer,retail,"Show HN: Email where an address is a keypair, with an SMTP bridge",1,0,mertenvg,2026-09-09T14:14:38Z,https://dmcn.dev/
+2026-09-09,consumer,retail,It's Getting Harder to Return Things–and It's Making Shoppers Mad,2,0,thm,2026-09-09T12:45:08Z,https://www.wsj.com/business/retail/its-getting-harder-to-return-thingsand-its-making-shoppers-mad-38b2fc55
+2026-09-09,consumer,retail,Show HN; AGI brain project. Who wants to join in and help me?,4,1,AGIEnthusiast,2026-09-09T09:45:46Z,
+2026-09-09,consumer,retail,"Show HN: Project Estimator – a free, no sign-up software cost estimator",1,0,LucaSiviero,2026-09-09T09:09:34Z,https://project-estimator.webround.net/
+2026-09-09,consumer,retail,Math Rush,1,0,vkstudiosapps,2026-09-09T08:07:41Z,https://play.google.com/store/apps/details?id=com.vkstudios.math_rush&hl=en_US
+2026-09-09,consumer,retail,Master File Picker – Quick Upload Manager,1,0,ghussain3kb,2026-09-09T07:57:49Z,https://chromewebstore.google.com/detail/master-file-picker-quick/gmcopibhoenpmgbbfdnhgopbciokokdg
+2026-09-09,consumer,retail,Army Talk Orientation Fact Sheet #64 – Fascism,5,2,ndsipa_pomu,2026-09-09T07:49:21Z,https://archive.org/details/ArmyTalkOrientationFactSheet64-Fascism
+2026-09-09,consumer,retail,Show HN: Yamaha TDM 850 3vd 1993 Atlas (made with Astra),1,0,jackdoe,2026-09-09T07:47:07Z,https://punkx.org/tdm850/
+2026-09-09,consumer,retail,Show HN: Thread – A private AI journal that connects thoughts without folders,2,0,cuetestadmin,2026-09-09T06:36:00Z,https://play.google.com/store/apps/details?id=dev.nexgenstudio.thread&hl=en_US
+2026-09-09,consumer,retail,Show HN: Raven – Encrypted messages hidden inside ordinary text,6,0,willhieb,2026-09-09T03:11:49Z,https://sendraven.ink
+2026-09-09,consumer,retail,Show HN: LazyReader – Read ebooks and stream audiobooks directly from your cloud,1,0,ekaftnuocca10,2026-09-09T02:52:59Z,https://lazyreader.lindocode.com
+2026-09-09,consumer,retail,Show HN: Remarc – better contextual feedback for AI agents,1,0,young_mete,2026-09-08T19:31:40Z,https://github.com/metedata/Remarc
+2026-09-09,consumer,retail,"166,000 neurons govern the fruit fly's behavior",3,0,Betelbuddy,2026-09-08T19:19:49Z,https://english.elpais.com/science-tech/2026-09-03/the-most-detailed-brain-wiring-diagram-yet-how-166000-neurons-govern-the-fruit-flys-behavior.html
+2026-09-09,consumer,retail,"Got tired of copying requests into Postman,so I built this Chrome DevTools panel",2,1,tergun,2026-09-08T19:17:22Z,https://chromewebstore.google.com/detail/network-sniper/ompgdflcnpfkpfoeappidbhekeifhmpe
+2026-09-09,consumer,retail,Versign Announce New .web Domain Extension,1,0,a_paddy,2026-09-08T17:58:35Z,https://investor.verisign.com/news-releases/news-release-details/verisign-announces-delegation-web/
+2026-09-09,consumer,retail,A social network with one post a day and no replies,1,0,Armecera,2026-09-08T17:05:27Z,
+2026-09-09,consumer,retail,Show HN: Sparrow-2 – Noise cancellation isn't designed for conversational AI,11,4,code_brian,2026-09-08T16:16:58Z,https://sparrow2.tavuslabs.org/
+2026-09-09,consumer,consumer,Robotics with Conan: consuming ROS as a regular package,2,0,ibobev,2026-09-09T15:46:00Z,https://blog.conan.io/cpp/conan/ros/ros2/robotics/2026/09/08/Robotics-with-Conan-consuming-ROS.html
+2026-09-09,consumer,consumer,Show HN: Briff – Site Summarizer,1,1,Kuyawa,2026-09-09T14:04:32Z,https://briff.site
+2026-09-09,consumer,consumer,Show HN: Maxxwell – The IDE for Optimal Tokenmaxxing,9,4,mserrano258,2026-09-09T13:10:30Z,https://maxxwell.dev/
+2026-09-09,consumer,consumer,Google to invest $15B in AI datacenters and buy nuclear power in Finland,4,0,consumer451,2026-09-09T10:47:53Z,https://www.reuters.com/business/media-telecom/google-invest-15-billion-ai-infrastructure-finland-2026-09-09/
+2026-09-09,consumer,consumer,Show HN; AGI brain project. Who wants to join in and help me?,4,1,AGIEnthusiast,2026-09-09T09:45:46Z,
+2026-09-09,consumer,consumer,"Show HN: Project Estimator – a free, no sign-up software cost estimator",1,0,LucaSiviero,2026-09-09T09:09:34Z,https://project-estimator.webround.net/
+2026-09-09,consumer,consumer,DHH's Omarchy Considering Replacing Arch/AUR with Nix,3,3,djfergus,2026-09-09T02:31:48Z,https://github.com/omacom/omarchy/blob/97a86af116b71ffd6b6dd0afc27cdefce5cacee2/plans/nix.md
+2026-09-09,consumer,consumer,Show HN: VolAnti – Open-source acoustic detector for fibre-optic FPV drones,13,0,agamrossen,2026-09-09T00:08:13Z,https://github.com/agamrossen/VolAnti
+2026-09-09,consumer,consumer,Show HN: VolAnti – Open-source acoustic detector for fibre-optic FPV drones,2,1,agamrossen,2026-09-08T17:35:23Z,https://github.com/agamrossen/VolAnti
+2026-09-09,consumer,consumer,Show HN: Sparrow-2 – Noise cancellation isn't designed for conversational AI,11,4,code_brian,2026-09-08T16:16:58Z,https://sparrow2.tavuslabs.org/
