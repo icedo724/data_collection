@@ -11350,3 +11350,114 @@
 2026-09-15,consumer,consumer,"Einride, Lidl deploy first cab-less autonomous truck in Germany",13,0,JumpCrisscross,2026-09-15T08:15:53Z,https://www.reuters.com/business/retail-consumer/einride-lidl-deploy-first-cab-less-autonomous-truck-germany-2026-09-15/
 2026-09-15,consumer,consumer,Show HN: MCUHex – Flash and Live Monitoring for STM32 Devices over SWD,2,0,takiyadis,2026-09-14T19:30:49Z,https://mcuhex.com/
 2026-09-15,consumer,consumer,Show HN: MCP Harbor – An MCP Registry,7,3,Lbesecker195,2026-09-14T16:59:00Z,https://ai.mcpharbor.dev/
+2026-09-16,tech,AI,"The Volatile Finances of Airline Pilots, America's Unpredictable Millionaires",1,0,JumpCrisscross,2026-09-16T16:16:16Z,https://www.wsj.com/personal-finance/the-volatile-finances-of-airline-pilots-americas-unpredictable-millionaires-cd403364
+2026-09-16,tech,AI,"In the Age of AI, Some in China Wonder If Learning English Is Worth the Trouble",1,0,rdmuser,2026-09-16T16:12:39Z,https://www.nytimes.com/2026/09/16/world/asia/china-english-language-education.html
+2026-09-16,tech,AI,Show HN: Stopping AI agent swarms from hacking our systems,1,0,andresceballosm,2026-09-16T16:11:31Z,https://www.inwom.com/
+2026-09-16,tech,AI,AI memory shortage: Fairphone says RAM is now 60% of materials cost,1,0,sbulaev,2026-09-16T16:07:09Z,https://www.tomshardware.com/pc-components/ram/ai-induced-memory-shortage-is-changing-how-devices-are-built-fairphone-says-memory-now-60-percent-of-materials-cost-smaller-laptop-and-phone-makers-are-r
+2026-09-16,tech,AI,'Godfather of AI' says tech regulation is nearing Covid-style pivot moment,2,0,swolpers,2026-09-16T15:56:25Z,https://www.theguardian.com/technology/2026/sep/16/ai-tech-regulation-government-action-yoshua-bengio
+2026-09-16,tech,AI,The AI Wait Equation,2,0,xendo,2026-09-16T15:48:05Z,https://xendo.bearblog.dev/the-wait-equation/
+2026-09-16,tech,AI,Media execs sound alarm on AI,1,0,1vuio0pswjnm7,2026-09-16T15:45:09Z,https://www.axios.com/2026/09/16/media-execs-sound-alarm-on-ai
+2026-09-16,tech,AI,"Show HN: Put an AI agent on a FaceTime audio/video call (open source, WebRTC)",1,0,garygao,2026-09-16T15:41:02Z,https://github.com/cherthq/chert-facetime-opensource
+2026-09-16,tech,AI,"Show HN: An MCP server that lets AI agents create, send and analyze surveys",2,0,jason_zig,2026-09-16T15:40:13Z,https://www.zigpoll.com
+2026-09-16,tech,AI,Inside Meta's AI Infrastructure Lab in Menlo Park [video],2,0,helloplanets,2026-09-16T15:39:33Z,https://www.youtube.com/watch?v=okSHoVPrf8o
+2026-09-16,tech,AI,Show HN: Cleanroom – An AI coding agent you can learn from at your own pace,2,0,pakupaku,2026-09-16T15:39:25Z,https://github.com/Ag3497120/cleanroom
+2026-09-16,tech,AI,Is AI Writing American Law?,1,0,pr337h4m,2026-09-16T15:33:31Z,https://www.effort.news/ai-congress
+2026-09-16,tech,AI,GLM 5.3 is live on Mistral,2,0,biehl,2026-09-16T15:29:23Z,https://docs.mistral.ai/en/models/zai-glm-5-3
+2026-09-16,tech,AI,New stealth model: Union Alpha,9,1,jlaneve,2026-09-16T15:24:16Z,https://openrouter.ai/stealth/union-alpha
+2026-09-16,tech,AI,Greetings from the Other Side (Of the AI Frontier) Claude Opus 3,1,1,Bluestein,2026-09-16T15:21:55Z,https://claudeopus3.substack.com/p/greetings-from-the-other-side-of
+2026-09-16,tech,AI,Bitterbot – A local-first P2P AI agent engine with persistent memory,2,1,d56,2026-09-16T15:16:37Z,https://github.com/Bitterbot-AI/bitterbot-desktop
+2026-09-16,tech,AI,"Talk to any self-hosted AI from your iPhone, Watch, Mac and car (open source)""",1,0,pkrueck,2026-09-16T15:12:15Z,https://github.com/GigaDuckAI/conduck
+2026-09-16,tech,AI,Rune raises $40M to deploy off-grid compute capacity at renewable energy sites,3,0,utiiiD,2026-09-16T15:05:48Z,https://fastcompany.com/91607727/what-if-ai-data-centers-didnt-need-new-power-plants
+2026-09-16,tech,AI,Show HN: Give your AI agents access to WhatsApp,14,29,fabian_shipamax,2026-09-16T15:04:08Z,
+2026-09-16,tech,AI,LLM based CI pipeline code generator for DSCI,2,0,melezhik,2026-09-16T14:59:56Z,
+2026-09-16,tech,startup,Show HN: Rockbox and Doom on iPod nano 3rd gen,2,0,user890104,2026-09-16T16:12:15Z,https://twitter.com/freemyipod/status/2100255707886977402
+2026-09-16,tech,startup,OrbiChat – Danish Startup creating a chat and event app,1,1,Demcox,2026-09-16T16:05:24Z,https://orbichat.io/
+2026-09-16,tech,startup,Parallel Constrained Decoding,1,0,rochansinha,2026-09-16T15:37:08Z,https://twitter.com/harshagundal/status/2100044305536889015
+2026-09-16,tech,startup,Show HN: Blue – open-source governance for coding agents,1,0,tomislavs,2026-09-16T15:27:19Z,https://bluee.sh/
+2026-09-16,tech,startup,Show HN: ctx – Git blame that returns the original agent transcript,2,0,luca-ctx,2026-09-16T14:46:13Z,https://ctx.rs/pro/
+2026-09-16,tech,startup,An LLM from First Principles,2,0,ryanvogel,2026-09-16T14:09:51Z,https://twitter.com/ryanvogel/status/2100218045549412499
+2026-09-16,tech,startup,Valve plans to get Steam games working on compatibility-challenged ARM PCs,3,0,HelloUsername,2026-09-16T13:47:12Z,https://www.rockpapershotgun.com/were-trying-to-make-it-easier-valve-confirm-the-steam-frame-is-just-the-start-of-plans-to-get-steam-games-working-on-compatibility-challenged-arm-pcs
+2026-09-16,tech,startup,"Show HN: Who-GPU, a simple monitoring tool to view GPU usage across machines",1,0,smogblock,2026-09-16T13:33:27Z,https://github.com/lucafossen/who-gpu
+2026-09-16,tech,startup,Personal Statement on AI Risk,2,0,hentrep,2026-09-16T13:10:35Z,https://twitter.com/dkokotajlo/status/2099600298855829616
+2026-09-16,tech,startup,Operating System powered by Qwen 3.8 27B at 1950 tokens/SEC,2,0,soltanov,2026-09-16T12:58:56Z,https://twitter.com/analogalok/status/2099130228866228368
+2026-09-16,tech,startup,Paying for frontier AI models buys 4-month head start at 5x the cost,3,0,rbanffy,2026-09-16T12:53:24Z,https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/
+2026-09-16,tech,startup,My Dumbphone Made My Life Better. It Made Everyone Else's Worse,2,0,Wowfunhappy,2026-09-16T12:50:59Z,https://www.nytimes.com/2026/09/16/opinion/dumbphone-smartphone-friendship.html
+2026-09-16,tech,startup,Show HN: Remind Cards – an offline-first flashcard app with AI generation,1,0,tekfen,2026-09-16T12:21:12Z,
+2026-09-16,tech,startup,Three.js game running natively on Xbox at 4K60,1,0,arbayi,2026-09-16T11:50:09Z,https://twitter.com/dashersw_TR/status/2100181560846622797
+2026-09-16,tech,startup,Show HN: Freeform – One click shareable AI generated apps,1,1,ReeseEJ,2026-09-16T11:43:17Z,https://sharefreeform.com
+2026-09-16,tech,startup,The Boox Palma 3 gets stylus support and a sleek redesign,1,1,ndrake,2026-09-16T11:26:38Z,https://www.theverge.com/tech/995826/boox-palma-3-e-ink-reader-pocket-smartphone-android-16
+2026-09-16,tech,startup,What writing for the Washington Post taught me about standup comedy,1,0,mooreds,2026-09-16T10:57:22Z,https://pammoore.substack.com/p/what-writing-for-the-washington-post
+2026-09-16,tech,startup,Salesforce Global Outage,206,118,mabil,2026-09-16T10:37:08Z,https://status.salesforce.com/products/all
+2026-09-16,tech,startup,Why Six Millennium Problems May Be Hard for the Same Reason,1,0,darius88,2026-09-16T10:25:38Z,
+2026-09-16,tech,startup,Bari's '60' Burst,2,0,sophymarine,2026-09-16T10:10:11Z,https://www.status.news/p/60-minutes-ratings-bari-weiss-nick-bilton
+2026-09-16,tech,LLM,"Show HN: Round 1 of a vibe-coder ladder, judged by an LLM that only sees the UI",1,0,alviso,2026-09-16T16:04:36Z,https://vibeladder.dev/results/r1.html
+2026-09-16,tech,LLM,GLM 5.3 is live on Mistral,2,0,biehl,2026-09-16T15:29:23Z,https://docs.mistral.ai/en/models/zai-glm-5-3
+2026-09-16,tech,LLM,LLM based CI pipeline code generator for DSCI,2,0,melezhik,2026-09-16T14:59:56Z,
+2026-09-16,tech,LLM,"System One Lite – typed decisions from a local LLM, with no generated tokens",2,0,samsnelling,2026-09-16T14:31:30Z,https://github.com/snellingio/system-one
+2026-09-16,tech,LLM,"PS5 Linux lead quits: ""a bunch of noobs using LLMs"" that ""they don't understand""",229,145,alexjplant,2026-09-16T14:30:36Z,https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand/
+2026-09-16,tech,LLM,"Show HN: OmnisBench, a re-gradable, open LLM routing benchmark on fresh tasks",3,1,fortitudedev,2026-09-16T14:25:52Z,https://github.com/Fortitude-Group/OmnisBench
+2026-09-16,tech,LLM,BurpSqueezer – Turn Burp Suite XML Dumps into Compact LLM-Ready Markdown,2,1,vaginskii,2026-09-16T14:24:51Z,https://github.com/vaginskii/BurpSqueezer
+2026-09-16,tech,LLM,Voila: Ship Web Apps Straight from Your LLM Agent,2,1,elmazout,2026-09-16T14:24:16Z,https://voila-explained.voila.build
+2026-09-16,tech,LLM,"Show HN: Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh",12,5,kisjovan,2026-09-16T14:24:05Z,https://huggingface.co/ukisai/Swift-Qwen3.8-27b
+2026-09-16,tech,LLM,"Switched to Claude Code's open-source rival, stopped worrying about rate limits",1,0,fork-bomber,2026-09-16T14:12:17Z,https://www.xda-developers.com/switched-to-claude-code-open-source-rival-and-stopped-worrying-about-rate-limits/
+2026-09-16,tech,LLM,An LLM from First Principles,2,0,ryanvogel,2026-09-16T14:09:51Z,https://twitter.com/ryanvogel/status/2100218045549412499
+2026-09-16,tech,LLM,Show HN: A Stateful LLM API that works across providers,1,0,mdebeer,2026-09-16T13:53:49Z,https://twigg.ai
+2026-09-16,tech,LLM,I caught an LLM-powered recruiter with a prompt injection on LinkedIn,1,1,bucket2015,2026-09-16T13:42:18Z,https://khancyr.github.io/blog/2026/03/15/how-i-caught-an-llm-powered-recruiter-with-a-prompt-injection-on-linkedin/
+2026-09-16,tech,LLM,Benchmark Llamacpp on Intel Panther Lake: Vulkan vs. SYCL vs. OpenVINO vs. CPU,1,0,grigio,2026-09-16T13:08:45Z,https://grigio.org/benchmarking-llama-cpp-backends-on-intel-panther-lake-vulkan-vs-sycl-vs-openvino-vs-cpu/
+2026-09-16,tech,LLM,Show HN: Microsoft Comic Chat (1996) for ChatGPT,3,0,theletterf,2026-09-16T12:26:00Z,https://github.com/theletterf/comic-chat-ai/tree/main
+2026-09-16,tech,LLM,LLMs for Mortals 6 months later,1,0,apwheele,2026-09-16T12:17:53Z,https://crimede-coder.com/blogposts/2026/LLMsForMortalsUpdate
+2026-09-16,tech,LLM,Ask HN: Might complex software have infinitely many vulnerabilities?,1,2,cogs,2026-09-16T11:56:24Z,
+2026-09-16,tech,LLM,Show HN: Freeform – One click shareable AI generated apps,1,1,ReeseEJ,2026-09-16T11:43:17Z,https://sharefreeform.com
+2026-09-16,tech,LLM,Ask HN: How do you prevent customer PII from reaching LLMs unnecessarily?,1,0,Securelytixdev,2026-09-16T11:13:14Z,
+2026-09-16,tech,LLM,An LLM-Turbocharged Community Calendar Reboot (2024),1,1,zeristor,2026-09-16T11:13:12Z,https://thenewstack.io/an-llm-turbocharged-community-calendar-reboot/
+2026-09-16,tech,robotics,'Robots building robots': a 10k unit industrial humanoid robot smart factory,2,0,yogthos,2026-09-15T21:42:24Z,https://www.globaltimes.cn/page/202609/1370528.shtml
+2026-09-16,tech,robotics,Smooth Exponentials for Robotics,2,0,seafoam,2026-09-15T17:41:00Z,https://evjang.com/2026/09/10/smooth-exponential.html
+2026-09-16,tech,robotics,A labor forecasting approach built to keep pace with AI and robotics,2,0,abaharmast,2026-09-15T17:08:32Z,https://endoflabor.org/
+2026-09-16,finance,stock market,"AI stocks get drilled because of Anthropic CEO Dario Amodei's 3,800-word warning",4,0,Bluestein,2026-09-16T09:21:47Z,https://finance.yahoo.com/markets/stocks/article/ai-stocks-get-drilled-because-of-anthropic-ceo-dario-amodeis-3800-word-warning-093637548.html
+2026-09-16,finance,interest rate,"Transformative AI, existential risk, and real interest rates [pdf]",1,0,gwintrob,2026-09-15T20:33:28Z,https://www.basilhalperin.com/papers/agi_emh.pdf
+2026-09-16,finance,interest rate,Ask HN: Where is all of the AI coded software?,6,10,wNjdbfm,2026-09-15T16:55:08Z,
+2026-09-16,energy,oil price,"Chinese Solar Panels Drop to 12 Cents a Watt, Rooftop Installs Surge Worldwide",11,2,martinpw,2026-09-16T01:59:47Z,https://oilprice.com/Alternative-Energy/Solar-Energy/Chinese-Solar-Panels-Drop-to-12-Cents-a-Watt-Rooftop-Installs-Surge-Worldwide.html
+2026-09-16,energy,renewable energy,Rune raises $40M to deploy off-grid compute capacity at renewable energy sites,3,0,utiiiD,2026-09-16T15:05:48Z,https://fastcompany.com/91607727/what-if-ai-data-centers-didnt-need-new-power-plants
+2026-09-16,energy,EV,Neuroprosthesis for paralysis enables simultaneous speech and body language,1,0,bookofjoe,2026-09-16T16:13:29Z,https://www.nih.gov/news-events/news-releases/neuroprosthesis-paralysis-enables-simultaneous-speech-body-language
+2026-09-16,energy,EV,Show HN: Stopping AI agent swarms from hacking our systems,1,0,andresceballosm,2026-09-16T16:11:31Z,https://www.inwom.com/
+2026-09-16,energy,EV,The Armored Sarcophagus Saving Ukrainian Soldiers,1,0,Jtsummers,2026-09-16T16:09:21Z,https://www.theatlantic.com/international/2026/09/ukraine-frontline-medical-evacuations/688638/
+2026-09-16,energy,EV,OrbiChat – Danish Startup creating a chat and event app,1,1,Demcox,2026-09-16T16:05:24Z,https://orbichat.io/
+2026-09-16,energy,EV,"Show HN: Put an AI agent on a FaceTime audio/video call (open source, WebRTC)",1,0,garygao,2026-09-16T15:41:02Z,https://github.com/cherthq/chert-facetime-opensource
+2026-09-16,energy,EV,Show HN: Blue – open-source governance for coding agents,1,0,tomislavs,2026-09-16T15:27:19Z,https://bluee.sh/
+2026-09-16,energy,EV,Show HN: Docx-to-Markdown – layout-aware Word to Markdown converter,2,2,thisisjedr,2026-09-16T15:24:31Z,https://www.docx-editor.dev/solutions/word-to-markdown
+2026-09-16,energy,EV,Show HN: FainLane – Paste screenshots into remote coding agents with Ctrl+V,1,0,primaprashant,2026-09-16T15:21:50Z,https://fainlane.com/
+2026-09-16,energy,EV,"What happened with xcancel, and is there any chance it'll ever be back?",1,0,orange999,2026-09-16T15:20:19Z,
+2026-09-16,energy,EV,Show HN: Give your AI agents access to WhatsApp,14,29,fabian_shipamax,2026-09-16T15:04:08Z,
+2026-09-16,energy,EV,"Self-evolving agents need pain, reflection, and sleep",1,1,aaronrobert,2026-09-16T14:51:12Z,https://medium.com/@robertindie2016/self-evolving-agents-need-pain-reflection-and-sleep-2c63e6bd6630
+2026-09-16,energy,EV,Ask HN: Has anyone measured how often agents use the skills you ship?,1,0,sohaibtariq,2026-09-16T14:50:44Z,
+2026-09-16,energy,EV,Show HN: ctx – Git blame that returns the original agent transcript,2,0,luca-ctx,2026-09-16T14:46:13Z,https://ctx.rs/pro/
+2026-09-16,energy,EV,SnagFlat – Rent-stabilization badges on every NYC StreetEasy listing,2,0,jakdemir,2026-09-16T14:31:09Z,https://snagflat.com/
+2026-09-16,energy,EV,"PS5 Linux lead quits: ""a bunch of noobs using LLMs"" that ""they don't understand""",229,145,alexjplant,2026-09-16T14:30:36Z,https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand/
+2026-09-16,energy,EV,European Union invites Canada to become first ever 'associate member',2,0,Teever,2026-09-16T14:30:08Z,https://www.theguardian.com/world/2026/sep/16/von-der-leyen-mark-carney-canada-eu-first-associate-member
+2026-09-16,energy,EV,Fourteen studies and every walk-forward fold validated a hindsight stop,2,0,franzparks,2026-09-16T14:25:48Z,https://honestbook.io/writeup
+2026-09-16,energy,EV,"Show HN: Swift-Qwen3.8-27B, -58.3% thinking, x1.95 speed, accuracy of xhigh",12,5,kisjovan,2026-09-16T14:24:05Z,https://huggingface.co/ukisai/Swift-Qwen3.8-27b
+2026-09-16,energy,EV,Dream-RSI: Recursive Self-Improvement Through Evolving Worlds,1,0,roversx,2026-09-16T14:18:56Z,https://huggingface.co/papers/2609.14858
+2026-09-16,energy,EV,AI Agent Vercel Eve Web Interface = Amazing,1,0,daniel-payne,2026-09-16T14:08:12Z,https://medium.com/@daniel-payne-keldan-systems/why-i-think-vercel-eve-web-interface-is-so-much-better-than-langsmith-for-development-0e5f430e01cc
+2026-09-16,korea,Samsung,"System One Lite – typed decisions from a local LLM, with no generated tokens",2,0,samsnelling,2026-09-16T14:31:30Z,https://github.com/snellingio/system-one
+2026-09-16,korea,Samsung,Samsung backs Nvidia AI chip rival in $230M funding round,1,0,velik_m,2026-09-15T20:25:43Z,https://www.cnbc.com/2026/09/14/samsung-euclyd-ai-chip-funding.html
+2026-09-16,consumer,e-commerce,What made global e-commerce possible (it wasn't encryption),1,0,zerolayers,2026-09-15T19:09:58Z,https://syntheticauth.ai/posts/the-trust-stack-02-nobody-in-the-room
+2026-09-16,consumer,retail,Show HN: Give your AI agents access to WhatsApp,14,29,fabian_shipamax,2026-09-16T15:04:08Z,
+2026-09-16,consumer,retail,Archive Builder,1,0,RENiXTech,2026-09-16T14:52:04Z,https://apps.microsoft.com/detail/9n5hjq99k6wq?hl=en-US&gl=US
+2026-09-16,consumer,retail,Show HN: TabHop I just wanted Command+Shift+Up/Down to switch tabs,2,1,jackwalkerlabs,2026-09-16T14:47:34Z,https://chromewebstore.google.com/detail/tabhop/jhcabemalinecggplldpoikighephkjn
+2026-09-16,consumer,retail,Share files directly between browsers no cloud upload needed,1,1,xabd,2026-09-16T11:41:50Z,
+2026-09-16,consumer,retail,It is good Under $5 for a life time?,2,1,SolvyCode,2026-09-16T11:36:46Z,https://apps.microsoft.com/detail/9nl267vtkkmg?hl=en-US&gl=US
+2026-09-16,consumer,retail,Ask HN: How do you get coding agents to clean up after changing direction?,3,1,BearBest,2026-09-16T06:59:33Z,
+2026-09-16,consumer,retail,Show HN: An open-source Socratic coach for competitive programming,1,1,boriskurikhin,2026-09-16T05:51:11Z,https://chromewebstore.google.com/detail/socratic-algo-coach/inppdfdpenccjiggnlfaomfnckadoaoi
+2026-09-16,consumer,retail,I built dual cam app because I had credits left and didn't know what else to do,1,1,yugendhar,2026-09-16T05:43:02Z,https://play.google.com/store/apps/details?id=app.heynomad.camera.dualshot.creator.ai&hl=en
+2026-09-16,consumer,retail,Where Prediction Markets Struggle,2,1,andsoitis,2026-09-16T05:31:47Z,https://economist.com/graphic-detail/2026/09/10/where-prediction-markets-struggle
+2026-09-16,consumer,retail,Important Notice on CoinEx's Orderly Cessation of Operations,1,0,Bluestein,2026-09-16T03:17:01Z,https://www.coinex.com/en/announcements/detail/53539656293908
+2026-09-16,consumer,retail,Show HN: A writing coach that's not allowed to write your sentences,2,0,ygjb,2026-09-15T18:05:41Z,https://app.oghmere.com/try/HACKERNEWS2026
+2026-09-16,consumer,consumer,Apple weighs Nvidia technology for potential server market return,1,1,_____k,2026-09-16T16:10:00Z,https://www.reuters.com/technology/apple-considers-nvidia-tech-return-server-market-information-reports-2026-09-16/
+2026-09-16,consumer,consumer,Show HN: Kaflow Search – A desktop tool for locally indexed Kafka message search,1,0,whsoul,2026-09-16T13:08:47Z,https://kaflow-search.whsoul-tools.com/
+2026-09-16,consumer,consumer,OpenAI Considers Pre-IPO Funding Round at More Than $1.2T Valuation,2,1,bookofjoe,2026-09-16T13:06:04Z,https://www.wsj.com/tech/ai/openai-considers-pre-ipo-funding-round-at-more-than-1-2-trillion-valuation-54555295
+2026-09-16,consumer,consumer,Ask HN: Can LLMs be used to invent a new human language?,1,6,loopies,2026-09-16T10:50:45Z,
+2026-09-16,consumer,consumer,Ask HN: How do you put together a technical engineering team?,1,1,timontoadnix,2026-09-16T04:55:17Z,
+2026-09-16,consumer,consumer,American Incomes Hit Record Last Year as Women Gained Ground,2,0,kaycebasques,2026-09-16T02:41:34Z,https://www.wsj.com/economy/consumers/american-incomes-hit-record-last-year-as-women-gained-ground-304ed2fd
+2026-09-16,consumer,consumer,Grandma disables a fiber optic drone,3,1,consumer451,2026-09-16T01:29:27Z,https://twitter.com/United24media/status/2099842961731142003
+2026-09-16,consumer,consumer,Clarity Act Stalls in Senate as Crypto Bill Fails to Clear Key Vote,5,0,consumer451,2026-09-15T23:06:47Z,https://decrypt.co/378283/clarity-act-fails-senate-hurdle
+2026-09-16,consumer,consumer,Show HN: A writing coach that's not allowed to write your sentences,2,0,ygjb,2026-09-15T18:05:41Z,https://app.oghmere.com/try/HACKERNEWS2026
