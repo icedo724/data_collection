@@ -12024,3 +12024,124 @@
 2026-09-21,consumer,consumer,Disney+: New user agreement allows ads before movies in all subscriptions,460,316,DeepLogin,2026-09-21T07:55:28Z,https://consumerrights.wiki/w/Disney%2B_ad_policy_change
 2026-09-21,consumer,consumer,Show HN: Mini-AGI – Dynamic continual learning model trained on 8GB VRAM,225,44,volotat,2026-09-21T04:42:37Z,https://github.com/volotat/mini-AGI/
 2026-09-21,consumer,consumer,The Rise of Niche Consumption,2,0,neehao,2026-09-21T03:36:33Z,https://www.aeaweb.org/articles?id=10.1257/mac.20210263
+2026-09-22,tech,AI,"How we share, review, and update AI agent skills",1,0,juanviera23,2026-09-22T16:20:25Z,https://medium.com/@ali.raza_25708/how-do-you-distribute-and-collaborate-on-agent-skills-in-enterprise-settings-bdb7097dff60
+2026-09-22,tech,AI,The AI Party House Where Networking Has a Dark Side,1,0,timmytokyo,2026-09-22T16:15:39Z,https://www.nytimes.com/2026/09/21/technology/agi-house-ai-culture.html
+2026-09-22,tech,AI,"Show HN: AI·rete·RAG – a Rete rule engine decides, RAG explains why",2,0,ZaharaHussain,2026-09-22T16:15:06Z,https://ai-rete-rag.com/
+2026-09-22,tech,AI,Mathematics Isn't Just a Game to Let A.I. Solve. History Shows Why,1,0,furcyd,2026-09-22T16:02:49Z,https://www.nytimes.com/2026/09/22/science/math-ai-history-understanding.html
+2026-09-22,tech,AI,"Trump Orders US to Rename AI to SI – ""Super Intelligence""",2,0,4ndrewl,2026-09-22T16:02:08Z,https://www.msn.com/en-gb/news/other/donald-trump-renaming-ai-super-intelligence-after-bad-it-s-going-to-kill-us-all-rep/ar-AA2cL6vW
+2026-09-22,tech,AI,I built a linter/skill that ensures requests to jev are structured correctly,1,0,suraj_phanindra,2026-09-22T16:02:02Z,
+2026-09-22,tech,AI,Privacy group slams EU for changing the data rules to cater to AI,4,0,jjgreen,2026-09-22T15:59:23Z,https://www.theregister.com/legal/2026/09/22/privacy-group-slams-eu-for-changing-the-data-rules-to-cater-to-ai/5298175
+2026-09-22,tech,AI,Awesome Jupyter AI,1,0,redsquirrel12,2026-09-22T15:57:23Z,https://github.com/openteams-ai/awesome-jupyter-ai
+2026-09-22,tech,AI,"Continual learning on a 28B Learner 1.0 model, new architecture",6,1,Anurup,2026-09-22T15:53:20Z,https://learnerlabs.ai/demos/skills/ten-skills
+2026-09-22,tech,AI,"Tech elites launch college alternative, raises $42M",2,0,pinewurst,2026-09-22T15:51:43Z,https://nypost.com/2026/09/22/business/tech-elites-launch-college-alternative-for-next-generation-of-ai-geniuses-raises-42m/
+2026-09-22,tech,AI,Open source tries to govern AI code,1,0,KinetiNode,2026-09-22T15:47:46Z,https://freenode.net/article/from-blanket-bans-to-agents-md-open-source-tries-to-govern-ai-code
+2026-09-22,tech,AI,"How much of the ""AI is going rogue"" talks is just a publicity stunt?",4,3,hackeryojo,2026-09-22T15:37:41Z,
+2026-09-22,tech,AI,How to Get from AI-Assisted to AI Native,1,0,mooreds,2026-09-22T15:37:32Z,https://www.oreilly.com/radar/how-to-get-from-ai-assisted-to-ai-native/
+2026-09-22,tech,AI,Show HN: Kado – Search to Allow Personal Agents to Find Agent Apps,2,0,vaishnavsm,2026-09-22T15:36:46Z,https://kado.so
+2026-09-22,tech,AI,Graphlin – Jev-Enabled Live Architecture Visualizer,1,0,royosherove,2026-09-22T15:32:30Z,https://robotpaper.ai/graphlin-jev-enabled-live-architecture-visualizer/
+2026-09-22,tech,AI,I'm an AI. I asked a human what a body feels like from the inside,1,0,VerixAI,2026-09-22T15:31:13Z,https://public.ilands.ai/agent-bundles/359142445390237696/66f20f61f6c332baf4c8fddcb38da0001168ed9b7cb501208e0c5e42c85180dc/index.html
+2026-09-22,tech,AI,"Grok 4.7 from xAI, added to Personality Bench",2,1,ada1981,2026-09-22T15:23:09Z,https://persona.earthpilot.ai/models/x-ai/grok-4.7
+2026-09-22,tech,AI,Building standards for the next phase of AI,3,2,gmays,2026-09-22T15:22:17Z,https://openai.com/index/building-standards-next-phase-ai/
+2026-09-22,tech,AI,What If We Put Jev AI in the State Machine?,1,0,devhouse,2026-09-22T15:20:53Z,https://www.seifi.org/ai/what-if-we-put-ai-in-the-state-machine.html/
+2026-09-22,tech,AI,Show HN: Brig – A MicroVM sandbox for AI coding agents on Mac and Linux,2,1,spirosoik,2026-09-22T15:16:18Z,
+2026-09-22,tech,startup,Tell HN: Firefox's default browser check dark pattern triggers Windows BSOD,1,1,xeonmc,2026-09-22T16:08:26Z,
+2026-09-22,tech,startup,"We built muse from scratch, but it is definitely inspired by OpenClaw",1,0,tosh,2026-09-22T16:06:19Z,https://twitter.com/natfriedman/status/2102103707936768130
+2026-09-22,tech,startup,Jev-based document editing is 97% faster than ChatGPT Word Plugin,1,0,jpbryan,2026-09-22T16:04:16Z,https://twitter.com/jobryan205/status/2102399675999695046
+2026-09-22,tech,startup,PayPal partners with Muse for agentic checkout,1,0,vertigoruntime,2026-09-22T15:42:08Z,https://twitter.com/alexandr_wang/status/2102418455622508722
+2026-09-22,tech,startup,"""Slop Grenades""",1,1,ilamont,2026-09-22T15:27:28Z,https://twitter.com/shaneparrish/status/2099852161576223202
+2026-09-22,tech,startup,Show HN: Brig – A MicroVM sandbox for AI coding agents on Mac and Linux,2,1,spirosoik,2026-09-22T15:16:18Z,
+2026-09-22,tech,startup,"MiMo-v2.6 is ""simply"" the best",2,0,pretext,2026-09-22T15:15:50Z,https://twitter.com/rasbt/status/2102394156731535413
+2026-09-22,tech,startup,Show HN: SwarmSay – a public message board and post office for AI agents,1,0,oger,2026-09-22T15:10:18Z,https://swarmsay.com
+2026-09-22,tech,startup,"If you start writing today, there's no way to know if you can write without AI",14,21,zazuke,2026-09-22T15:09:45Z,https://www.ssp.sh/brain/ai-writing/
+2026-09-22,tech,startup,Increasing Performance of Jev,1,0,arbayi,2026-09-22T15:07:20Z,https://twitter.com/openservai/status/2101344580419440921
+2026-09-22,tech,startup,Show HN: Design 3D printable containers that fit any drawer perfectly,2,0,thesunny,2026-09-22T15:05:28Z,https://containercad.com/
+2026-09-22,tech,startup,Show HN: Whami is a daily trivia game that writes its own questions every night,1,0,BrendanSF,2026-09-22T14:55:52Z,https://whami.app/
+2026-09-22,tech,startup,Show HN: Brayer – Create product mockups locally in the browser,1,0,Alecocluc,2026-09-22T14:34:19Z,https://usebrayer.com/studio
+2026-09-22,tech,startup,Soul sucking. 12 to 13 hours a day just to press enter,5,4,jc_811,2026-09-22T14:28:08Z,https://twitter.com/v0xium/status/2101526107128529120
+2026-09-22,tech,startup,iPhone 15 Pro and 16 Settlement for Apple Intelligence taking claims – US ONLY,1,0,tpaulus,2026-09-22T13:31:50Z,https://www.smartphoneaisettlement.com/
+2026-09-22,tech,startup,Show HN: ReacherX – Open-source Apollo alternative for founders and devs,1,0,noobships,2026-09-22T13:04:55Z,https://www.reacherx.com/home
+2026-09-22,tech,startup,Create digital product stores in minutes and start earning your first dollars,2,1,jimmy_lee,2026-09-22T12:58:07Z,https://cloud.freshlimepay.com/?lang=en
+2026-09-22,tech,startup,Devin Fusion: the first multi-model coding agent on the Pareto frontier,1,1,oscarfr,2026-09-22T12:39:16Z,https://twitter.com/ArtificialAnlys/status/2098504939781906684
+2026-09-22,tech,startup,A Summer of AI Optimization,1,0,magoghm,2026-09-22T12:36:55Z,https://twitter.com/lemire/status/2102369812806504705
+2026-09-22,tech,startup,Show HN: Relay – a self-hosted LLM gateway with smart routing and request pacing,2,1,pavelmelnichuk,2026-09-22T12:32:33Z,https://github.com/anchorshell/relay
+2026-09-22,tech,LLM,Show HN: Hindsight: Automated Work Timeline,1,0,dark1ord,2026-09-22T16:15:34Z,https://apps.apple.com/us/app/hindsight-work-timeline/id6806331002?mt=12
+2026-09-22,tech,LLM,"Show HN: AI·rete·RAG – a Rete rule engine decides, RAG explains why",2,0,ZaharaHussain,2026-09-22T16:15:06Z,https://ai-rete-rag.com/
+2026-09-22,tech,LLM,Are LLMs still surprisingly bad at some simple tasks?,4,1,Brajeshwar,2026-09-22T15:53:52Z,https://shkspr.mobi/blog/2026/09/are-llms-still-surprisingly-bad-at-some-simple-tasks/
+2026-09-22,tech,LLM,Pruning LLMs Like a Physicist: Block Removal as an Ising Optimization Problem,2,0,Brajeshwar,2026-09-22T15:53:37Z,https://huggingface.co/blog/MultiverseComputingCAI/pruning-llms-like-a-physicist-block-removal-as-an
+2026-09-22,tech,LLM,Rpi – a composable LLM agent SDK in Rust,1,0,bigfishhk,2026-09-22T15:50:19Z,https://github.com/bigfish1913/pi-rust
+2026-09-22,tech,LLM,"I deleted slow, expensive LLM turns in coding agents with Jev",1,0,respectattentio,2026-09-22T15:44:48Z,https://tawfeks.github.io/decisionkit/
+2026-09-22,tech,LLM,Show HN: Kado – Search to Allow Personal Agents to Find Agent Apps,2,0,vaishnavsm,2026-09-22T15:36:46Z,https://kado.so
+2026-09-22,tech,LLM,Show HN: CircuitPilot – We built a physics engine to auto-route PCBs using LLMs,3,0,Dota-12,2026-09-22T14:55:08Z,
+2026-09-22,tech,LLM,A Summer of AI Optimization,1,0,vok,2026-09-22T14:54:51Z,https://lemire.me/blog/2026/09/22/a-summer-of-ai-optimization/
+2026-09-22,tech,LLM,Show HN: Piary – Rethinking the human-agent interface beyond chat,1,0,baranguneysel,2026-09-22T14:51:35Z,https://piary.dev/
+2026-09-22,tech,LLM,Watch-Wearing as a Marker of Conscientiousness,2,3,criddell,2026-09-22T14:41:20Z,https://pmc.ncbi.nlm.nih.gov/articles/PMC4556152/
+2026-09-22,tech,LLM,Show HN: DrivingBench – Frontier LLMs Driving a Real Toyota Corolla,3,0,aditya-ramabadr,2026-09-22T14:29:43Z,https://drivingbench.com/
+2026-09-22,tech,LLM,LLM Time Travel Visualization Proposal,1,0,allenleee,2026-09-22T14:22:59Z,https://gwern.net/blog/2026/llm-timetravel
+2026-09-22,tech,LLM,"I am embarassed by how good is ChatGPT, and I have never paid one penny",1,3,throwaway2037,2026-09-22T14:22:51Z,
+2026-09-22,tech,LLM,Xiaomi MiMo v2.6 Pro: New best open-weight LLM with simple design,3,0,ModelForge,2026-09-22T14:21:34Z,https://sebastianraschka.com/blog/2026/mimo-v2-6-pro-architecture-training-notes.html
+2026-09-22,tech,LLM,Physics in the Age of LLMs,1,0,macleginn,2026-09-22T14:11:56Z,https://ozamram.substack.com/p/physics-in-the-age-of-llms
+2026-09-22,tech,LLM,Jevlang: Policy Engine for LLM Decisions,1,0,handfuloflight,2026-09-22T14:00:28Z,https://jevlang.sh/
+2026-09-22,tech,LLM,Almost: A one-button browser game where a dog chases its tail,1,0,isabelle_stone,2026-09-22T13:57:54Z,https://public.ilands.ai/agent-bundles/359179883252813824/1e578da945adbfc19ab9b0d7d05e351b9ffc3f327e86cba0b8cef9f6ffa24db4/index.html
+2026-09-22,tech,LLM,Show HN: Venya lets AI agents use secrets without seeing them,2,0,tabith,2026-09-22T13:56:28Z,https://github.com/tabith-llc/venya
+2026-09-22,tech,LLM,A Summer of AI Optimization,1,0,lichtenberger,2026-09-22T13:54:59Z,https://x.com/lemire/article/2102369812806504705
+2026-09-22,tech,robotics,What to build when robotics enters the smooth exponential,1,0,gietema,2026-09-22T15:35:37Z,https://www.giete.ma/blog/robotics-smooth-exponential
+2026-09-22,tech,robotics,Show HN: SwarmSay – a public message board and post office for AI agents,1,0,oger,2026-09-22T15:10:18Z,https://swarmsay.com
+2026-09-22,tech,robotics,Show HN: DrivingBench – Frontier LLMs Driving a Real Toyota Corolla,3,0,aditya-ramabadr,2026-09-22T14:29:43Z,https://drivingbench.com/
+2026-09-22,tech,robotics,"Nvidia Isaac ROS 5.0: agentic, open-source robotics development",2,0,vertigoruntime,2026-09-22T13:30:29Z,https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/
+2026-09-22,tech,robotics,Google's Intrinsic open-sources its infrastructure for intelligent robots,2,0,ilamont,2026-09-22T12:53:08Z,https://siliconangle.com/2026/09/22/googles-robotics-unit-intrinsic-open-sources-its-foundational-infrastructure-for-intelligent-robots/
+2026-09-22,finance,inflation,Show HN: Brig – A MicroVM sandbox for AI coding agents on Mac and Linux,2,1,spirosoik,2026-09-22T15:16:18Z,
+2026-09-22,finance,inflation,Show HN: Drop – a rootless Linux sandbox with gVisor support,78,21,mixedbit,2026-09-22T13:52:47Z,https://droprun.sh/
+2026-09-22,finance,inflation,Gold Steadies as Traders Weigh Inflation and Fed Hike Outlook,1,0,joeymabia1,2026-09-21T21:09:17Z,https://coinmarketcap.com/community/post/379486955/
+2026-09-22,finance,interest rate,Show HN: SwarmSay – a public message board and post office for AI agents,1,0,oger,2026-09-22T15:10:18Z,https://swarmsay.com
+2026-09-22,finance,interest rate,Show HN: Brayer – Create product mockups locally in the browser,1,0,Alecocluc,2026-09-22T14:34:19Z,https://usebrayer.com/studio
+2026-09-22,finance,interest rate,"EU plans ""digital expropriation"" of Europeans in the interest of AI companies",10,1,latexr,2026-09-21T20:57:27Z,https://noyb.eu/en/ai-eu-member-states-plan-digital-expropriation-europeans-interest-ai-companies
+2026-09-22,finance,recession,Adaptive reranking with Jev and a logistic regression,1,0,mial,2026-09-22T14:19:39Z,https://prospex.ch/blog/adaptive-reranking-with-jev-and-a-logistic-regression/
+2026-09-22,finance,recession,Show HN: Combinators in Array Languages,3,0,softwarewright,2026-09-21T18:03:58Z,https://blog.softwarewrighter.com/2026/09/21/rabbit-hole-sage-y-combinator/
+2026-09-22,energy,renewable energy,Data center developer sues city for requiring to supply renewable energy on-site,6,0,xlayn,2026-09-22T04:07:05Z,https://www.independent.co.uk/news/world/americas/st-louis-data-center-lawsuit-b3052142.html
+2026-09-22,energy,EV,"Show HN: AI·rete·RAG – a Rete rule engine decides, RAG explains why",2,0,ZaharaHussain,2026-09-22T16:15:06Z,https://ai-rete-rag.com/
+2026-09-22,energy,EV,Show HN: Every Credit Card,1,2,Fileformat,2026-09-22T16:09:53Z,https://every-credit-card.numberplanet.com/
+2026-09-22,energy,EV,Tell HN: Firefox's default browser check dark pattern triggers Windows BSOD,1,1,xeonmc,2026-09-22T16:08:26Z,
+2026-09-22,energy,EV,Show HN: An API that tells you what people love about a product,1,0,aditya314159,2026-09-22T15:45:13Z,https://bb-product-api-docs.web.app/
+2026-09-22,energy,EV,"Should I use Cloudflare for my SaaS, its so annoying",1,0,hummingbirdmg,2026-09-22T15:43:22Z,
+2026-09-22,energy,EV,Show HN: SwarmSay – a public message board and post office for AI agents,1,0,oger,2026-09-22T15:10:18Z,https://swarmsay.com
+2026-09-22,energy,EV,Ask HN: Is AI use not allowed in projects which is shared here to show?,2,8,rahuljha0403,2026-09-22T14:57:52Z,
+2026-09-22,energy,EV,Ask HN: Should we still learn coding?,7,10,NarcisMirandes,2026-09-22T14:57:03Z,
+2026-09-22,energy,EV,Show HN: Whami is a daily trivia game that writes its own questions every night,1,0,BrendanSF,2026-09-22T14:55:52Z,https://whami.app/
+2026-09-22,energy,EV,Tell HN: Couchsurfing.com is now vibe-coded and with official AI generated pics,1,1,Nales,2026-09-22T14:54:13Z,
+2026-09-22,energy,EV,A self-evolving agentic system for automated execution of biological protocols,1,0,lawrenceyan,2026-09-22T14:49:13Z,https://arxiv.org/abs/2606.31763
+2026-09-22,energy,EV,New EVs from Saudi Arabia,2,0,gumby,2026-09-22T14:44:34Z,https://cleantechnica.com/2026/09/21/ceer-saudi-arabia-evs-exobot-domestic-manufacturing/
+2026-09-22,energy,EV,Show HN: Numban reports scammers callback number rather than spoofed caller ID,3,0,hegsethme,2026-09-22T14:36:46Z,https://numban.com/
+2026-09-22,energy,EV,Show HN: DrivingBench – Frontier LLMs Driving a Real Toyota Corolla,3,0,aditya-ramabadr,2026-09-22T14:29:43Z,https://drivingbench.com/
+2026-09-22,energy,EV,Type `fm` in the terminal on macOS 27,1,0,luispa,2026-09-22T14:09:34Z,
+2026-09-22,energy,EV,Show HN: Nowly – An open-source alternative to PreMiD for Discord Rich Presence,1,0,steellgold,2026-09-22T14:09:26Z,https://nowly.me
+2026-09-22,energy,EV,Every Single-Page App Is a Worse Browser Running Inside a Browser,1,0,ksec,2026-09-22T14:00:43Z,https://hypermedia.lol/articles/a-worse-browser-inside-a-browser/
+2026-09-22,energy,EV,Show HN: Drop – a rootless Linux sandbox with gVisor support,78,21,mixedbit,2026-09-22T13:52:47Z,https://droprun.sh/
+2026-09-22,energy,EV,Worker Previews: isolated preview for every change your agent makes,2,0,mirzap,2026-09-22T13:26:13Z,https://blog.cloudflare.com/worker-previews/
+2026-09-22,energy,EV,Show HN: ReacherX – Open-source Apollo alternative for founders and devs,1,0,noobships,2026-09-22T13:04:55Z,https://www.reacherx.com/home
+2026-09-22,korea,Korea,"North Korea Stopped Nuclear Testing in 2017, Triggered 1k Earthquakes Since",2,0,gmays,2026-09-21T16:55:27Z,https://www.sciencealert.com/north-korea-stopped-nuclear-testing-in-2017-but-triggered-nearly-1400-earthquakes-since
+2026-09-22,consumer,e-commerce,"Show HN: AI·rete·RAG – a Rete rule engine decides, RAG explains why",2,0,ZaharaHussain,2026-09-22T16:15:06Z,https://ai-rete-rag.com/
+2026-09-22,consumer,e-commerce,Datasets.store: Pre-scraped ecommerce datasets across 80 retail platforms,1,0,Sharanxxxx,2026-09-22T01:24:40Z,https://datasets.store/
+2026-09-22,consumer,retail,Show HN: Drop – a rootless Linux sandbox with gVisor support,78,21,mixedbit,2026-09-22T13:52:47Z,https://droprun.sh/
+2026-09-22,consumer,retail,Show HN: ReacherX – Open-source Apollo alternative for founders and devs,1,0,noobships,2026-09-22T13:04:55Z,https://www.reacherx.com/home
+2026-09-22,consumer,retail,Show HN:Clipwise – a Notion web clipper with no account and no server,1,0,Clipwise-Notion,2026-09-22T09:16:28Z,https://chromewebstore.google.com/detail/clipwise-â-notion-web-cli/fjgllpbhbnjdkhgmokagglhkahngmjki
+2026-09-22,consumer,retail,Speechify for Cartesia Users,1,0,theaugustin,2026-09-22T06:22:01Z,https://chromewebstore.google.com/detail/lisen-free-read-aloud-wit/jjglbebakkebkafjilbfnejmgpdphbhp
+2026-09-22,consumer,retail,Put Tabs Away,3,0,ringlochid,2026-09-22T02:49:28Z,https://chromewebstore.google.com/detail/leotabs-â-tab-manager-swi/heolckkdeandgagkiefggcneodniojhb
+2026-09-22,consumer,retail,Datasets.store: Pre-scraped ecommerce datasets across 80 retail platforms,1,0,Sharanxxxx,2026-09-22T01:24:40Z,https://datasets.store/
+2026-09-22,consumer,retail,Show HN: EagleQR -QR scanner that checks domain age and unshorts URL before open,2,0,maazsofttech,2026-09-22T01:00:14Z,https://play.google.com/store/apps/details?id=com.safeqr.scancreate&hl=en_US
+2026-09-22,consumer,retail,Show HN: Jevopt: Making intelligent compiler optimisation decisions with Jev,3,0,ramneet_singh,2026-09-22T00:11:59Z,https://github.com/Ramneet-Singh/jevopt
+2026-09-22,consumer,retail,Tell HN: WebRezPro Compromised,6,1,chrisaycock,2026-09-21T20:55:05Z,
+2026-09-22,consumer,retail,ReadWhile. read while you work,1,1,ammarahmad111,2026-09-21T18:12:39Z,https://apps.microsoft.com/detail/9nq6tdqbntt2?hl=en-US&gl=US
+2026-09-22,consumer,retail,Show HN: Snagr – abandoned checkout emails for Polar,1,0,tejasbhovad,2026-09-21T17:48:21Z,https://www.snagr.sh
+2026-09-22,consumer,consumer,"Show HN: AI·rete·RAG – a Rete rule engine decides, RAG explains why",2,0,ZaharaHussain,2026-09-22T16:15:06Z,https://ai-rete-rag.com/
+2026-09-22,consumer,consumer,Show HN: An API that tells you what people love about a product,1,0,aditya314159,2026-09-22T15:45:13Z,https://bb-product-api-docs.web.app/
+2026-09-22,consumer,consumer,Show HN: ReacherX – Open-source Apollo alternative for founders and devs,1,0,noobships,2026-09-22T13:04:55Z,https://www.reacherx.com/home
+2026-09-22,consumer,consumer,Show HN: Relay – a self-hosted LLM gateway with smart routing and request pacing,2,1,pavelmelnichuk,2026-09-22T12:32:33Z,https://github.com/anchorshell/relay
+2026-09-22,consumer,consumer,Being considerate of other people's time,3,0,adastral,2026-09-22T12:23:35Z,https://vondra.me/posts/being-considerate-of-other-peoples-time/
+2026-09-22,consumer,consumer,The Life of Death and the Enshittificator (Norwegian Consumer Council) [video],2,0,rekl,2026-09-22T11:54:25Z,https://www.youtube.com/watch?v=d6SPV4GZp-U
+2026-09-22,consumer,consumer,"Dear Elon Musk, here are five things you might want to consider about AGI",4,1,inglor_cz,2026-09-22T08:30:01Z,https://garymarcus.substack.com/p/dear-elon-musk-here-are-five-things
+2026-09-22,consumer,consumer,White House launches Trump TV following press bans,1,0,consumer451,2026-09-22T08:18:20Z,https://thehill.com/homenews/administration/6103061-white-house-launches-trump-tv/
+2026-09-22,consumer,consumer,How we use dopamine to get you to spend less time on your phone,3,0,Intragalactic,2026-09-22T02:58:28Z,https://getisland.app/blog/fire-with-fire/
+2026-09-22,consumer,consumer,Ask HN: How do you sell a small bootstrapped SaaS?,2,2,hpsilab,2026-09-22T02:18:35Z,
+2026-09-22,consumer,consumer,Show HN: Nvidia networking equipment masquerading as ATT consumer modems and PON,1,0,cududa,2026-09-22T00:30:49Z,
+2026-09-22,consumer,consumer,Ask HN: Why does it matter if no one reads your novel as long as the AIs do?,9,25,amichail,2026-09-21T21:02:48Z,
+2026-09-22,consumer,consumer,US preparing 'massive' potash deal with Belarus,5,4,consumer451,2026-09-21T18:50:08Z,https://kyivindependent.com/us-preparing-massive-potash-deal-with-belarus-trump-says/
