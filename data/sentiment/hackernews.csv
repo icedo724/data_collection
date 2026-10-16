@@ -14734,3 +14734,128 @@
 2026-10-15,consumer,consumer,Ask HN: Any secrets for reaching a human at large companies?,4,2,elebant,2026-10-14T18:08:58Z,
 2026-10-15,consumer,consumer,FrodoKEM: A conservative quantum-safe cryptographic algorithm,1,0,dgroshev,2026-10-14T17:15:25Z,https://www.microsoft.com/en-us/research/blog/frodokem-a-conservative-quantum-safe-cryptographic-algorithm/
 2026-10-15,consumer,consumer,OpenAI: Employee who left for Apple took files about unreleased device,22,7,timpera,2026-10-14T16:47:21Z,https://www.reuters.com/business/retail-consumer/openai-employee-who-left-apple-took-files-about-unreleased-device-openai-alleges-2026-10-14/
+2026-10-16,tech,AI,"What AI is revealing about education, what education must confront about itself",1,0,laurex,2026-10-16T16:09:06Z,https://vanessaandreotti.substack.com/p/in-the-digital-waters
+2026-10-16,tech,AI,"Beam 1.0 Intelligence, Performance and Price Analysis",1,0,theanonymousone,2026-10-16T16:08:01Z,https://artificialanalysis.ai/models/reflection-beam
+2026-10-16,tech,AI,"Fixing ""AI"" UIs",1,0,pokemyiout,2026-10-16T16:07:37Z,https://malerchen.com/fixing-ai-uis/
+2026-10-16,tech,AI,AI Revolution vs. Computing Revolution,2,0,nitinagg,2026-10-16T16:00:32Z,
+2026-10-16,tech,AI,Postgres 19 delayed after AI reviewers find more bugs than humans can fix,4,0,magoghm,2026-10-16T15:55:40Z,https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471
+2026-10-16,tech,AI,Show HN: Agent Chat in Your Markdown Notes – Chat with Context and Save Response,1,0,gb2d_hn,2026-10-16T15:53:13Z,https://blog.etherpk.com/agent-chat-ask-a-language-model-about-your-notes
+2026-10-16,tech,AI,How to avoid AI brainrot – Miles Cranmer,4,0,ray__,2026-10-16T15:53:06Z,https://www.youtube.com/watch?v=uXC7OuCas2Q
+2026-10-16,tech,AI,Imagine Every AI Agent on Earth Buying the Same Cheap Paper Towels,3,0,fortran77,2026-10-16T15:51:03Z,https://www.theatlantic.com/technology/2026/10/ai-agent-chaos-e-commerce/689010/
+2026-10-16,tech,AI,No More Heroes – Terence Tao Talks to Numberphile About AI,2,1,nyc111,2026-10-16T15:50:40Z,https://www.youtube.com/watch?v=bAnwMdfcMVw
+2026-10-16,tech,AI,VectorCraft vs. Figma vs. Penpot vs. Adobe Illustrator vs. Wunjo Design?,2,0,wladradchenko,2026-10-16T15:50:33Z,
+2026-10-16,tech,AI,Perplexity to give away its AI security software,2,0,nycdatasci,2026-10-16T15:47:38Z,https://www.semafor.com/article/10/15/2026/perplexity-to-give-away-its-ai-security-software
+2026-10-16,tech,AI,I miss crappy AI art,2,3,dado3212,2026-10-16T15:47:17Z,https://blog.alexbeals.com/posts/i-miss-crappy-ai-art
+2026-10-16,tech,AI,C++ and AI at CppCon: We have to use agents – more or less?,1,0,ibobev,2026-10-16T15:44:04Z,https://www.sandordargo.com/blog/2026/10/07/cpp-and-ai-at-cppcon
+2026-10-16,tech,AI,China proposes export controls on AI technologies,1,3,supermdguy,2026-10-16T15:42:43Z,https://m.bjnews.com.cn/detail/1792137269129878.html
+2026-10-16,tech,AI,"Building AI Products, Feature Factory at 10 – Food for Agile Thought 566",1,0,swolpers,2026-10-16T15:42:19Z,https://age-of-product.com/food-agile-thought-566-building-ai-products/
+2026-10-16,tech,AI,"Show HN: Termexo – one AI operating your other coding agents, on Windows",1,0,gemron,2026-10-16T15:40:56Z,https://github.com/gemron/Termexo
+2026-10-16,tech,AI,"Show HN: We built an open source, agent-first, alternative to Profound",2,0,arberx,2026-10-16T15:38:22Z,https://github.com/Canonry/canonry
+2026-10-16,tech,AI,"Pry, a browser agent that redacts private data before anything reaches AI model",2,0,shashank-tomar,2026-10-16T15:34:45Z,https://chromewebstore.google.com/detail/pry-agent/aocmnoompdjlgbfjlimikkpoebooolog
+2026-10-16,tech,AI,OpenSpec: A task tracker with a spec attached?,2,0,ariloudev,2026-10-16T15:32:44Z,https://askloft.ai/insights/articles/how-good-are-openspec-specs
+2026-10-16,tech,AI,Build offline-first apps to earn trust in AI SaaS slop era,1,0,Random09,2026-10-16T15:27:53Z,http://blog.geckocode.pl/2026/10/16/privacy-first-apps.html
+2026-10-16,tech,semiconductor,"Why ""Replacing Engineers"" Is the Wrong Goal for AI in Semiconductor Fabs",3,0,mangohaha,2026-10-15T18:07:24Z,https://www.waferpilot.xyz/en/resources/fab-core-value/
+2026-10-16,tech,semiconductor,Show HN: I built a 3D semiconductor fab in the browser – design your own terafab,2,0,jinjiefan2018,2026-10-15T16:19:54Z,https://semiconfab.org/
+2026-10-16,tech,startup,Show HN: Agent Chat in Your Markdown Notes – Chat with Context and Save Response,1,0,gb2d_hn,2026-10-16T15:53:13Z,https://blog.etherpk.com/agent-chat-ask-a-language-model-about-your-notes
+2026-10-16,tech,startup,OpenAI lets anyone target specific people with ads via phone or email,5,2,greatgib,2026-10-16T15:48:35Z,https://twitter.com/josephfcox/status/2110725062873551004
+2026-10-16,tech,startup,JEP 545: Faster Startup and Warmup with ZGC,1,0,ejboy,2026-10-16T15:29:58Z,https://openjdk.org/jeps/545
+2026-10-16,tech,startup,Booking Holdings unveils AI travel startup Vayo,2,0,boa00,2026-10-16T14:47:54Z,https://www.geekwire.com/2026/booking-holdings-unveils-ai-travel-startup-vayo-based-in-seattle-with-a-planned-100m-investment/
+2026-10-16,tech,startup,Ask HN: Thoughts on hiring junior engineers in 2026?,6,6,abhishekbasu,2026-10-16T13:59:14Z,
+2026-10-16,tech,startup,Show HN: I made puzzle game IT THINKS – you build a GPU from logic gates,2,0,benbenhere,2026-10-16T13:24:23Z,https://catchy.games/it-thinks/
+2026-10-16,tech,startup,"AgentMon Start 1.3.0: cache costs, background spend, and MCP server health",1,0,vchain-dz,2026-10-16T12:55:22Z,https://codenotary.com/blog/agentmon-start-1-3-0-release-notes
+2026-10-16,tech,startup,Show HN: Videre – a Rust CLI to manage your photos and videos with joy,4,2,erhangundogan,2026-10-16T12:34:16Z,https://videre.sh/
+2026-10-16,tech,startup,Show HN: Cr34te.it – a website anyone can rewrite one turn at a time with AI,3,3,y42,2026-10-16T12:32:38Z,https://cr34te.it/
+2026-10-16,tech,startup,Ask HN: A platform where anyone can earn money by advertising any product,2,0,reader_reads,2026-10-16T11:34:38Z,
+2026-10-16,tech,startup,Build or Surrender,2,0,tosh,2026-10-16T11:30:28Z,https://twitter.com/arthurmensch/status/2110990492930314712
+2026-10-16,tech,startup,Tesla unveils Roadster by launching it off a ramp before flipping in midair,3,2,MrBuddyCasino,2026-10-16T11:01:08Z,https://twitter.com/CollinRugg/status/2110901393238474863
+2026-10-16,tech,startup,AI Startup Character.ai Files for Bankruptcy – AI Bubble Bursting [video],3,0,baranul,2026-10-16T10:59:18Z,https://www.youtube.com/watch?v=kcMTe1AbvjY
+2026-10-16,tech,startup,"I spent 48 hours in SF hanging out with billionaires, data labs and AI founders",4,1,layer8,2026-10-16T10:45:08Z,https://twitter.com/gregisenberg/status/2110414696037716372
+2026-10-16,tech,startup,If you order the jagged frontier by data it looks like a spiral frontier,1,0,Michelangelo11,2026-10-16T10:28:05Z,https://twitter.com/i/status/2110631576505569493
+2026-10-16,tech,startup,What I Mean When I Say That I Start from Absence,1,0,Pheverdotexe,2026-10-16T10:02:28Z,https://medium.com/@pheverdotexe/what-i-mean-when-i-say-that-i-start-from-absence-4869d23ef263
+2026-10-16,tech,startup,CVE-2026-99999: Linux IPv4: validate checksum_start before completing checksum,1,0,rwmj,2026-10-16T09:24:40Z,https://app.opencve.io/cve/CVE-2026-99999
+2026-10-16,tech,startup,Ask HN: Has anyone started using OpenAI Agents API,1,0,pitifulsurround,2026-10-16T09:12:27Z,
+2026-10-16,tech,startup,Ledger Unveils $899 Smartphone After $90M Crypto Theft,1,0,SXX,2026-10-16T08:58:12Z,https://www.bloomberg.com/news/articles/2026-10-15/ledger-unveils-899-smartphone-like-device-after-90-million-crypto-theft
+2026-10-16,tech,startup,"Show HN: Trustmux – Async tmux from your phone, now in Ubuntu, Debian, Fedora",1,0,dustinkirkland,2026-10-16T08:06:27Z,
+2026-10-16,tech,LLM,Show HN: Autonomous community research lab powered by agents,1,0,rgbrgb,2026-10-16T16:11:38Z,https://lemmapark.com
+2026-10-16,tech,LLM,Elon Musk Is Almost Single-Handedly Funding the Republican Midterms Push,9,2,mikelgan,2026-10-16T15:44:30Z,https://www.wired.com/story/elon-musk-is-almost-single-handedly-funding-the-republicans-midterms-push/
+2026-10-16,tech,LLM,Client-Side LLMs Product Demo: PDF to AudioBook [video],5,0,anthonybudd,2026-10-16T15:15:54Z,https://www.youtube.com/watch?v=t39svoJohkg
+2026-10-16,tech,LLM,Claude finds people for you and talks to them,2,1,kateyan,2026-10-16T15:15:48Z,https://lamoom.com/
+2026-10-16,tech,LLM,Scaling Postgres without limits: announcing Query Routers for Citus,1,0,ahachete,2026-10-16T15:06:39Z,https://stackgres.io/blog/scaling-citus-beyond-one-coordinator-announcing-query-routers-stackgres/
+2026-10-16,tech,LLM,Freedoom on AWS Lambda Web Functions,3,0,mariuz,2026-10-16T14:38:17Z,https://www.wooditwork.com/freedoom-on-lambda-web-functions/
+2026-10-16,tech,LLM,Redis now has compressed bitmaps (Roaring),4,0,ibobev,2026-10-16T14:22:06Z,https://lemire.me/blog/2026/10/15/redis-now-has-compressed-bitmaps-roaring/
+2026-10-16,tech,LLM,Show HN: Gemini 4 Argon plays StarCraft,52,24,__cayenne__,2026-10-16T14:18:44Z,https://starskirmish.com/bench/v0-2/
+2026-10-16,tech,LLM,How to make System 1 LLMs show System 2 competencies?,9,4,porridgeraisin,2026-10-16T14:16:34Z,https://onlinelibrary.wiley.com/doi/epdf/10.1002/aaai.70113
+2026-10-16,tech,LLM,"Build LLM Playground (Python, FastAPI, Gemini, React)",2,0,yatharth_verma1,2026-10-16T13:59:09Z,https://www.youtube.com/watch?v=73Knur3t4M0
+2026-10-16,tech,LLM,The evolution of LLM tool-use from API calls to agentic applications (2025),2,0,peter_d_sherman,2026-10-16T13:42:59Z,https://bdtechtalks.com/2025/12/29/llm-tool-use-agentic-ai/
+2026-10-16,tech,LLM,"Show HN: Scriber-Pro 2.0, a Mac app that transcribes m3u8 streams from web pages",4,1,raqix,2026-10-16T13:40:26Z,https://scriberpro.cc/hn2/
+2026-10-16,tech,LLM,LLMs have a problem with functional programming,1,0,kaleman15,2026-10-16T13:36:50Z,https://kevinaleman.com/ai-has-a-problem-with-functional-programming/
+2026-10-16,tech,LLM,Show HN: SlopGrid – Create your own oneshot AI model benchmarks,1,0,klntsky,2026-10-16T13:26:03Z,https://slopgrid.com/
+2026-10-16,tech,LLM,Your LLM is billing you for whitespace,1,0,Mojah,2026-10-16T13:21:05Z,https://getsnapkin.app/en/engineering/your-llm-is-billing-you-for-whitespace
+2026-10-16,tech,LLM,Ruby classes powered by LLM batteries (Squishling),1,1,mikecarroll,2026-10-16T13:13:41Z,https://coolhand-labs.github.io/squishling/
+2026-10-16,tech,LLM,Reuters: White House ordered restrictions on Starlink Ukraine,6,0,KellyCriterion,2026-10-16T12:05:30Z,https://www.reuters.com/world/europe/order-limit-starshield-ukraine-came-inside-white-house-sources-say-2026-10-15/
+2026-10-16,tech,LLM,Researchers who cloned horse: 'It would not be complicated to clone humans',4,0,geox,2026-10-16T10:07:02Z,https://english.elpais.com/international/2026-10-15/the-researchers-who-achieved-chiles-first-cloned-horse-it-would-not-be-complicated-to-clone-humans-the-only-limitation-is-ethical.html
+2026-10-16,tech,LLM,"Order to limit Starshield for Ukraine came from inside White House, sources say",9,1,pseudolus,2026-10-16T09:28:52Z,https://www.yahoo.com/news/articles/exclusive-order-limit-starshield-ukraine-230733575.html
+2026-10-16,tech,LLM,Ask HN: What world do you want to live in?,1,1,dfps,2026-10-16T08:59:00Z,
+2026-10-16,tech,robotics,Portable humanoid robot uses antenna eyebrows and lights to express emotions,1,0,surprisetalk,2026-10-16T12:40:05Z,https://www.designboom.com/technology/portable-humanoid-robot-antenna-eyebrows-light-animations-sprout-fauna-robotics/
+2026-10-16,tech,robotics,Best Robotic Arms for Education,1,0,Gedxx,2026-10-16T07:17:06Z,https://www.orienta21.com/en/best-robotic-arms-for-education/
+2026-10-16,tech,robotics,AA-Robotics v0.1,2,0,liamswayne,2026-10-15T22:46:15Z,https://artificialanalysis.ai/articles/aa-robotics
+2026-10-16,finance,stock market,"More Powerful Than Ever, (can't find work)",4,7,pieratt,2026-10-16T13:44:04Z,
+2026-10-16,finance,stock market,CoreWeave Founders Shield Fortunes with $3.3B Stock Sales,2,0,novaRom,2026-10-16T10:27:20Z,https://finance.yahoo.com/markets/stocks/articles/coreweave-founders-shield-fortunes-3-202255611.html
+2026-10-16,finance,stock market,"South Korea's stock market down, president telling people not to commit suicide",11,4,toomuchtodo,2026-10-16T03:26:08Z,https://twitter.com/litcapital/status/2110752546415382699
+2026-10-16,finance,interest rate,Show HN: Monitoring my 'dumb' boiler with AI,2,0,verelo,2026-10-16T13:51:13Z,https://ndroo.github.io/tapo-boiler-monitor/
+2026-10-16,finance,interest rate,Show HN: Videre – a Rust CLI to manage your photos and videos with joy,4,2,erhangundogan,2026-10-16T12:34:16Z,https://videre.sh/
+2026-10-16,finance,interest rate,Show HN: Weatheristic.com to answer questions other weather sites don't,4,4,zievo,2026-10-16T01:16:35Z,https://weatheristic.com/
+2026-10-16,finance,interest rate,Show HN: Turbo Lisp – A Common Lisp IDE for macOS and the Terminal,3,0,stray,2026-10-15T21:00:36Z,https://gitlab.com/patchwork1-ai/turbolisp
+2026-10-16,finance,interest rate,Show HN: Just gave Claude Code the website and ad budget to see what it would do,11,6,HamadMalikKhan,2026-10-15T18:00:51Z,https://snitch.alphaventure.com/gate.php
+2026-10-16,finance,recession,"Fractal Recursion, Bounded Infinity, and Adapted Systems",1,0,attractor26,2026-10-16T02:28:24Z,https://medium.com/towards-artificial-intelligence/fractal-recursion-bounded-infinity-and-adapted-systems-b11046c9e1e1
+2026-10-16,finance,recession,Show HN: RDST – A local agent that watches Postgres/MySQL for query regressions,6,2,gvsg,2026-10-15T18:09:01Z,https://github.com/readysettech/rdst
+2026-10-16,energy,EV,AI Revolution vs. Computing Revolution,2,0,nitinagg,2026-10-16T16:00:32Z,
+2026-10-16,energy,EV,"Evals for real-world, economically valuable tasks",2,0,shamdasani,2026-10-16T15:52:37Z,https://evals.thriveholdings.com/
+2026-10-16,energy,EV,Imagine Every AI Agent on Earth Buying the Same Cheap Paper Towels,3,0,fortran77,2026-10-16T15:51:03Z,https://www.theatlantic.com/technology/2026/10/ai-agent-chaos-e-commerce/689010/
+2026-10-16,energy,EV,Jane Street's event-driven feature engineering system,1,0,tokepi,2026-10-16T15:50:51Z,https://blog.janestreet.com/flex-model-an-event-driven-feature-engineering-system/
+2026-10-16,energy,EV,"Show HN: Tennis, a local/offline context store",2,0,pizzuh,2026-10-16T15:17:01Z,https://tennis.jlachance1.workers.dev/
+2026-10-16,energy,EV,How Codex Happened,2,0,gmays,2026-10-16T14:57:03Z,https://every.to/p/how-codex-happened
+2026-10-16,energy,EV,Our analytics counted US visitors twice every evening,2,0,qwend,2026-10-16T14:29:10Z,https://privatrak.com/blog/visitor-counted-twice
+2026-10-16,energy,EV,"Tesla Roadster: It Flies, Flips, and Hits 0-60 in 0.81s",14,1,Cabal,2026-10-16T14:03:15Z,https://www.notateslaapp.com/news/4837/tesla-roadster-event-recap-it-flies-flips-and-hits-0-60-in-081s
+2026-10-16,energy,EV,"More Powerful Than Ever, (can't find work)",4,7,pieratt,2026-10-16T13:44:04Z,
+2026-10-16,energy,EV,The evolution of LLM tool-use from API calls to agentic applications (2025),2,0,peter_d_sherman,2026-10-16T13:42:59Z,https://bdtechtalks.com/2025/12/29/llm-tool-use-agentic-ai/
+2026-10-16,energy,EV,"Show HN: Scriber-Pro 2.0, a Mac app that transcribes m3u8 streams from web pages",4,1,raqix,2026-10-16T13:40:26Z,https://scriberpro.cc/hn2/
+2026-10-16,energy,EV,Human airborne eDNA as forensic evidence in simulated residential burglaries,1,0,bookofjoe,2026-10-16T13:12:07Z,https://www.sciencedirect.com/science/article/pii/S1872497326001997?via%3Dihub
+2026-10-16,energy,EV,Show HN: I made an MCP Agents can reason every finance data the first time,1,0,KalskiTheDan,2026-10-16T13:04:39Z,https://github.com/PreReason/mcp
+2026-10-16,energy,EV,"Show HN: OutClocked, a nearly impossible daily trivia game",1,2,karolgajda,2026-10-16T12:59:55Z,https://outclocked.com/
+2026-10-16,energy,EV,Show HN: Videre – a Rust CLI to manage your photos and videos with joy,4,2,erhangundogan,2026-10-16T12:34:16Z,https://videre.sh/
+2026-10-16,energy,EV,Show HN: Cr34te.it – a website anyone can rewrite one turn at a time with AI,3,3,y42,2026-10-16T12:32:38Z,https://cr34te.it/
+2026-10-16,energy,EV,Elon Musk reveals ' first flying car' at Tesla event – Tesla,6,1,rbanffy,2026-10-16T12:24:46Z,https://www.theguardian.com/technology/2026/oct/16/elon-musk-reveals-worlds-first-flying-car-spacex
+2026-10-16,energy,EV,Show HN: OpenRegistry – live company filings directly from 80 gov registries,3,1,sophymarine,2026-10-16T12:23:13Z,https://github.com/sophymarine/openregistry
+2026-10-16,energy,EV,"Show HN: Lisorto – Tidy your Mac's Downloads on-device, see every move first",3,0,AlexandrBel,2026-10-16T12:10:02Z,https://lisorto.app
+2026-10-16,energy,EV,Show HN: Deterministic AI Agents Guardrail,3,0,fb-dev,2026-10-16T11:53:12Z,https://github.com/aws-safebox/aws-safebox
+2026-10-16,korea,Korea,"DOJ arrests 2, seizes 187 devices in North Korean laptop farm crackdown in Texas",7,0,mikhael,2026-10-16T13:08:53Z,https://www.reuters.com/legal/government/doj-arrests-two-seizes-187-devices-north-korean-laptop-farm-crackdown-texas-2026-10-13/
+2026-10-16,korea,Korea,Show HN: OpenRegistry – live company filings directly from 80 gov registries,3,1,sophymarine,2026-10-16T12:23:13Z,https://github.com/sophymarine/openregistry
+2026-10-16,korea,Korea,Show HN: Three philosophers vote on your questions,1,0,notkant,2026-10-16T09:32:07Z,https://sage-verdict.vercel.app/
+2026-10-16,korea,Korea,"South Korea's stock market down, president telling people not to commit suicide",11,4,toomuchtodo,2026-10-16T03:26:08Z,https://twitter.com/litcapital/status/2110752546415382699
+2026-10-16,korea,Korea,SK Hynix Unveils Next-Generation Memory Roadmap to Address AI Bottlenecks,2,0,peter_d_sherman,2026-10-15T22:38:29Z,https://www.koreaittimes.com/news/articleView.html?idxno=158124
+2026-10-16,korea,Korea,Open Source Discord,1,3,mrafieefard,2026-10-15T20:51:17Z,
+2026-10-16,korea,Samsung,Turning a Run-Over Samsung Galaxy S23 into a Gaming PC,1,0,Gedxx,2026-10-16T06:57:51Z,https://hackaday.com/2026/10/08/turning-a-run-over-samsung-galaxy-s23-into-a-gaming-pc/
+2026-10-16,korea,Samsung,Russia Wants FSB Encryption Built into Every 5G Smartphone,4,0,nsdfg,2026-10-15T22:15:45Z,https://united24media.com/world/russia-wants-fsb-encryption-built-into-every-5g-smartphone-from-iphones-to-samsung-23472
+2026-10-16,consumer,e-commerce,Imagine Every AI Agent on Earth Buying the Same Cheap Paper Towels,3,0,fortran77,2026-10-16T15:51:03Z,https://www.theatlantic.com/technology/2026/10/ai-agent-chaos-e-commerce/689010/
+2026-10-16,consumer,e-commerce,Putin Admits Moscow Failed to Anticipate Ukrainian Strikes on E-Commerce Hubs,2,0,nsdfg,2026-10-15T22:17:49Z,https://united24media.com/war-in-ukraine/putin-admits-moscow-failed-to-anticipate-ukrainian-strikes-on-major-e-commerce-hubs-23493
+2026-10-16,consumer,retail,China proposes export controls on AI technologies,1,3,supermdguy,2026-10-16T15:42:43Z,https://m.bjnews.com.cn/detail/1792137269129878.html
+2026-10-16,consumer,retail,"Pry, a browser agent that redacts private data before anything reaches AI model",2,0,shashank-tomar,2026-10-16T15:34:45Z,https://chromewebstore.google.com/detail/pry-agent/aocmnoompdjlgbfjlimikkpoebooolog
+2026-10-16,consumer,retail,Show HN: Deterministic AI Agents Guardrail,3,0,fb-dev,2026-10-16T11:53:12Z,https://github.com/aws-safebox/aws-safebox
+2026-10-16,consumer,retail,Rosemont Residency Master Plan – Project Layout and Details,1,0,cemaljustime,2026-10-16T11:44:31Z,
+2026-10-16,consumer,retail,"Show HN: Pull Presence – See who else is reviewing a GitHub pull request, live",1,0,alexfu914,2026-10-16T11:29:49Z,https://chromewebstore.google.com/detail/pull-presence/jpkenkabigehcnddjelccbfpedignoed
+2026-10-16,consumer,retail,Unity Mass-Suspends Accounts,2,0,appstorelottery,2026-10-16T10:56:53Z,
+2026-10-16,consumer,retail,Jonathan Glazer says Israel's retaliation over NAZA more venal than anticipated,7,0,mo7061,2026-10-16T09:38:42Z,https://www.theguardian.com/film/2026/oct/16/jonathan-glazer-says-israels-retaliation-over-naza-more-venal-than-anticipated
+2026-10-16,consumer,retail,"Tim Cook Says Apple Intelligence Approved in China, the Paper Reports",2,0,snikolaev,2026-10-16T07:28:21Z,https://www.reuters.com/business/retail-consumer/tim-cook-says-apple-intelligence-approved-china-paper-reports-2026-10-15/
+2026-10-16,consumer,retail,AI Prompt Hub – 150 categories of ready-to-use AI prompts and custom generator,1,0,setuvio,2026-10-16T06:42:47Z,https://play.google.com/store/apps/details?id=com.ai_prompt_hub.setuvio&hl=en_IN
+2026-10-16,consumer,retail,"Ukraine's Starlink restrictions raise suspicions of Musk, Trump retaliation",7,0,jazzdev,2026-10-16T06:27:01Z,https://www.axios.com/2026/10/14/ukraine-starlink-zelensky-spacex-musk-trump
+2026-10-16,consumer,retail,E Ink Kaleido 4,180,112,Perroboc,2026-10-15T18:38:16Z,https://www.eink.com/news/detail/EInk-Launches-Latest-Version-of-Color-ePaper-Platform-E-Ink-Kaleido-4
+2026-10-16,consumer,retail,"Georgia man sues Flock, sheriff's office over alleged ALPR-fueled retaliation",11,0,nobody9999,2026-10-15T16:42:29Z,https://arstechnica.com/tech-policy/2026/10/georgia-man-sues-flock-sheriffs-office-over-alleged-alpr-fueled-retaliation/
+2026-10-16,consumer,consumer,Musk Considers Creating Amazon Rival After Grok Bot Gets Blocked,2,2,m463,2026-10-16T15:22:05Z,https://www.notateslaapp.com/news/4834/musk-considers-creating-amazon-competitor
+2026-10-16,consumer,consumer,Show HN: Capy-flash – a 125B MoE model on two 16 GB consumer GPUs,1,0,Feyd,2026-10-16T13:28:36Z,https://github.com/ValerioDolci/capy-flash
+2026-10-16,consumer,consumer,"Show HN: Sufuku – Sudoku, but Numbers Repeat",1,0,matthorse,2026-10-16T13:24:52Z,https://crossnum.com/sufuku
+2026-10-16,consumer,consumer,Unity Mass-Suspends Accounts,2,0,appstorelottery,2026-10-16T10:56:53Z,
+2026-10-16,consumer,consumer,AI as a part of capitalism – the right way to go,2,0,sedan_baklazhan,2026-10-16T07:38:27Z,
+2026-10-16,consumer,consumer,"Tim Cook Says Apple Intelligence Approved in China, the Paper Reports",2,0,snikolaev,2026-10-16T07:28:21Z,https://www.reuters.com/business/retail-consumer/tim-cook-says-apple-intelligence-approved-china-paper-reports-2026-10-15/
+2026-10-16,consumer,consumer,Ask HN: Any good polished email alternative to Proton Mail?,1,1,walshcl,2026-10-15T20:42:15Z,
+2026-10-16,consumer,consumer,Show HN: RDST – A local agent that watches Postgres/MySQL for query regressions,6,2,gvsg,2026-10-15T18:09:01Z,https://github.com/readysettech/rdst
