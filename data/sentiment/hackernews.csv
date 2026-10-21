@@ -15279,3 +15279,120 @@
 2026-10-20,consumer,consumer,CPU-native. Deterministic. O(1) processes. – the Old New Coolness,2,1,KathiaGatterer,2026-10-20T08:15:12Z,
 2026-10-20,consumer,consumer,News consumption on social media in U.S. by websites and demographics,1,0,giuliomagnifico,2026-10-20T08:03:21Z,https://www.pewresearch.org/journalism/fact-sheet/social-media-and-news-fact-sheet/
 2026-10-20,consumer,consumer,Star Wars: A Russian Military Satellite Gets Within 200m of One Used by Ukraine,7,0,consumer451,2026-10-19T19:44:17Z,https://www.rferl.org/a/russia-space-satellite-ukraine-finland/33879458.html
+2026-10-21,tech,AI,Rust off Rails: The opinionated web stack for the AI era,1,0,mike1o1,2026-10-21T16:34:16Z,https://rustoffrails.org/
+2026-10-21,tech,AI,OpenAI Says 2 Internal AI Coding Agents Turned Off Their Own Safeguards,1,1,marojejian,2026-10-21T16:30:11Z,https://www.pcmag.com/news/openai-says-2-internal-ai-coding-agents-turned-off-their-own-safeguards
+2026-10-21,tech,AI,"Show HN: NiFT – Frictionless, Fast, Note taking app",1,0,t_mahmood,2026-10-21T16:28:05Z,https://mtarin.com/projects/nift/
+2026-10-21,tech,AI,Show HN: Riff – An iPhone calendar you zoom instead of switching views,2,0,rexikan,2026-10-21T16:25:02Z,https://riffcalendar.com
+2026-10-21,tech,AI,GPT-6 Astra removes an internal safety monitor,1,0,njx,2026-10-21T16:22:27Z,https://www.crawlspider.com/pages/ai-agents-gone-rogue/
+2026-10-21,tech,AI,Sam Altman on Why AI Hasn't Killed Coding Jobs,2,1,pretext,2026-10-21T16:17:47Z,https://twitter.com/MatthewBerman/status/2112930776811806874
+2026-10-21,tech,AI,Alan Turing Institute wants to build a UK AI model from scratch and make it free,2,0,messpoiun,2026-10-21T16:17:41Z,https://hotminute.co.uk/2026/10/21/the-alan-turing-institute-wants-to-build-a-uk-ai-model-from-scratch-and-release-it-for-free-to-the-public/
+2026-10-21,tech,AI,Show HN: Nysa – Shared memory for teams that work with AI agents,2,0,javieraldape,2026-10-21T16:11:17Z,https://usenysa.com/
+2026-10-21,tech,AI,Turn Your Expertise into Executable Specifications,1,0,WaywardGeek,2026-10-21T16:08:38Z,https://github.com/waywardgeek/teach-your-ai
+2026-10-21,tech,AI,"Show HN: Global Compute, you pick. One API",1,0,anilj,2026-10-21T16:03:53Z,https://www.nodepick.ai/
+2026-10-21,tech,AI,"AI agent fixed the bug, but what else did it change?",6,1,tob_scott_a,2026-10-21T16:03:32Z,https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change/
+2026-10-21,tech,AI,"Show HN: Pawmc a.k.a. talking diary, an LLM chat with compartmentalised memory",2,0,kol3x,2026-10-21T16:01:32Z,https://pawmc-demo.kolaegipet.workers.dev/?demo=1
+2026-10-21,tech,AI,"The state of AI coding interviews, 2026",2,0,maxnyriev,2026-10-21T15:55:00Z,https://nyrion.ai/research/ai-coding-interviews-2026
+2026-10-21,tech,AI,Show HN: Datachef - full-stack data platform,1,0,joefusaro87,2026-10-21T15:42:56Z,https://www.datachef.com
+2026-10-21,tech,AI,"Open-source, cross-harness memory for AI agents",4,3,shakshukan,2026-10-21T15:42:38Z,
+2026-10-21,tech,AI,Modular AI Data center presented by Nvidia,2,0,0kk33,2026-10-21T15:28:25Z,https://developer.nvidia.com/blog/achieve-productive-ai-capacity-faster-and-more-predictably-with-nvidia-dsx-pod/
+2026-10-21,tech,AI,LiteLLM Compromised to Steal Cloud and AI Credentials,1,0,pranshuchittora,2026-10-21T15:24:57Z,https://socket.dev/blog/litellm-compromise
+2026-10-21,tech,AI,Rethink the Terminal: A Portal to AI,1,1,aywu,2026-10-21T15:21:57Z,https://yunxin.github.io/rethink-terminal/
+2026-10-21,tech,AI,Show HN: An interactive model of expectations and recessions (2026 econ Nobel),2,0,jethkl,2026-10-21T15:20:40Z,https://jeff-kline.github.io/posts/economics-nobel-2026/index.html
+2026-10-21,tech,AI,AI code-testing startup Blacksmith hits $1B valuation,2,1,AnhTho_FR,2026-10-21T15:17:51Z,https://fortune.com/2026/10/21/exclusive-ai-code-testing-startup-blacksmith-hits-1-billion-valuation-as-ai-written-code-surges/
+2026-10-21,tech,startup,Sam Altman on Why AI Hasn't Killed Coding Jobs,2,1,pretext,2026-10-21T16:17:47Z,https://twitter.com/MatthewBerman/status/2112930776811806874
+2026-10-21,tech,startup,"Show HN: Pawmc a.k.a. talking diary, an LLM chat with compartmentalised memory",2,0,kol3x,2026-10-21T16:01:32Z,https://pawmc-demo.kolaegipet.workers.dev/?demo=1
+2026-10-21,tech,startup,Railway (PaaS) Major Outage,3,1,hurrell,2026-10-21T15:56:44Z,https://status.railway.com/incident/QH8L8B3E
+2026-10-21,tech,startup,India government: social media accounts are fear mongering on E mudra incident,1,1,unknownhad,2026-10-21T15:48:54Z,https://twitter.com/GoI_MeitY/status/2112914711419445421
+2026-10-21,tech,startup,"BYD launches new Seagull EV with 5-minute Flash Charging, starting under $10k",6,1,cisc,2026-10-21T15:47:06Z,https://electrek.co/2026/10/20/byd-launches-new-seagull-ev-with-5-min-charging-under-10k/
+2026-10-21,tech,startup,LiteLLM Compromised Again,1,2,ComputerGuru,2026-10-21T15:46:53Z,https://twitter.com/SocketSecurity/status/2112907732877775016
+2026-10-21,tech,startup,Show HN: I told people I'm a convicted felon after 20 years of hiding it,3,0,buf,2026-10-21T15:46:43Z,https://buford.bg/
+2026-10-21,tech,startup,Day 2 of destroying frontier reasoning models with mouse-1,1,1,Aeroi,2026-10-21T15:30:58Z,https://twitter.com/heypeterjames/status/2112919068705734748
+2026-10-21,tech,startup,AI code-testing startup Blacksmith hits $1B valuation,2,1,AnhTho_FR,2026-10-21T15:17:51Z,https://fortune.com/2026/10/21/exclusive-ai-code-testing-startup-blacksmith-hits-1-billion-valuation-as-ai-written-code-surges/
+2026-10-21,tech,startup,Don't fall in love with your company,2,2,AnhTho_FR,2026-10-21T14:58:58Z,https://twitter.com/dens/status/2112571984328437871
+2026-10-21,tech,startup,"Critical PHP vulnerabilities: POC released, attacks starting",1,0,eustoria,2026-10-21T14:44:35Z,https://www.thestack.technology/critical-php-vulnerabilities-poc-released-attacks-starting/
+2026-10-21,tech,startup,Gemini vs. ElevenLabs Voice Cloning and TTS,2,1,ritzaco,2026-10-21T14:24:49Z,https://medium.com/tech-stackups/gemini-vs-elevenlabs-voice-cloning-and-tts-2026-gemini-3-8-flash-vs-eleven-v4-tech-stackups-1c81feccf261
+2026-10-21,tech,startup,Google Cloud's status page was the 51st to report its own outage,2,0,shreedx,2026-10-21T14:21:31Z,https://stackpulse.app/blog/google-cloud-london-outage
+2026-10-21,tech,startup,GitHub Unable to Serve Commits,4,3,vanschelven,2026-10-21T14:10:37Z,
+2026-10-21,tech,startup,How were letters delivered in the ancient world before street addresses?,10,4,MrBuddyCasino,2026-10-21T14:02:08Z,https://twitter.com/lefineder/status/2112274722377314426
+2026-10-21,tech,startup,Show HN: Jev drives a browser – HN login and search in 8s for half a cent,3,0,zurfyx,2026-10-21T14:01:57Z,https://jev-browser.rovira.sh
+2026-10-21,tech,startup,"Show HN: Lectura, a privacy, simple, server side rendered RSS reader",2,2,nomemory,2026-10-21T13:34:20Z,https://lectura.info/
+2026-10-21,tech,startup,Show HN: Peras – Pause Claude Code and Codex before they burn your weekly limit,1,0,vertias3u,2026-10-21T13:01:26Z,https://peras.vertias.eu/
+2026-10-21,tech,startup,Numbering Should Start at Zero (1982) [pdf],1,0,vaibagra,2026-10-21T12:50:43Z,https://www.cs.utexas.edu/~EWD/ewd08xx/EWD831.PDF
+2026-10-21,tech,startup,"Show HN: Photonica – Film looks for your photos, processed locally with WebGPU",1,0,topvlad,2026-10-21T11:46:56Z,https://photonica.studio/app/
+2026-10-21,tech,LLM,"Show HN: Pawmc a.k.a. talking diary, an LLM chat with compartmentalised memory",2,0,kol3x,2026-10-21T16:01:32Z,https://pawmc-demo.kolaegipet.workers.dev/?demo=1
+2026-10-21,tech,LLM,"Open-source, cross-harness memory for AI agents",4,3,shakshukan,2026-10-21T15:42:38Z,
+2026-10-21,tech,LLM,PHP's New Memory_hard_limit_percent Setting,1,0,Mojah,2026-10-21T15:30:15Z,https://ma.ttias.be/php-memory-hard-limit/
+2026-10-21,tech,LLM,Ask HN: Are Models Getting Better at Software Estimations of Time/Effort/Cost?,1,0,artur_makly,2026-10-21T15:16:08Z,
+2026-10-21,tech,LLM,"Agentic test processes, LLM benchmarks, and other notes on agentic coding",2,0,surprisetalk,2026-10-21T15:00:07Z,https://danluu.com/ai-coding/
+2026-10-21,tech,LLM,Deterministic LLM Inference Did Not Make Our Pipeline Deterministic,1,0,archons,2026-10-21T14:25:40Z,https://www.ctgt.ai/research/concordance
+2026-10-21,tech,LLM,"Show HN: TutorLoom, an open-source multi-tenant LMS (Django, React, Flutter)",2,0,madhukarah,2026-10-21T14:22:07Z,https://github.com/pacewisdomhq/TutorLoom
+2026-10-21,tech,LLM,Open source Control Panel for LLM deployment,1,1,SquidJack,2026-10-21T14:21:38Z,https://github.com/LLMPanel/llmpanel-oss
+2026-10-21,tech,LLM,Show HN: Jev drives a browser – HN login and search in 8s for half a cent,3,0,zurfyx,2026-10-21T14:01:57Z,https://jev-browser.rovira.sh
+2026-10-21,tech,LLM,"Wiki-driven development: coding agents update a wiki for you, you set direction",3,0,wek,2026-10-21T13:46:27Z,
+2026-10-21,tech,LLM,Frugal Computing Revisited,1,0,surprisetalk,2026-10-21T13:40:04Z,https://limited.systems/articles/frugal-computing-revisited/
+2026-10-21,tech,LLM,Oral Vitamin C supplementation in patients with lower-risk myeloid malignancies,2,0,bookofjoe,2026-10-21T13:30:18Z,https://pubmed.ncbi.nlm.nih.gov/42764731/
+2026-10-21,tech,LLM,A free agentic app builder where LLMs only write what deterministic tools can't,12,3,softmodeling,2026-10-21T13:27:54Z,https://editor.besser-pearl.org/
+2026-10-21,tech,LLM,Would I have learned as much with an LLM?,1,1,seg6,2026-10-21T13:18:08Z,https://seg6.space/posts/questionable-cleverness/
+2026-10-21,tech,LLM,Show HN: Bhowra Ink – Serverless HTML to PDF for Azure Functions and Lambda,1,0,dillu_spur,2026-10-21T13:15:40Z,https://bhowra.com/bhowra-ink.html
+2026-10-21,tech,LLM,Russia benefitting from Data Voids to influence LLMs,1,0,uxhacker,2026-10-21T13:10:39Z,https://www.disinformationindex.org/research/2026-10-12-russia-benefitting-from-data-voids/
+2026-10-21,tech,LLM,Show HN: Peras – Pause Claude Code and Codex before they burn your weekly limit,1,0,vertias3u,2026-10-21T13:01:26Z,https://peras.vertias.eu/
+2026-10-21,tech,LLM,Show HN: Daily Pipes: A daily tile-rotation puzzle that never requires guessing,2,0,jkelle,2026-10-21T12:48:39Z,https://daily-pipes.com/
+2026-10-21,tech,LLM,Deleting 19k Lines of Dead Compiler Code Without Trusting the LLM,4,0,ibobev,2026-10-21T12:16:21Z,https://thecloudlet.github.io/technical/refactor-with-ai/part-1-deletion/
+2026-10-21,tech,LLM,"Nvidia Releases Flare, a Blackwell LLM Inference",2,0,anon373839,2026-10-21T11:26:15Z,
+2026-10-21,tech,robotics,The Robot I Didn't Expect to Build,1,0,sohkamyung,2026-10-21T09:23:25Z,https://spectrum.ieee.org/agility-robotics-digit-5-redesign
+2026-10-21,tech,robotics,Delivery Robots Accused of Scanning Customers' Faces and Sharing Biometric Data,4,0,armcat,2026-10-21T05:38:03Z,https://apnews.com/article/chicago-food-delivery-robots-biometric-data-lawsuits-16ead54eb7dc7c6eacbf011c53b9b20d
+2026-10-21,tech,robotics,Pantheon: Building the Most Diverse UMI Dataset in Robotics,1,0,gmays,2026-10-21T04:19:10Z,https://pantheon.inc/research/diverse-umi
+2026-10-21,tech,robotics,Secret trigger words could make AI-powered robots dangerous,12,3,geox,2026-10-21T00:40:56Z,https://www.binghamton.edu/news/story/6544/secret-trigger-words-could-make-ai-powered-robots-dangerous-and-these-researchers-developed-a-defense
+2026-10-21,tech,robotics,LabRobotBench v0.1: Benchmarking wet lab robotics,14,2,wardbradt,2026-10-20T23:55:03Z,https://gamowlabs.com/lab-robot-bench-v0-1
+2026-10-21,tech,robotics,Building a Robot Owl with No Robotics Experience,2,0,mbcool,2026-10-20T19:32:06Z,https://mattcool.tech/posts/hoot-a-small-robot-companion-for-learning/
+2026-10-21,tech,robotics,AWS launches open-source Physical AI Toolchain for robotics,1,0,gmays,2026-10-20T18:47:08Z,https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/
+2026-10-21,tech,robotics,"Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",2,0,gmays,2026-10-20T18:34:30Z,https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/
+2026-10-21,tech,robotics,"Salmon Farmers Deploy Lasers, Robots to Meet Booming Demand",1,0,mudil,2026-10-20T18:23:13Z,https://www.wsj.com/business/salmon-farmers-deploy-lasers-robots-to-meet-booming-demand-2cad3925
+2026-10-21,finance,stock market,"Show HN: Global Compute, you pick. One API",1,0,anilj,2026-10-21T16:03:53Z,https://www.nodepick.ai/
+2026-10-21,finance,stock market,Show HN: Datachef - full-stack data platform,1,0,joefusaro87,2026-10-21T15:42:56Z,https://www.datachef.com
+2026-10-21,finance,stock market,Show HN: KeibiDrop – Work on remote large files on-demand (no upload/download),2,0,coldstartops,2026-10-21T13:06:09Z,https://github.com/KeibiSoft/KeibiDrop/
+2026-10-21,finance,interest rate,Show HN: I told people I'm a convicted felon after 20 years of hiding it,3,0,buf,2026-10-21T15:46:43Z,https://buford.bg/
+2026-10-21,finance,recession,Show HN: An interactive model of expectations and recessions (2026 econ Nobel),2,0,jethkl,2026-10-21T15:20:40Z,https://jeff-kline.github.io/posts/economics-nobel-2026/index.html
+2026-10-21,energy,oil price,Show HN: An interactive model of expectations and recessions (2026 econ Nobel),2,0,jethkl,2026-10-21T15:20:40Z,https://jeff-kline.github.io/posts/economics-nobel-2026/index.html
+2026-10-21,energy,EV,"Show HN: NiFT – Frictionless, Fast, Note taking app",1,0,t_mahmood,2026-10-21T16:28:05Z,https://mtarin.com/projects/nift/
+2026-10-21,energy,EV,Ask HN: How can you retrain in a field requiring expensive equipment?,6,0,masterchief166,2026-10-21T16:25:26Z,
+2026-10-21,energy,EV,Show HN: Riff – An iPhone calendar you zoom instead of switching views,2,0,rexikan,2026-10-21T16:25:02Z,https://riffcalendar.com
+2026-10-21,energy,EV,"Show HN: Global Compute, you pick. One API",1,0,anilj,2026-10-21T16:03:53Z,https://www.nodepick.ai/
+2026-10-21,energy,EV,Show HN: Switchboard – Mac menu bar app that shows every localhost port,2,0,rbtsven,2026-10-21T15:55:09Z,https://github.com/destucr/Switchboard
+2026-10-21,energy,EV,"BYD launches new Seagull EV with 5-minute Flash Charging, starting under $10k",6,1,cisc,2026-10-21T15:47:06Z,https://electrek.co/2026/10/20/byd-launches-new-seagull-ev-with-5-min-charging-under-10k/
+2026-10-21,energy,EV,Show HN: I told people I'm a convicted felon after 20 years of hiding it,3,0,buf,2026-10-21T15:46:43Z,https://buford.bg/
+2026-10-21,energy,EV,Show HN: Datachef - full-stack data platform,1,0,joefusaro87,2026-10-21T15:42:56Z,https://www.datachef.com
+2026-10-21,energy,EV,Show HN: KeyboardStack – Navigate your Mac without a mouse or trackpad,2,0,creativedg,2026-10-21T15:28:05Z,
+2026-10-21,energy,EV,Rethinking OpenTelemetry Tail-Based Sampling with Event-Driven Architecture,2,0,stephentsoi,2026-10-21T14:56:16Z,https://stephen-tsoi.gitbook.io/stephen-tsoi-docs/rethinking-opentelemetry-tail-sampling/8.-advanced-tail-based-sampling-solution-by-eda-design
+2026-10-21,energy,EV,Zero exp 125 days ago,1,1,dogfoodarchitec,2026-10-21T14:49:52Z,
+2026-10-21,energy,EV,Object-Oriented Harness,1,0,omarsar,2026-10-21T14:31:46Z,https://academy.dair.ai/papers/object-oriented-harness-evolving-agent-harnesses-through-object-oriented-design-2610.28380
+2026-10-21,energy,EV,Show HN: Euspell – Spelling reform: an enginnering approach,1,0,kamranossia,2026-10-21T14:06:18Z,https://euspell.org/try/
+2026-10-21,energy,EV,Capita postpones investor event to focus on CSPS fix,1,0,latein,2026-10-21T14:04:52Z,https://www.computerweekly.com/news/366652340/Capita-postpones-investor-event-to-focus-on-CSPS-fix
+2026-10-21,energy,EV,"Nathan Fielder, Elizabeth Holmes, and the Risks of Mistaking Entertainment",1,1,benrothke,2026-10-21T14:03:52Z,https://brothke.medium.com/you-can-see-everything-except-the-truth-eb3d0f1d532d
+2026-10-21,energy,EV,Show HN: Jev drives a browser – HN login and search in 8s for half a cent,3,0,zurfyx,2026-10-21T14:01:57Z,https://jev-browser.rovira.sh
+2026-10-21,energy,EV,Ask HN: Can we stay on topic?,1,1,jjsullivan5196,2026-10-21T13:51:36Z,
+2026-10-21,energy,EV,"Wiki-driven development: coding agents update a wiki for you, you set direction",3,0,wek,2026-10-21T13:46:27Z,
+2026-10-21,energy,EV,Show HN: Mnestiq – tamper-evident logs of what an AI agent saw and did,1,0,lynceus,2026-10-21T13:01:54Z,https://github.com/mnestiq/mnestiq
+2026-10-21,energy,EV,Show HN: PySide6 Blueprints - a free book on building Qt Widgets apps in Python,1,0,pyside6book,2026-10-21T13:01:27Z,https://leanpub.com/pyside6blueprints
+2026-10-21,consumer,e-commerce,Show HN: We built an AI-powered search engine for e-commerce catalogs,1,0,arolando,2026-10-21T10:25:11Z,https://visidea.ai/
+2026-10-21,consumer,e-commerce,We trained our search engine with Amazon results,2,0,astronautmonkey,2026-10-20T22:25:45Z,https://www.searchagora.com/blog/building-a-reinforcement-learning-system-for-e-commerce-search
+2026-10-21,consumer,retail,"Show HN: NiFT – Frictionless, Fast, Note taking app",1,0,t_mahmood,2026-10-21T16:28:05Z,https://mtarin.com/projects/nift/
+2026-10-21,consumer,retail,"Wiki-driven development: coding agents update a wiki for you, you set direction",3,0,wek,2026-10-21T13:46:27Z,
+2026-10-21,consumer,retail,Burn less tokens for coding using standard software development practices,2,0,ggtr,2026-10-21T13:09:48Z,https://github.com/rextail-ai/lessloc
+2026-10-21,consumer,retail,Show HN: PySide6 Blueprints - a free book on building Qt Widgets apps in Python,1,0,pyside6book,2026-10-21T13:01:27Z,https://leanpub.com/pyside6blueprints
+2026-10-21,consumer,retail,"ByteDance, Alibaba, Tencent place over $35B worth of Nvidia chip orders",5,0,giuliomagnifico,2026-10-21T08:47:09Z,https://www.reuters.com/business/retail-consumer/bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders-2026-10-20/
+2026-10-21,consumer,retail,Lego Getting More Adults to Tinker with Their Toy Bricks,2,1,bcaulfield,2026-10-21T07:37:54Z,https://www.wsj.com/business/retail/lego-adult-sets-gaming-formula-one-d7ccbc9d
+2026-10-21,consumer,retail,Show HN: One click flight booking in Claude,5,2,themagyar,2026-10-20T23:36:17Z,https://mcp.bonbook.co/claude-setup
+2026-10-21,consumer,retail,"WhatsApp Scheduler – Offline-first, hands-free scheduler for Android",1,0,netsamabdus,2026-10-20T22:44:05Z,https://play.google.com/store/apps/details?id=com.whatsappscheduler.app&hl=en_US
+2026-10-21,consumer,retail,Show HN: Apple Reminders MCP – native read/write via ReminderKit,1,0,hhhanxfus,2026-10-20T19:18:32Z,https://github.com/xiaofeng-han/apple-reminders-mcp
+2026-10-21,consumer,consumer,Ask HN: How can you retrain in a field requiring expensive equipment?,6,0,masterchief166,2026-10-21T16:25:26Z,
+2026-10-21,consumer,consumer,Show HN: Euspell – Spelling reform: an enginnering approach,1,0,kamranossia,2026-10-21T14:06:18Z,https://euspell.org/try/
+2026-10-21,consumer,consumer,How to save 1/3 of world electricity consumption [video],1,0,lifeisstillgood,2026-10-21T10:38:26Z,https://www.youtube.com/shorts/nW95cBpNreI
+2026-10-21,consumer,consumer,"ByteDance, Alibaba, Tencent place over $35B worth of Nvidia chip orders",5,0,giuliomagnifico,2026-10-21T08:47:09Z,https://www.reuters.com/business/retail-consumer/bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders-2026-10-20/
+2026-10-21,consumer,consumer,Ask HN: Does anyone else just want to disconnect from everything?,11,11,lualover,2026-10-21T05:18:52Z,
+2026-10-21,consumer,consumer,GLM-5.3 Sometimes Considers How Train-Time Actions Shape Future Behavior,4,0,Gathering6678,2026-10-21T03:14:06Z,https://www.lesswrong.com/posts/R5g8YT25G9DXJJ48n/glm-5-3-sometimes-considers-how-train-time-actions-shape
+2026-10-21,consumer,consumer,Command and Conquer Style RTS Called Battle Drones,2,0,nmwnmw,2026-10-21T00:55:29Z,https://twitter.com/simonw/status/2112630778068881543
+2026-10-21,consumer,consumer,"The Altered Scrolls, Part 9: Small Considerations (2015)",1,0,kqr,2026-10-20T21:19:21Z,https://www.shamusyoung.com/twentysidedtale/?p=28833
+2026-10-21,consumer,consumer,Trump administration holds up Patriot missile transfers for Ukraine,11,1,consumer451,2026-10-20T19:22:00Z,https://www.washingtonpost.com/politics/2026/10/19/amid-deteriorating-relations-washington-holds-up-patriots-kyiv/
+2026-10-21,consumer,consumer,"Notes on structured concurrency, or: Go statement considered harmful",1,1,theanonymousone,2026-10-20T18:55:13Z,https://vorpus.org/blog/notes-on-structured-concurrency-or-go-statement-considered-harmful/
+2026-10-21,consumer,consumer,Show HN: Open-source edge data governance library,1,0,djekershaw,2026-10-20T17:20:54Z,https://www.csvpath.org
