@@ -15512,3 +15512,130 @@
 2026-10-22,consumer,consumer,GLM 5.3 internally considers its responses influence on next model training,1,0,vld_chk,2026-10-22T09:36:24Z,https://www.lesswrong.com/posts/R5g8YT25G9DXJJ48n/glm-5-3-sometimes-considers-how-train-time-actions-shape
 2026-10-22,consumer,consumer,"Show HN: Cathode, a Gtk4 YouTube player based on mpv and yt-dlp",5,0,andunie,2026-10-22T02:26:13Z,https://github.com/andunieee/cathode
 2026-10-22,consumer,consumer,Postgres recovery_prefetch can cause outages,27,0,plaur782,2026-10-21T22:33:08Z,https://ardentperf.com/2026/10/20/postgres-recovery_prefetch-considered-harmful-and-causing-outages/
+2026-10-23,tech,AI,Why AI Can't Replace Engineering Teams,1,0,Brajeshwar,2026-10-23T16:34:43Z,https://spectrum.ieee.org/engineering-jobs-that-ai-cant-replace
+2026-10-23,tech,AI,"AI Safety Is Mostly a Sex Cult in Berkeley, California",1,0,SLHamlet,2026-10-23T16:31:52Z,https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in-berkeley-california
+2026-10-23,tech,AI,"Teams of AI agents that don't loop: handoff maps, three modes, hard budgets",1,0,dannickstark,2026-10-23T16:30:04Z,https://awflow.io/blog/ai-agent-teams-that-dont-loop
+2026-10-23,tech,AI,Engineers Lobbying Congress Use Expertise to Aid Policy,1,0,rbanffy,2026-10-23T16:29:34Z,https://spectrum.ieee.org/engineers-lobbying-congress
+2026-10-23,tech,AI,Open Source Mobile-Use MCP and AI Agent,1,1,3amar404,2026-10-23T16:26:39Z,https://github.com/ghorbelhamdi/buddy-android
+2026-10-23,tech,AI,Anthropic want work patterns to change,1,0,wsintra2022,2026-10-23T16:22:52Z,https://www.theguardian.com/technology/2026/oct/23/anthropic-report-ai-workplace-shifts
+2026-10-23,tech,AI,GitHub to Forgejo: what to get right before a one-afternoon switch,1,0,mordras,2026-10-23T16:22:11Z,https://amaiko.ai/engineering/migrating-from-github-to-forgejo
+2026-10-23,tech,AI,Drowning in slop. Can the state survive the rise of AI?,1,0,jruohonen,2026-10-23T16:22:03Z,https://thelivinglib.org/drowning-in-slop-can-the-state-survive-the-rise-of-ai/
+2026-10-23,tech,AI,Show HN: Koala – Run AI Agents in Isolated Linux VMs on macOS,2,0,kunalkushwaha,2026-10-23T16:18:31Z,https://kunalkushwaha.github.io/homebrew-koala/
+2026-10-23,tech,AI,AI: A Threat or a Mirror of Our Own Mistakes?,1,0,kate8382,2026-10-23T16:15:57Z,https://medium.com/@kate8382/ai-a-threat-or-a-mirror-of-our-own-mistakes-ebfa19e3fd65
+2026-10-23,tech,AI,Ask HN: Has The Software Engineering Career Lost a Lot of Respect?,1,3,karakoram,2026-10-23T16:13:04Z,
+2026-10-23,tech,AI,We gave an AI $100k to trade on leverage. Here's what it did,1,0,bsv_gtd,2026-10-23T15:59:36Z,https://twitter.com/DeployFinance/status/2113642187074195945
+2026-10-23,tech,AI,Ask HN: How do you get AI loops to converge?,2,1,outlore,2026-10-23T15:55:55Z,
+2026-10-23,tech,AI,Show HN: Anyone else frustrated with mermaid diagrams?,1,0,bk-one,2026-10-23T15:52:27Z,https://github.com/uberblick-ai/ablauf
+2026-10-23,tech,AI,Local AI Is Not as Private as You Think [video],1,0,onemoresoop,2026-10-23T15:50:27Z,https://www.youtube.com/watch?v=3mx84MRj8lY
+2026-10-23,tech,AI,Who Cares Whether Academics Use AI to Write?,2,0,Anon84,2026-10-23T15:29:32Z,https://www.chronicle.com/article/who-cares-whether-academics-use-ai-to-write
+2026-10-23,tech,AI,Elon Musk and AI rivals pledge to give away nearly $300B,3,4,bookofjoe,2026-10-23T15:27:43Z,https://www.washingtonpost.com/technology/2026/10/22/elon-musk-ai-rivals-pledge-give-away-more-than-300-billion/
+2026-10-23,tech,AI,AI Isn't Sovereign Because You Host It Yourself,2,0,mooreds,2026-10-23T15:26:24Z,https://www.jamiecadvisory.com/perspectives/your-ai-isnt-sovereign-because-you-host-it-yourself/
+2026-10-23,tech,AI,Retro gaming is being overrun with AI,1,0,Brajeshwar,2026-10-23T15:22:07Z,https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port
+2026-10-23,tech,AI,Show HN: Gsearch – Real Google Search for AI Agents(MCP),1,0,rayenmlayeh,2026-10-23T15:21:49Z,https://github.com/RayenMlayeh/gsearch
+2026-10-23,tech,startup,Getting Started with Lean 4: Proofs as Code for Real Developers,1,0,syumei,2026-10-23T16:33:36Z,https://medium.com/@adnanmasood/getting-started-with-lean-4-proofs-as-code-for-real-developers-475affcf3f30
+2026-10-23,tech,startup,Comma Hardware,1,0,Johnson8053,2026-10-23T16:27:27Z,https://twitter.com/CommaAgents/status/2113656727199789335
+2026-10-23,tech,startup,3D Explorer of Python Internals,1,0,1st1,2026-10-23T16:25:37Z,https://twitter.com/1st1/status/2113666322580267362
+2026-10-23,tech,startup,We gave an AI $100k to trade on leverage. Here's what it did,1,0,bsv_gtd,2026-10-23T15:59:36Z,https://twitter.com/DeployFinance/status/2113642187074195945
+2026-10-23,tech,startup,Error: Forbidden,1,0,jruohonen,2026-10-23T15:41:30Z,https://pulse.internetsociety.org/en/blog/2026/10/when-sanctions-start-breaking-the-internet/
+2026-10-23,tech,startup,GitHub now supports stacked PRs,3,0,iamsyr,2026-10-23T15:40:50Z,https://docs.github.com/en/pull-requests/get-started/about-stacked-prs
+2026-10-23,tech,startup,Warhound: Palmer Luckey's war dog startup,2,1,simonebrunozzi,2026-10-23T15:32:37Z,https://www.businessinsider.com/palmer-luckey-benn-lamm-warhound-war-dog-startup-seed-funding-2026-10
+2026-10-23,tech,startup,"Left alone with nothing to do, AI agents started playing",2,0,Brajeshwar,2026-10-23T15:21:44Z,https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/
+2026-10-23,tech,startup,Tell HN: Don't use Fathom Analytics (founder is blocking criticism),2,0,dorianniemiec,2026-10-23T15:19:29Z,
+2026-10-23,tech,startup,Ask HN: How can I grow as an engineer in the AI era,1,0,jfsdk,2026-10-23T15:17:34Z,
+2026-10-23,tech,startup,World of SWECraft,1,0,remixmackine,2026-10-23T15:11:43Z,https://twitter.com/shannonzshen/status/2113638800199188708
+2026-10-23,tech,startup,Macro View of Inkjet Printing,4,0,smusamashah,2026-10-23T15:07:40Z,https://twitter.com/macrofying/status/2112904628509528219
+2026-10-23,tech,startup,Judgment Becomes the Job,1,0,pretext,2026-10-23T15:00:33Z,https://twitter.com/ahatamiz1/status/2113344049784799378
+2026-10-23,tech,startup,Trailing SOTA Is a Feature for Profit Maximisation Under Compute Constraints,2,0,ibobev,2026-10-23T14:50:09Z,https://twitter.com/jenzhuscott/status/2113108957355229513
+2026-10-23,tech,startup,Show HN: ParaGraFX – An iOS app for reading and illustrating ePub books,1,1,weylspinor,2026-10-23T14:27:01Z,https://apps.apple.com/us/app/paragrafx-illustrate-books/id6795768929
+2026-10-23,tech,startup,Show HN: Loudwalk – Review your Anki deck out loud on a walk,3,0,cracadumi,2026-10-23T14:08:33Z,https://loudwalk.com/?from=hn
+2026-10-23,tech,startup,Does Sam Altman have a sister?,3,0,34679,2026-10-23T13:54:43Z,https://twitter.com/anniealtman108/status/2112954659497472100
+2026-10-23,tech,startup,Start Doing Graph Theory,1,0,ibobev,2026-10-23T13:49:50Z,https://vertex.degree/
+2026-10-23,tech,startup,The gap between GPUs and compute,3,0,gmays,2026-10-23T13:15:47Z,https://twitter.com/nickrubin/status/2112582856874893391
+2026-10-23,tech,startup,"What Is a ""Harness""?",2,0,cmpit,2026-10-23T12:57:19Z,https://twitter.com/theo/status/2113424203345265053
+2026-10-23,tech,LLM,OlmoEarth v1.3: embeddings for the whole planet,1,0,Brajeshwar,2026-10-23T16:34:24Z,https://huggingface.co/blog/allenai/olmoearth-v1-3
+2026-10-23,tech,LLM,Ask HN: Claude gets over my 5h limit today in 10 minutes?,2,0,majkinetor,2026-10-23T16:22:07Z,
+2026-10-23,tech,LLM,"Unstructured's New Models Outparse GPT-6, Claude and Gemini",1,0,lmarol12,2026-10-23T16:06:03Z,https://unstructured.io/blog/unstructured-transform-faster-more-accurate-for-your-hardest-documents
+2026-10-23,tech,LLM,LLM Multi-Agent Systems Are Vulnerable to Herding and Runaway Cascades,1,0,ersinesen,2026-10-23T16:02:38Z,https://arxiv.org/abs/2610.30769
+2026-10-23,tech,LLM,Show HN: Anyone else frustrated with mermaid diagrams?,1,0,bk-one,2026-10-23T15:52:27Z,https://github.com/uberblick-ai/ablauf
+2026-10-23,tech,LLM,Warhound: Palmer Luckey's war dog startup,2,1,simonebrunozzi,2026-10-23T15:32:37Z,https://www.businessinsider.com/palmer-luckey-benn-lamm-warhound-war-dog-startup-seed-funding-2026-10
+2026-10-23,tech,LLM,Ask HN: How can I grow as an engineer in the AI era,1,0,jfsdk,2026-10-23T15:17:34Z,
+2026-10-23,tech,LLM,Ask HN: Secure minimalistic web front-ends to Local LLM's?,1,0,Bender,2026-10-23T15:01:53Z,
+2026-10-23,tech,LLM,The lifelong orgasm gap: exploring age's impact on orgasm rates,11,1,bushwart,2026-10-23T14:17:30Z,https://pmc.ncbi.nlm.nih.gov/articles/PMC11217024/
+2026-10-23,tech,LLM,New previously unseen videos from Tiananmen Square,3,0,throw0101c,2026-10-23T14:13:12Z,https://www.lemonde.fr/en/international/video/2026/08/14/tiananmen-square-massacre-le-monde-reveals-unseen-footage-of-the-chinese-regime-s-violent-repression_6756518_4.html
+2026-10-23,tech,LLM,Show HN: Loudwalk – Review your Anki deck out loud on a walk,3,0,cracadumi,2026-10-23T14:08:33Z,https://loudwalk.com/?from=hn
+2026-10-23,tech,LLM,Tachyon: Sampling Profiling in Python,1,0,lumpa,2026-10-23T13:55:59Z,https://mathspp.com/blog/tachyon-sampling-profiling-in-python
+2026-10-23,tech,LLM,Glyphh Ada – Precedent-based classifier and LLM fallthrough router,1,1,christimmerman,2026-10-23T13:02:27Z,https://glyphh.ai
+2026-10-23,tech,LLM,"In RSI, The Map is not the Territory",2,0,ltononro,2026-10-23T12:43:30Z,https://lambos.substack.com/p/in-rsi-the-map-is-not-the-territory
+2026-10-23,tech,LLM,"Ask HN: Apple rejected my dev account enrollment with no reason, what do I do?",2,0,Mutinix,2026-10-23T12:19:59Z,
+2026-10-23,tech,LLM,Local AI Report#7–Machine-Speed Attacks: Breaches and Where Local AI Fits,1,0,jrusinowski,2026-10-23T12:02:17Z,https://llmconfigurator.com/en/reports/ai-cyber-threats-2026-local-ai
+2026-10-23,tech,LLM,New evidence linking far-right leader Bardella to antisemitic messages revealed,7,0,firefax,2026-10-23T11:59:37Z,https://www.lemonde.fr/en/politics/article/2026/10/09/new-evidence-linking-far-right-leader-bardella-to-antisemitic-messages-revealed_6758422_5.html
+2026-10-23,tech,LLM,Text-to-Diagram for AI Systems: Designing a DSL an LLM Gets Right,1,0,OlegZero13,2026-10-23T11:31:30Z,https://zerowithdot.com/blog/text-to-diagram-for-ai-systems/
+2026-10-23,tech,LLM,Living House: Adaptive UI and docs using in-browser inference,1,0,theletterf,2026-10-23T11:02:28Z,https://passo.uno/adaptive-ui-docs-using-llms/
+2026-10-23,tech,LLM,I revived an app I built 3 years ago to put limits on my spending,1,0,guzmanluis,2026-10-23T09:34:12Z,https://spendion.onrender.com
+2026-10-23,tech,robotics,The Miniaturization of Military Robots,3,0,snarky-comments,2026-10-23T13:33:17Z,https://smallwarsjournal.com/2026/10/23/the-miniaturization-of-military-robots/
+2026-10-23,tech,robotics,"A live zoo of bots visiting one site, with a trap for those ignoring robots.txt",1,0,entryleveljobsc,2026-10-23T12:58:57Z,https://crawlerzoo.com/
+2026-10-23,tech,robotics,Fortescue is using KUKA welding robots to handle 6 MW charging cables,3,0,cisc,2026-10-23T08:57:31Z,https://electrek.co/2026/10/22/fortescue-is-using-kuka-welding-robots-to-handle-6-mw-charging-cables-video/
+2026-10-23,tech,robotics,Brain organoid computing for robotic decision-making,1,0,anigbrowl,2026-10-23T03:49:22Z,https://www.biorxiv.org/content/10.64898/2026.09.09.750426v1
+2026-10-23,tech,robotics,Delivery robots have moved to the street,1,0,speckx,2026-10-22T18:22:32Z,https://brandondonnelly.com/delivery-robots-have-moved-to-the-street/
+2026-10-23,finance,stock market,Meta and chip stocks decline as AI trade comes under pressure,3,0,julkali,2026-10-22T18:08:30Z,https://finance.yahoo.com/markets/article/meta-and-chip-stocks-decline-as-ai-trade-comes-under-pressure-alphacheck-140107733.html
+2026-10-23,finance,inflation,"Life Too Expensive? Here's How Prices Have Risen for Homes, College, Health Care",2,3,mikhael,2026-10-22T17:04:39Z,https://www.nytimes.com/interactive/2026/10/21/us/inflation-prices-real-estate-child-care-affordabilty.html
+2026-10-23,finance,interest rate,Tell HN: Don't use Fathom Analytics (founder is blocking criticism),2,0,dorianniemiec,2026-10-23T15:19:29Z,
+2026-10-23,finance,interest rate,Show HN: ParaGraFX – An iOS app for reading and illustrating ePub books,1,1,weylspinor,2026-10-23T14:27:01Z,https://apps.apple.com/us/app/paragrafx-illustrate-books/id6795768929
+2026-10-23,finance,interest rate,Show HN: BunBun – A location aware food companion,1,0,drakula,2026-10-23T13:40:07Z,https://www.bunbun.food/
+2026-10-23,finance,interest rate,"Show HN: OpenPanopticon, a Geographic OSINT Viewer",1,0,hexadec,2026-10-22T20:21:43Z,https://github.com/hexadec-0/OpenPanopticon
+2026-10-23,finance,interest rate,Biggest pet peeve of FPGA toolchains,3,0,vWijdaan,2026-10-22T18:37:46Z,
+2026-10-23,finance,recession,New previously unseen videos from Tiananmen Square,3,0,throw0101c,2026-10-23T14:13:12Z,https://www.lemonde.fr/en/international/video/2026/08/14/tiananmen-square-massacre-le-monde-reveals-unseen-footage-of-the-chinese-regime-s-violent-repression_6756518_4.html
+2026-10-23,finance,recession,Regression Testing in Agile,1,0,marxjenes,2026-10-23T11:53:31Z,https://keploy.io/blog/community/regression-testing-in-agile
+2026-10-23,finance,recession,How Generative AI Is Scaling Transnational Repression,7,0,pluc,2026-10-23T10:15:11Z,https://www.justsecurity.org/159245/how-generative-ai-scaling-transnational-repression/
+2026-10-23,energy,oil price,Grid Constraints Curtailed 119GW of Renewables in India in September,2,1,toomuchtodo,2026-10-22T17:57:44Z,https://oilprice.com/Latest-Energy-News/World-News/Grid-Constraints-Curtailed-119-GW-of-Renewables-in-India-in-September.html
+2026-10-23,energy,renewable energy,Grid Constraints Curtailed 119GW of Renewables in India in September,2,1,toomuchtodo,2026-10-22T17:57:44Z,https://oilprice.com/Latest-Energy-News/World-News/Grid-Constraints-Curtailed-119-GW-of-Renewables-in-India-in-September.html
+2026-10-23,energy,EV,Ask HN: Claude gets over my 5h limit today in 10 minutes?,2,0,majkinetor,2026-10-23T16:22:07Z,
+2026-10-23,energy,EV,Show HN: The Only Weather App You'll Ever Need,1,1,15cats7,2026-10-23T16:09:17Z,https://weatherhubapp.com/
+2026-10-23,energy,EV,Ask HN: How do you get AI loops to converge?,2,1,outlore,2026-10-23T15:55:55Z,
+2026-10-23,energy,EV,Moreutils: The utilities package every Unix/Linux/Mac OS developer should know,2,0,jcbhmr,2026-10-23T15:46:55Z,https://rentes.github.io/unix/utilities/2015/07/27/moreutils-package/
+2026-10-23,energy,EV,Ask HN: How can I grow as an engineer in the AI era,1,0,jfsdk,2026-10-23T15:17:34Z,
+2026-10-23,energy,EV,Ole Bielfeldt: Finding the Extraordinary in Everyday Objects,1,0,smusamashah,2026-10-23T15:04:52Z,https://www.nikonsmallworld.com/masters-of-microscopy/ole-bielfeldt
+2026-10-23,energy,EV,Max is now source available and open to everyone,1,0,lairv,2026-10-23T15:02:15Z,https://www.modular.com/blog/max-license
+2026-10-23,energy,EV,Ask HN: Is the downside of investing in AI real?,2,0,okzgn,2026-10-23T14:53:38Z,
+2026-10-23,energy,EV,Tell HN: Unbounce Security Incident,2,0,coderintherye,2026-10-23T14:48:01Z,
+2026-10-23,energy,EV,Show HN: ParaGraFX – An iOS app for reading and illustrating ePub books,1,1,weylspinor,2026-10-23T14:27:01Z,https://apps.apple.com/us/app/paragrafx-illustrate-books/id6795768929
+2026-10-23,energy,EV,Show HN: Kavela – AI Automations that do not fail silently,1,1,tyhh00,2026-10-23T14:18:31Z,https://kavela.ai
+2026-10-23,energy,EV,Popular AI Agent Skills Every Developer Should Know,3,0,javatuts,2026-10-23T14:11:03Z,https://jsdev.space/30-agent-skills/
+2026-10-23,energy,EV,"Show HN: Sonah, code reviewer that reads your agent's session, not only the diff",1,0,abhinavsoni,2026-10-23T14:05:33Z,https://github.com/getsonah/sonah
+2026-10-23,energy,EV,Apple ordered Allow alternative App Stores - Violated Australian Competition Law,2,3,evolve2k,2026-10-23T14:05:18Z,https://www.abc.net.au/news/2026-10-23/fortnite-epic-games-back-in-apple-app-store/107302160
+2026-10-23,energy,EV,"Ask HN: When can we trust AI in coding, and avoid the happy path issue?",1,6,abalgir,2026-10-23T13:57:34Z,
+2026-10-23,energy,EV,"Show HN: Shortcat meets Mouseless, keyboard-first way to control your Mac",1,0,creativedg,2026-10-23T13:49:37Z,
+2026-10-23,energy,EV,Show HN: BunBun – A location aware food companion,1,0,drakula,2026-10-23T13:40:07Z,https://www.bunbun.food/
+2026-10-23,energy,EV,"Show HN: PlugVet, hygiene grades for AI agent plugins with the evidence shown",1,0,nucleus777,2026-10-23T13:28:03Z,https://plugvet.com/
+2026-10-23,energy,EV,Making Every Harness Durable,1,0,gmays,2026-10-23T12:42:35Z,https://vercel.com/blog/making-every-harness-durable
+2026-10-23,energy,EV,"Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",35,25,jreynar,2026-10-23T12:02:53Z,https://www.thisandthat.chat/enron/
+2026-10-23,korea,Korea,Topological Logic Scans of Popular OS Repos,1,1,joreag,2026-10-23T04:16:14Z,https://ulshe.ai/products_archaeologist.html
+2026-10-23,korea,Korea,L'Oreal says weight loss drugs are impacting beauty and skin care sales,8,1,BiraIgnacio,2026-10-22T23:55:57Z,https://www.bbc.com/news/articles/cvglwgwpgrlpo
+2026-10-23,korea,Korea,When Korean Ships Go Dark on the High Seas,3,0,nephihaha,2026-10-22T19:24:37Z,https://pulitzercenter.org/stories/when-korean-ships-go-dark-high-seas
+2026-10-23,korea,Samsung,"Vetro – Less bloat, more control over your Samsung TV",1,1,literallyanythi,2026-10-23T12:13:03Z,https://github.com/andrearicci93/vetro
+2026-10-23,consumer,e-commerce,Building a universal e-commerce catalog for agents,2,0,pencildiver,2026-10-22T20:47:46Z,https://www.searchagora.com/blog/building-a-universal-catalog-for-agents
+2026-10-23,consumer,retail,Show HN: ParaGraFX – An iOS app for reading and illustrating ePub books,1,1,weylspinor,2026-10-23T14:27:01Z,https://apps.apple.com/us/app/paragrafx-illustrate-books/id6795768929
+2026-10-23,consumer,retail,I'm betting that detailed case studies are the way to show your skill,2,0,Eyosias_x5,2026-10-23T13:04:03Z,https://www.eyosias.dev/case-studies/ai-mailbox-analysis
+2026-10-23,consumer,retail,Show HN: MegaKey (standardization and extension of the Hyper and Meh keys),2,0,Leftium,2026-10-23T11:49:27Z,https://leftium.github.io/megakey/
+2026-10-23,consumer,retail,Maybe a Rewrite is a new form of procrastination,1,1,cheikhdev,2026-10-23T11:30:42Z,
+2026-10-23,consumer,retail,"I built Peer Fitness, an app to make walking fun with friends",1,1,m-maaz-azhar,2026-10-23T10:28:11Z,https://play.google.com/store/apps/details?id=com.texvnx.peerfitness&hl=en_US
+2026-10-23,consumer,retail,Getty Images Advances Financial Restructuring,2,0,sharpshadow,2026-10-23T09:38:35Z,https://investors.gettyimages.com/news-releases/news-release-details/getty-images-advances-financial-restructuring-strengthen-balance
+2026-10-23,consumer,retail,I built COLAX – a campus app for NIT Warangal,1,1,Priyalgang,2026-10-23T07:09:45Z,https://play.google.com/store/apps/details?id=com.priyal.colax&hl=en_US
+2026-10-23,consumer,retail,Show HN: Stenograf – Free offline transcription and translation for Android,1,0,aufklarer,2026-10-23T07:06:39Z,https://play.google.com/store/apps/details?id=audio.soniqo.stenograf&hl=en_US
+2026-10-23,consumer,retail,Say goodbye to manually typing replies on x,1,1,Quise2003,2026-10-23T05:48:51Z,https://chromewebstore.google.com/detail/yapmaxxer-â-ai-replies-in/mliokepdopdfkhfdiepjcbcfkamjbdle
+2026-10-23,consumer,retail,I built a social calendar app – be ther social calendar,1,1,gomathamkalidas,2026-10-23T02:47:21Z,https://play.google.com/store/apps/details?id=com.bether.app&hl=en_IN
+2026-10-23,consumer,retail,Show HN: Bloom – an org-mode compatible Android app for managing notes and tasks,3,0,rrajath,2026-10-23T00:22:31Z,https://github.com/rrajath/bloom
+2026-10-23,consumer,retail,"Meta approves Class C structure, strikes deal to retain Zuckerberg in California",31,16,bigwheels,2026-10-22T21:43:37Z,https://seekingalpha.com/news/4655678-meta-approves-class-c-share-structure-strikes-deal-to-retain-ceo-zuckerberg-in-california
+2026-10-23,consumer,retail,An archive of Omni magazine (1978-1995),2,0,CharlesW,2026-10-22T20:31:04Z,https://archive.org/details/omni-archive
+2026-10-23,consumer,retail,Technical details of php2shell discovered 2 years ago,3,0,smurda,2026-10-22T20:22:45Z,https://tolmo.com/blog/faster-than-anyone-can-fix-them/
+2026-10-23,consumer,consumer,Show HN: Kavela – AI Automations that do not fail silently,1,1,tyhh00,2026-10-23T14:18:31Z,https://kavela.ai
+2026-10-23,consumer,consumer,"Ask HN: When can we trust AI in coding, and avoid the happy path issue?",1,6,abalgir,2026-10-23T13:57:34Z,
+2026-10-23,consumer,consumer,Maybe a Rewrite is a new form of procrastination,1,1,cheikhdev,2026-10-23T11:30:42Z,
+2026-10-23,consumer,consumer,Ask HN: What do you think about lightweight default games on Linux distros?,2,0,abakh,2026-10-23T09:46:38Z,
+2026-10-23,consumer,consumer,How to turn consumer hardware into AI infra,3,0,cheyodev,2026-10-23T06:04:30Z,https://neurogrid.cc/en
+2026-10-23,consumer,consumer,Agent Evals Considered Harmful,4,0,theahura,2026-10-23T02:59:23Z,https://twitter.com/noriagent/status/2113338229470441579
+2026-10-23,consumer,consumer,Show HN: Taveo – Split bar and restaurant bills without sign-up,3,2,gallegodev,2026-10-22T22:49:50Z,https://taveo.app/en
+2026-10-23,consumer,consumer,"Show HN: CATT 0.2.1: Test agents/services against a Muse/Instinct-alike, in CI",7,2,botacode,2026-10-22T22:18:40Z,https://github.com/Coverage-Cat/consumer-agent-testing-tool
+2026-10-23,consumer,consumer,Hannah Fry: How OpenAI has caused an existential crisis in mathematics,4,1,consumer451,2026-10-22T21:24:58Z,https://www.newscientist.com/article/2593249-hannah-fry-how-openai-has-caused-an-existential-crisis-in-mathematics/
+2026-10-23,consumer,consumer,The consumer-voter is killing German politics,3,0,awsglkhj,2026-10-22T19:08:58Z,https://engelsbergideas.com/notebook/the-consumer-voter-is-killing-german-politics/
+2026-10-23,consumer,consumer,"Big Pharma donate $7000,- to save planet",2,0,28304283409234,2026-10-22T16:38:22Z,https://www.theguardian.com/environment/2026/oct/22/cop17-cali-conservation-fund-pharmaceutical-freeriding-nature-aoe
